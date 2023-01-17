@@ -19,54 +19,35 @@ dic = {}
 
 driver.get(url)
 
-for i in range(100):  # 스크롤
-    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-    time.sleep(1)
-
-# (random.randrange(5,11))/10
-time.sleep(1)
 
 scroll_location = driver.execute_script("return document.body.scrollHeight")
 
 num = 1
 
-while num <= 500:
+while True:
+    time.sleep(0.5)
+    # if num%16 == 0 :
+    #     driver.execute_script("document.body.scrollHeight")
+    
+    
     items = driver.find_element(By.XPATH, f'//*[@id="root"]/main/div/div/section/div[{num}]')
-    items.click()
-    time.sleep(1)
+    action = ActionChains(driver)
+    action.move_to_element(items).perform()
 
-    title = driver.find_element(By.XPATH, f"//*[@id='root']/main/div/div[2]/div/section[1]/h1").text
-    dic['<h1> 제목:'] = title
-    name = driver.find_element(By.XPATH, f"//*[@id='root']/main/div/div[2]/div/section[1]/div/a").text
-    dic['<a> 회사 이름:'] = name
-    for num2 in range(10):
-        try:
-            options = driver.find_element(By.XPATH,
-                                          f"//*[@id='root']/main/div/div[2]/div/section[2]/dl[{num2 + 1}]/dt").text
-            pharse = driver.find_element(By.XPATH,
-                                         f"//*[@id='root']/main/div/div[2]/div/section[2]/dl[{num2 + 1}]/dd/pre").text
-            dic["<dt>" + options] = pharse
-        except NoSuchElementException:
-            pass
-        num2 += 1
-    for num2 in range(10):
-        try:
-            options = driver.find_element(By.XPATH,
-                                          f"// *[ @ id = 'root'] / main / div / div[2] / div / section[3] / dl[{num2}] / dt").text
-            pharse = driver.find_element(By.XPATH,
-                                         f"// *[ @ id = 'root'] / main / div / div[2] / div / section[3] / dl[{num2}] / dd").text
-            dic["<dl>" + options] = pharse
-        except NoSuchElementException:
-            pass
-    time.sleep(1)
+    items.click()
+    time.sleep(0.5)
+    #회사 정보 긁어오기
+    company_name_cont = driver.find_element(By.XPATH,'//*[@id="root"]/main/div/div[2]/div/section[1]/div/a').text
+    company_name_tag = '<' + driver.find_element(By.XPATH,'//*[@id="root"]/main/div/div[2]/div/section[1]/div/a').tag_name + '>'
+    company_title_cont = driver.find_element(By.XPATH, '//*[@id="root"]/main/div/div[2]/div/section[1]/h1').text
+    company_title_tag = '<' + driver.find_element(By.XPATH, '//*[@id="root"]/main/div/div[2]/div/section[1]/h1').tag_name + '>'
+    
+    dic['회사이름'] = company_name_tag + company_name_cont
+    dic['회사제목'] = company_title_cont
+
+
 
     driver.back()
-
-    # driver.execute_script("window.scrollTo(0, 70)")
-
-    time.sleep(1)
-    # com_list.append(items.text)
-    file_path = f"C:/Users/apnee/OneDrive/바탕 화면/physon/crawling/jumpit_raw_data/jumpit_{name + str(num)}.json"
-    with open(file_path, 'w', encoding="utf-8") as f:
-        json.dump(dic, f, indent=2, ensure_ascii=False)
+    time.sleep(0.5)
+    print(dic)
     num += 1
