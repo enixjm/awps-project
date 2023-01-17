@@ -11,9 +11,22 @@ import random
 
 import json
 
+
 url = "https://www.jumpit.co.kr/positions"
 
+
 driver = webdriver.Chrome()
+
+
+
+#캐시지우기
+
+def delete_cash(element) :
+    chrome = webdriver.Chrome()
+    chrome.get("chrome://settings/privacy")
+
+
+
 
 dic = {}
 
@@ -72,7 +85,6 @@ while True:
     file_path = f"C:/Users/홍성학/Desktop/AWPS/awps-project/AWPS CRAWLLING/jumpit/{str(num)+company_name_text}(jumpit).json"
     with open(file_path,'w',encoding="utf-8") as f :
         json.dump(dic,f,indent=2,ensure_ascii = False)
-
 
 
     driver.back()
