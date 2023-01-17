@@ -1,0 +1,14 @@
+{
+  "<h1> 제목:": "[Injewelme] flutter 앱 프론트, 신입 개발자 채용",
+  "<a> 회사 이름:": "인졀미",
+  "<dt>기술스택": "Flutter\niOS\nAndroid OS\nVisual Studio Code\nAndroid Studio\nKotlin\nSwift\nGit\nGit Flow\nJava",
+  "<dt>주요업무": "[직무설명]\n• 우주두잇 앱 개발\n- 인졀미에서는 '컨텐츠 결합형 AI 청소년 건강관리 앱 우주두잇'을 개발 할 수 있는 개발자 분을 모집합니다.\n- '컨텐츠 결합형 AI 청소년 건강관리 앱 우주두잇'은 인졀미의 자체 서비스 입니다.\n- 앱 개발자 분 께서는 아래와 같은 업무를 담당합니다.\n• 우주두잇 앱 프론트/서비스 개발\n• 결원에 의한 채용 아닙니다.\n\n[주요업무]\n• flutter를 활용한 하이브리드 앱(우주두잇) 프론트 개발\n• flutter기반 Androind / iOS Native Plugin 개발",
+  "<dt>자격요건": "• flutter를 사용해보신 분\n• git, gitflow 에 익숙하신 분\n\n• 아래의 조건 중 택 1하여 첨부\n- 앱 개발 포트폴리오 문서 첨부\n- 아래 링크의 이미지를 기준으로 한 결과물 제출\n링크 : https://drive.google.com/file/d/1WxBIaYWcIOnQ_bQ3WMGoow1tRO0a-WLf/view?usp=sharing\n\n※ 결과물 수행시 유의사항\n• 해당 이미지의 색깔이나 영역을 정확히 지킬 필요는 없습니다. 비슷한 형태의 결과여도 괜찮습니다.\n• ListView를 활용 해볼 것\n• 그래프에 애니메이션을 넣어 볼 것\n• 프로젝트 소스코드와 APK(실행 가능해야 함)를 압축하여 제출",
+  "<dt>우대사항": "• Android(Kotlin/Java) 개발 경험이 있는 분\n• iOS(Swift4+) 개발 경험이 있는 분\n• 앱 서비스 출시에 참여 경험이 있는 분\n• 업무에 Firebase Analytics / Performance / Crashlytics 를 적용해 본 분\n• 노션을 사용해본 분\n• 스크럼 프로세스 경험이 있는 분",
+  "<dt>복지 및 혜택": "• 간식 및 음료 무제한 제공\n• 자유로운 연차 사용",
+  "<dt>채용절차 및 기타 지원 유의사항": "• 서류전형 > 기술 면접 > 대면 면접 > 최종합격",
+  "<dl>경력": "신입",
+  "<dl>학력": "무관",
+  "<dl>마감일": "2023-01-31",
+  "<dl>근무지역": "서울 서초구 태봉로 114, 810호\n지도보기·주소복사"
+}
