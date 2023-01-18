@@ -1,4 +1,4 @@
-import requests  # 모듈들 불러오기
+import requests
 from bs4 import BeautifulSoup
 from selenium import webdriver
 import time
@@ -22,6 +22,9 @@ dic = {}
 num = 1
 
 while True:
+    if num%20 == 0:
+        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+        time.sleep(1)
     items = driver.find_element(By.XPATH, f"//*[@id='__next']/div[3]/div/div/div[4]/ul/li[{num}]/div/a/header")
     driver.execute_script("arguments[0].click();", items)
     time.sleep(1)
@@ -54,7 +57,7 @@ while True:
     #location_tag = driver.find_element(By.XPATH,"//*[@id='__next']/div[3]/div[1]/div[1]/div/div[2]/section[2]/div[2]/span[2]").tag_name
     #dic['마감일'] = magam_tag + magam
     #dic['마감일'] = magam_tag + magam
-    file_path = f"C:/Users/홍성학/Desktop/AWPS/awps-project/AWPS CRAWLLING/wanted/{str(num)+company}(wanted).json"
+    file_path = f"C:/Users/apnee/OneDrive/바탕 화면/physon/crawling/wanted_raw_data/{str(num)+company}(wanted).json"
     with open(file_path,'w',encoding="utf-8") as f:
         json.dump(dic,f,indent=2,ensure_ascii = False)
 
