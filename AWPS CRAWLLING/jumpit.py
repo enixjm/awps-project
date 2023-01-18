@@ -69,6 +69,19 @@ while True:
             dic[DetailInfo_title ] =DetailInfo_cont 
         except NoSuchElementException:
             pass
+    
+
+    try :
+        service_intro = driver.find_element(By.XPATH, '//*[@id="root"]/main/div/div[2]/div/section[4]/div[2]/pre').text
+        dic['기업/서비스 소개'] = service_intro
+    except NoSuchElementException:
+        pass
+
+    try :
+        employ_price = driver.find_element(By.XPATH, '//*[@id="root"]/main/div/div[2]/aside/div[1]/span').text
+        dic['취업축하금'] = employ_price
+    except NoSuchElementException :
+        pass
 
     file_path = f"C:/Users/홍성학/Desktop/AWPS/awps-project/AWPS CRAWLLING/jumpit/{str(num)+company_name_text}(jumpit).json"
     with open(file_path,'w',encoding="utf-8") as f :
