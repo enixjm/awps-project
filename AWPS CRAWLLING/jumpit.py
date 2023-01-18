@@ -22,22 +22,18 @@ dic = {}
 driver.get(url)
 
 
-scroll_location = driver.execute_script("return document.body.scrollHeight")
+# random.uniform(1, 2)
 
 num = 1
 
 while True:
-    time.sleep(0.5)
     # if num%16 == 0 :
     #     driver.execute_script("document.body.scrollHeight")
-    
-    
+    time.sleep(1)
     items = driver.find_element(By.XPATH, f'//*[@id="root"]/main/div/div/section/div[{num}]')
-    action = ActionChains(driver)
-    action.move_to_element(items).perform()
-
+    # time.sleep(0.5)
     items.click()
-    time.sleep(0.5)
+    time.sleep(1)
 
     #회사 정보 긁어오기
     company_name_text = driver.find_element(By.XPATH,'//*[@id="root"]/main/div/div[2]/div/section[1]/div/a').text   #회사이름 텍스트
@@ -84,6 +80,19 @@ while True:
 
 
     driver.back()
-    time.sleep(0.5)
+
+    # if (num%16 == 0) :
+    #     time.sleep(1)
+    #     driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
+    #     time.sleep(1)
+    #     print("asdfasdf")
+    
+    if (num%16 == 0) :
+        for i in range(1,5) :
+            driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
+            time.sleep(1)
+
+
+    time.sleep(1)
     # print(dic)
     num += 1
