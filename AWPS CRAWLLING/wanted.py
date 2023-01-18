@@ -54,7 +54,7 @@ while True:
     #location_tag = driver.find_element(By.XPATH,"//*[@id='__next']/div[3]/div[1]/div[1]/div/div[2]/section[2]/div[2]/span[2]").tag_name
     #dic['마감일'] = magam_tag + magam
     #dic['마감일'] = magam_tag + magam
-    file_path = f"C:/Users/apnee/OneDrive/바탕 화면/physon/crawling/wanted_raw_data/{str(num)+company}(wanted).json"
+    file_path = f"C:/Users/홍성학/Desktop/AWPS/awps-project/AWPS CRAWLLING/wanted/{str(num)+company}(wanted).json"
     with open(file_path,'w',encoding="utf-8") as f:
         json.dump(dic,f,indent=2,ensure_ascii = False)
 
