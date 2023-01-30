@@ -30,11 +30,8 @@ while True :
     time.sleep(1)
 
     company_name_text = driver.find_element(By.XPATH, '//*[@id="career-app-legacy"]/div/div[1]/div[1]/header/div/div[2]/h4/a').text
-    # company_name_tag1 = '<' + driver.find_element(By.XPATH, '//*[@id="career-app-legacy"]/div/div[1]/div[1]/header/div/div[2]/h4/a').tag_name + '>'
-    # company_name_tag2 = '</' + driver.find_element(By.XPATH, '//*[@id="career-app-legacy"]/div/div[1]/div[1]/header/div/div[2]/h4/a').tag_name + '>'
     company_title_text = driver.find_element(By.XPATH, '//*[@id="career-app-legacy"]/div/div[1]/div[1]/header/div/div[2]/div').text
-    # company_title_tag1 = '<' + driver.find_element(By.XPATH, '//*[@id="career-app-legacy"]/div/div[1]/div[1]/header/div/div[2]/div').tag_name + '>'
-    # company_title_tag2 = '</' + driver.find_element(By.XPATH, '//*[@id="career-app-legacy"]/div/div[1]/div[1]/header/div/div[2]/div').tag_name + '>'
+
 
     #회사 이름,타이틀 딕셔너리에 넣기
     dic['회사이름'] = company_name_text 
@@ -48,11 +45,9 @@ while True :
     for i in range(1,11):
         try :
             DetailInfo_title_text = driver.find_element(By.XPATH, f'//*[@id="career-app-legacy"]/div/div[1]/div[1]/section/div/div[1]/div[{i}]/div[1]').text
-            # DetailInfo_title_tag1 = '<' + driver.find_element(By.XPATH, f'//*[@id="career-app-legacy"]/div/div[1]/div[1]/section/div/div[1]/div[{i}]/div[1]').tag_name + '>'
-            # DetailInfo_title_tag2 = '</' + driver.find_element(By.XPATH, f'//*[@id="career-app-legacy"]/div/div[1]/div[1]/section/div/div[1]/div[{i}]/div[1]').tag_name + '>'
+
             DetailInfo_cont_text = driver.find_element(By.XPATH, f'//*[@id="career-app-legacy"]/div/div[1]/div[1]/section/div/div[1]/div[{i}]/div[2]').text
-            # DetailInfo_cont_tag1 = '<' + driver.find_element(By.XPATH, f'//*[@id="career-app-legacy"]/div/div[1]/div[1]/section/div/div[1]/div[{i}]/div[2]').tag_name + '>'
-            # DetailInfo_cont_tag2 = '</' + driver.find_element(By.XPATH, f'//*[@id="career-app-legacy"]/div/div[1]/div[1]/section/div/div[1]/div[{i}]/div[2]').tag_name + '>'
+
             dic[DetailInfo_title_text ] =  DetailInfo_cont_text 
         except NoSuchElementException:
             pass
@@ -65,6 +60,16 @@ while True :
             pass
     
     dic['기술스택'] = stacks
+
+    entire_infos = ''
+    try :
+        detail_Bs = bs4.BeautifulSoup(driver.current_url, 'lxml')
+        entire_info = detail_Bs.find_all('tr', class_ = 'AHOUx7dj7rWH4LTQnPGM')
+        entire_infos = entire_infos + str(entire_info) + ', '
+    except NoSuchElementException:
+        pass
+
+    dic['개발 팀 & 환경'] =  entire_infos
 
     driver.back()
     
