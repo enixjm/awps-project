@@ -61,16 +61,6 @@ while True :
     
     dic['기술스택'] = stacks
 
-    entire_infos = ''
-    try :
-        detail_Bs = bs4.BeautifulSoup(driver.current_url, 'lxml')
-        entire_info = detail_Bs.find_all('tr', class_ = 'AHOUx7dj7rWH4LTQnPGM')
-        entire_infos = entire_infos + str(entire_info) + ', '
-    except NoSuchElementException:
-        pass
-
-    dic['개발 팀 & 환경'] =  entire_infos
-
     driver.back()
     
     time.sleep(1)

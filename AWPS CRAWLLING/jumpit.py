@@ -11,6 +11,10 @@ import random
 
 import json
 
+import boto3
+
+dynamodb = boto3.resource('dynamodb', region_name='us-east-2',aws_access_key_id='AKIAUP5VXNX47G7WBK7T',aws_secret_access_key = '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')
+
 
 url = "https://www.jumpit.co.kr/positions"
 
@@ -21,6 +25,38 @@ dic = {}
 
 driver.get(url)
 
+def dict_to_item(raw):
+    if type(raw) is dict:
+        resp = {}
+        for k,v in raw.items():
+            resp[k]
+
+            # if type(v) is str:
+            #     resp[k] = {
+            #         'S': v
+            #     }
+            # elif type(v) is int:
+            #     resp[k] = {
+            #         'I': str(v)
+            #     }
+            # elif type(v) is dict:
+            #     resp[k] = {
+            #         'M': dict_to_item(v)
+            #     }
+            # elif type(v) is list:
+            #     resp[k] = []
+            #     for i in v:
+            #         resp[k].append(dict_to_item(i))
+                    
+        return resp
+    elif type(raw) is str:
+        return {
+            'S': raw
+        }
+    elif type(raw) is int:
+        return {
+            'I': str(raw)
+        }
 
 # random.uniform(1, 2)
 
@@ -86,6 +122,10 @@ while True:
     file_path = f"C:/Users/홍성학/Desktop/AWPS/awps-project/AWPS CRAWLLING/jumpit/{str(num)+company_name_text}(jumpit).json"
     with open(file_path,'w',encoding="utf-8") as f :
         json.dump(dic,f,indent=2,ensure_ascii = False)
+
+    table = dynamodb.Table('jumpit')
+    print(dic)
+    table.put_item(Item=dic)
 
 
     driver.back()
