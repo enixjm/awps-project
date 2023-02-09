@@ -25,39 +25,6 @@ dic = {}
 
 driver.get(url)
 
-def dict_to_item(raw):
-    if type(raw) is dict:
-        resp = {}
-        for k,v in raw.items():
-            resp[k]
-
-            # if type(v) is str:
-            #     resp[k] = {
-            #         'S': v
-            #     }
-            # elif type(v) is int:
-            #     resp[k] = {
-            #         'I': str(v)
-            #     }
-            # elif type(v) is dict:
-            #     resp[k] = {
-            #         'M': dict_to_item(v)
-            #     }
-            # elif type(v) is list:
-            #     resp[k] = []
-            #     for i in v:
-            #         resp[k].append(dict_to_item(i))
-                    
-        return resp
-    elif type(raw) is str:
-        return {
-            'S': raw
-        }
-    elif type(raw) is int:
-        return {
-            'I': str(raw)
-        }
-
 # random.uniform(1, 2)
 
 num = 1
@@ -81,6 +48,7 @@ while True:
     company_title_tag2 = '</' + driver.find_element(By.XPATH, '//*[@id="root"]/main/div/div[2]/div/section[1]/h1').tag_name + '>' #회사타이틀 태그
 
     #딕셔너리에 넣기
+    dic['id'] = num
     dic['회사이름'] = company_name_tag1 + company_name_text + company_name_tag2
     dic['회사제목'] = company_title_tag1 + company_title_cont + company_title_tag2
     
@@ -124,7 +92,6 @@ while True:
         json.dump(dic,f,indent=2,ensure_ascii = False)
 
     table = dynamodb.Table('jumpit')
-    print(dic)
     table.put_item(Item=dic)
 
 

@@ -11,6 +11,10 @@ import random
 
 import json
 
+import boto3
+
+dynamodb = boto3.resource('dynamodb', region_name='us-east-2',aws_access_key_id='AKIAUP5VXNX47G7WBK7T',aws_secret_access_key = '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')
+
 url = "https://career.programmers.co.kr/job"
 
 driver = webdriver.Chrome()
@@ -34,7 +38,8 @@ while True :
 
 
     #회사 이름,타이틀 딕셔너리에 넣기
-    dic['회사이름'] = company_name_text 
+    dic['id'] = namenum
+    dic['회사이름'] = company_name_text
     dic['회사타이틀'] = company_title_text 
 
     source = driver.page_source
@@ -69,6 +74,9 @@ while True :
     with open(file_path,'w',encoding="utf-8") as f :
         json.dump(dic,f,indent=2,ensure_ascii = False)
     
+
+    table = dynamodb.Table('programmers')
+    table.put_item(Item=dic)
 
     if (num%20 == 0) :
         driver.find_element(By.XPATH, f'//*[@id="tab_position"]/div[3]/ul/li[{page}]').click()
