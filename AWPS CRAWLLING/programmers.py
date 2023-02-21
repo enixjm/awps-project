@@ -6,8 +6,7 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver import ActionChains
-
-import random
+import re
 
 import json
 
@@ -33,12 +32,17 @@ while True :
     element.click()
     time.sleep(1)
 
+    Id = driver.current_url
+    Idd = Id.maketrans({
+        '/': '',  # 왼쪽은 치환하고 싶은 문자, 오른쪽은 새로운 문자
+    })
+    Iddd = Id.translate(Idd)
     company_name_text = driver.find_element(By.XPATH, '//*[@id="career-app-legacy"]/div/div[1]/div[1]/header/div/div[2]/h4/a').text
     company_title_text = driver.find_element(By.XPATH, '//*[@id="career-app-legacy"]/div/div[1]/div[1]/header/div/div[2]/div').text
 
 
     #회사 이름,타이틀 딕셔너리에 넣기
-    dic['id'] = namenum
+    dic['id'] = re.sub(r"[a-z]", "", Iddd)
     dic['회사이름'] = company_name_text
     dic['회사타이틀'] = company_title_text 
 

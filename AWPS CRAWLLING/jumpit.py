@@ -6,8 +6,7 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver import ActionChains
-
-import random
+import re
 
 import json
 
@@ -39,6 +38,11 @@ while True:
     time.sleep(1)
 
     #회사 정보 긁어오기
+    Id = driver.current_url
+    Idd = Id.maketrans({
+        '/': '',  # 왼쪽은 치환하고 싶은 문자, 오른쪽은 새로운 문자
+    })
+    Iddd = Id.translate(Idd)
     company_name_text = driver.find_element(By.XPATH,'//*[@id="root"]/main/div/div[2]/div/section[1]/div/a').text   #회사이름 텍스트
     company_name_tag1 = '<' + driver.find_element(By.XPATH,'//*[@id="root"]/main/div/div[2]/div/section[1]/div/a').tag_name + '>' #회사이름 태그
     company_name_tag2 = '</' + driver.find_element(By.XPATH,'//*[@id="root"]/main/div/div[2]/div/section[1]/div/a').tag_name + '>' #회사이름 태그
@@ -48,7 +52,7 @@ while True:
     company_title_tag2 = '</' + driver.find_element(By.XPATH, '//*[@id="root"]/main/div/div[2]/div/section[1]/h1').tag_name + '>' #회사타이틀 태그
 
     #딕셔너리에 넣기
-    dic['id'] = num
+    dic['id'] = re.sub(r"[a-z]", "", Iddd)
     dic['회사이름'] = company_name_tag1 + company_name_text + company_name_tag2
     dic['회사제목'] = company_title_tag1 + company_title_cont + company_title_tag2
     
