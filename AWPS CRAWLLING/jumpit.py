@@ -112,3 +112,6 @@ while True:
     time.sleep(1)
     # print(dic)
     num += 1
+
+
+#주소 id 긁어오기
