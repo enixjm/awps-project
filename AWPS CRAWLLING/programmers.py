@@ -6,10 +6,13 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver import ActionChains
-
-import random
+import re
 
 import json
+
+import boto3
+
+dynamodb = boto3.resource('dynamodb', region_name='us-east-2',aws_access_key_id='AKIAUP5VXNX46QXLNW6J',aws_secret_access_key = '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')
 
 url = "https://career.programmers.co.kr/job"
 
@@ -29,15 +32,18 @@ while True :
     element.click()
     time.sleep(1)
 
+    Id = driver.current_url
+    Idd = Id.maketrans({
+        '/': '',  # 왼쪽은 치환하고 싶은 문자, 오른쪽은 새로운 문자
+    })
+    Iddd = Id.translate(Idd)
     company_name_text = driver.find_element(By.XPATH, '//*[@id="career-app-legacy"]/div/div[1]/div[1]/header/div/div[2]/h4/a').text
-    # company_name_tag1 = '<' + driver.find_element(By.XPATH, '//*[@id="career-app-legacy"]/div/div[1]/div[1]/header/div/div[2]/h4/a').tag_name + '>'
-    # company_name_tag2 = '</' + driver.find_element(By.XPATH, '//*[@id="career-app-legacy"]/div/div[1]/div[1]/header/div/div[2]/h4/a').tag_name + '>'
     company_title_text = driver.find_element(By.XPATH, '//*[@id="career-app-legacy"]/div/div[1]/div[1]/header/div/div[2]/div').text
-    # company_title_tag1 = '<' + driver.find_element(By.XPATH, '//*[@id="career-app-legacy"]/div/div[1]/div[1]/header/div/div[2]/div').tag_name + '>'
-    # company_title_tag2 = '</' + driver.find_element(By.XPATH, '//*[@id="career-app-legacy"]/div/div[1]/div[1]/header/div/div[2]/div').tag_name + '>'
+
 
     #회사 이름,타이틀 딕셔너리에 넣기
-    dic['회사이름'] = company_name_text 
+    dic['id'] = int(re.sub(r"[a-z]", "", Iddd)[5:])
+    dic['회사이름'] = company_name_text
     dic['회사타이틀'] = company_title_text 
 
     source = driver.page_source
@@ -48,11 +54,9 @@ while True :
     for i in range(1,11):
         try :
             DetailInfo_title_text = driver.find_element(By.XPATH, f'//*[@id="career-app-legacy"]/div/div[1]/div[1]/section/div/div[1]/div[{i}]/div[1]').text
-            # DetailInfo_title_tag1 = '<' + driver.find_element(By.XPATH, f'//*[@id="career-app-legacy"]/div/div[1]/div[1]/section/div/div[1]/div[{i}]/div[1]').tag_name + '>'
-            # DetailInfo_title_tag2 = '</' + driver.find_element(By.XPATH, f'//*[@id="career-app-legacy"]/div/div[1]/div[1]/section/div/div[1]/div[{i}]/div[1]').tag_name + '>'
+
             DetailInfo_cont_text = driver.find_element(By.XPATH, f'//*[@id="career-app-legacy"]/div/div[1]/div[1]/section/div/div[1]/div[{i}]/div[2]').text
-            # DetailInfo_cont_tag1 = '<' + driver.find_element(By.XPATH, f'//*[@id="career-app-legacy"]/div/div[1]/div[1]/section/div/div[1]/div[{i}]/div[2]').tag_name + '>'
-            # DetailInfo_cont_tag2 = '</' + driver.find_element(By.XPATH, f'//*[@id="career-app-legacy"]/div/div[1]/div[1]/section/div/div[1]/div[{i}]/div[2]').tag_name + '>'
+
             dic[DetailInfo_title_text ] =  DetailInfo_cont_text 
         except NoSuchElementException:
             pass
@@ -70,10 +74,14 @@ while True :
     
     time.sleep(1)
 
-    file_path = f"C:/Users/홍성학/Desktop/AWPS/awps-project/AWPS CRAWLLING/programmers/{str(namenum)+company_name_text}(programmers).json"
+    file_path = f"C:/Users/홍성학/Desktop/AWPS/awps-project/AWPS CRAWLLING/data/programmers/{str(namenum)+company_name_text}(programmers).json"
     with open(file_path,'w',encoding="utf-8") as f :
         json.dump(dic,f,indent=2,ensure_ascii = False)
     
+    print(dic)
+
+    table = dynamodb.Table('programmers')
+    table.put_item(Item=dic)
 
     if (num%20 == 0) :
         driver.find_element(By.XPATH, f'//*[@id="tab_position"]/div[3]/ul/li[{page}]').click()

@@ -6,10 +6,13 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver import ActionChains
-
-import random
+import re
 
 import json
+
+import boto3
+
+dynamodb = boto3.resource('dynamodb', region_name='us-east-2',aws_access_key_id='AKIAUP5VXNX46QXLNW6J',aws_secret_access_key = '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')
 
 
 url = "https://www.jumpit.co.kr/positions"
@@ -20,7 +23,6 @@ driver = webdriver.Chrome()
 dic = {}
 
 driver.get(url)
-
 
 # random.uniform(1, 2)
 
@@ -36,6 +38,11 @@ while True:
     time.sleep(1)
 
     #회사 정보 긁어오기
+    Id = driver.current_url
+    Idd = Id.maketrans({
+        '/': '',  # 왼쪽은 치환하고 싶은 문자, 오른쪽은 새로운 문자
+    })
+    Iddd = Id.translate(Idd)
     company_name_text = driver.find_element(By.XPATH,'//*[@id="root"]/main/div/div[2]/div/section[1]/div/a').text   #회사이름 텍스트
     company_name_tag1 = '<' + driver.find_element(By.XPATH,'//*[@id="root"]/main/div/div[2]/div/section[1]/div/a').tag_name + '>' #회사이름 태그
     company_name_tag2 = '</' + driver.find_element(By.XPATH,'//*[@id="root"]/main/div/div[2]/div/section[1]/div/a').tag_name + '>' #회사이름 태그
@@ -45,6 +52,7 @@ while True:
     company_title_tag2 = '</' + driver.find_element(By.XPATH, '//*[@id="root"]/main/div/div[2]/div/section[1]/h1').tag_name + '>' #회사타이틀 태그
 
     #딕셔너리에 넣기
+    dic['id'] = int(re.sub(r"[a-z]", "", Iddd)[4:])
     dic['회사이름'] = company_name_tag1 + company_name_text + company_name_tag2
     dic['회사제목'] = company_title_tag1 + company_title_cont + company_title_tag2
     
@@ -69,10 +77,27 @@ while True:
             dic[DetailInfo_title ] =DetailInfo_cont 
         except NoSuchElementException:
             pass
+    
 
-    file_path = f"C:/Users/홍성학/Desktop/AWPS/awps-project/AWPS CRAWLLING/jumpit/{str(num)+company_name_text}(jumpit).json"
+    try :
+        service_intro = driver.find_element(By.XPATH, '//*[@id="root"]/main/div/div[2]/div/section[4]/div[2]/pre').text
+        dic['기업/서비스 소개'] = service_intro
+    except NoSuchElementException:
+        pass
+
+    try :
+        employ_price = driver.find_element(By.XPATH, '//*[@id="root"]/main/div/div[2]/aside/div[1]/span').text
+        dic['취업축하금'] = employ_price
+    except NoSuchElementException :
+        pass
+
+    file_path = f"C:/Users/홍성학/Desktop/AWPS/awps-project/AWPS CRAWLLING/data/jumpit/{str(num)+company_name_text}(jumpit).json"
     with open(file_path,'w',encoding="utf-8") as f :
         json.dump(dic,f,indent=2,ensure_ascii = False)
+
+    print(dic)
+    table = dynamodb.Table('jumpit')
+    table.put_item(Item=dic)
 
 
     driver.back()
@@ -92,3 +117,6 @@ while True:
     time.sleep(1)
     # print(dic)
     num += 1
+
+
+#주소 id 긁어오기
