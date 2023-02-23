@@ -70,9 +70,9 @@ while True:
     #dic['마감일'] = magam_tag + magam
     #dic['마감일'] = magam_tag + magam
 
-    #file_path = f"C:/Users/홍성학/Desktop/AWPS/awps-project/AWPS CRAWLLING/wanted/{str(num)+company}(wanted).json"
-    #with open(file_path,'w',encoding="utf-8") as f:
-        #json.dump(dic,f,indent=2,ensure_ascii = False)
+    file_path = f"C:/Users/홍성학/Desktop/AWPS/awps-project/AWPS CRAWLLING/data/wanted/{str(num)+company}(wanted).json"
+    with open(file_path,'w',encoding="utf-8") as f:
+        json.dump(dic,f,indent=2,ensure_ascii = False)
 
     print(dic)
 

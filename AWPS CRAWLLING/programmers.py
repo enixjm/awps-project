@@ -12,7 +12,7 @@ import json
 
 import boto3
 
-dynamodb = boto3.resource('dynamodb', region_name='us-east-2',aws_access_key_id='AKIAUP5VXNX47G7WBK7T',aws_secret_access_key = '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')
+dynamodb = boto3.resource('dynamodb', region_name='us-east-2',aws_access_key_id='AKIAUP5VXNX46QXLNW6J',aws_secret_access_key = '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')
 
 url = "https://career.programmers.co.kr/job"
 
@@ -74,9 +74,9 @@ while True :
     
     time.sleep(1)
 
-    # file_path = f"C:/Users/홍성학/Desktop/AWPS/awps-project/AWPS CRAWLLING/programmers/{str(namenum)+company_name_text}(programmers).json"
-    # with open(file_path,'w',encoding="utf-8") as f :
-    #     json.dump(dic,f,indent=2,ensure_ascii = False)
+    file_path = f"C:/Users/홍성학/Desktop/AWPS/awps-project/AWPS CRAWLLING/data/programmers/{str(namenum)+company_name_text}(programmers).json"
+    with open(file_path,'w',encoding="utf-8") as f :
+        json.dump(dic,f,indent=2,ensure_ascii = False)
     
     print(dic)
 
