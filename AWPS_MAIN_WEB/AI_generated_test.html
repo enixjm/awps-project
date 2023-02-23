@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>에땁쓰</title>
+        <style>
+      /* Body styles */
+      body {
+        background-color: #fafafa;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      /* Center the logo */
+      #logo-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: #fff;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.3s ease-in-out;
+      }
+
+      #logo {
+        font-size: 48px;
+        font-weight: bold;
+        color: #0066cc;
+        text-shadow: 1px 1px 0 #fff;
+        transition: all 0.3s ease-in-out;
+      }
+
+      /* Add hover styles to the logo */
+      #logo-container:hover {
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        transform: translate(-50%, -50%) scale(1.1);
+      }
+
+      #logo-container:hover #logo {
+        color: #fff;
+        text-shadow: 1px 1px 0 #0066cc;
+      }
+
+      /* Position the menus */
+      .menu {
+        position: absolute;
+        display: none;
+        padding: 8px;
+        border-radius: 4px;
+        background-color: #fff;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease-in-out;
+      }
+
+      .menu-top {
+        top: -200px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      .menu-right {
+        top: 50%;
+        right: -70px;
+        transform: translateY(-50%);
+      }
+
+      .menu-bottom {
+        bottom: -70px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      .menu-left {
+        top: 50%;
+        left: -70px;
+        transform: translateY(-50%);
+      }
+
+      /* Add hover styles to the menus */
+      .menu:hover {
+        transform: scale(1.05);
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+      }
+
+      /* Show the menus on hover */
+      #logo-container:hover .menu {
+        display: block;
+      }
+
+      /* Add animation to the menus */
+      .menu {
+        animation: menu-anim 0.3s ease-out forwards;
+      }
+
+      @keyframes menu-anim {
+        from {
+          transform: scale(0.5);
+          opacity: 0;
+        }
+        to {
+          transform: scale(1);
+          opacity: 1;
+        }
+      }
+    </style>
+</head>
+<body>
+    <div id="logo-container">
+      <div id="logo">AWPS</div>
+      <ul class="menu menu-top">
+        <li><a href="#">기술스택</a></li>
+        <li><a href="#">최신유행 언어</a></li>
+        <li><a href="#">Menu Item 3</a></li>
+        <li><a href="#">Menu Item 4</a></li>
+      </ul>
+      <ul class="menu menu-right">
+        <li><a href="#">Menu Item 5</a></li>
+        <li><a href="#">Menu Item 6</a></li>
+        <li><a href="#">Menu Item 7</a></li>
+        <li><a href="#">Menu Item 8</a></li>
+      </ul>
+      <ul class="menu menu-bottom">
+        <li><a href="#">Menu Item 9</a></li>
+        <li><a href="#">Menu Item 10</a></li>
+        <li><a href="#">Menu Item 11</a></li>
+        <li><a href="#">Menu Item 12</a></li>
+      </ul>
+      <ul class="menu menu-left">
+        <li><a href="#">Menu Item 13</a></li>
+        <li><a href="#">Menu Item 14</a></li>
+        <li><a href="#">Menu Item 15</a></li>
+        <li><a href="#">Menu Item 16</a></li>
+      </ul>
+    </div>
+</body>
+</html>
