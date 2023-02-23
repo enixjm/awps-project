@@ -12,7 +12,7 @@ import json
 
 import boto3
 
-dynamodb = boto3.resource('dynamodb', region_name='us-east-2',aws_access_key_id='AKIAUP5VXNX47G7WBK7T',aws_secret_access_key = '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')
+dynamodb = boto3.resource('dynamodb', region_name='us-east-2',aws_access_key_id='AKIAUP5VXNX46QXLNW6J',aws_secret_access_key = '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')
 
 
 url = "https://www.jumpit.co.kr/positions"
@@ -52,7 +52,7 @@ while True:
     company_title_tag2 = '</' + driver.find_element(By.XPATH, '//*[@id="root"]/main/div/div[2]/div/section[1]/h1').tag_name + '>' #회사타이틀 태그
 
     #딕셔너리에 넣기
-    dic['id'] = re.sub(r"[a-z]", "", Iddd)
+    dic['id'] = int(re.sub(r"[a-z]", "", Iddd)[4:])
     dic['회사이름'] = company_name_tag1 + company_name_text + company_name_tag2
     dic['회사제목'] = company_title_tag1 + company_title_cont + company_title_tag2
     
@@ -91,10 +91,11 @@ while True:
     except NoSuchElementException :
         pass
 
-    file_path = f"C:/Users/홍성학/Desktop/AWPS/awps-project/AWPS CRAWLLING/jumpit/{str(num)+company_name_text}(jumpit).json"
-    with open(file_path,'w',encoding="utf-8") as f :
-        json.dump(dic,f,indent=2,ensure_ascii = False)
+    # file_path = f"C:/Users/홍성학/Desktop/AWPS/awps-project/AWPS CRAWLLING/jumpit/{str(num)+company_name_text}(jumpit).json"
+    # with open(file_path,'w',encoding="utf-8") as f :
+    #     json.dump(dic,f,indent=2,ensure_ascii = False)
 
+    print(dic)
     table = dynamodb.Table('jumpit')
     table.put_item(Item=dic)
 

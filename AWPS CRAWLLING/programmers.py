@@ -42,7 +42,7 @@ while True :
 
 
     #회사 이름,타이틀 딕셔너리에 넣기
-    dic['id'] = re.sub(r"[a-z]", "", Iddd)
+    dic['id'] = int(re.sub(r"[a-z]", "", Iddd)[5:])
     dic['회사이름'] = company_name_text
     dic['회사타이틀'] = company_title_text 
 
@@ -74,10 +74,11 @@ while True :
     
     time.sleep(1)
 
-    file_path = f"C:/Users/홍성학/Desktop/AWPS/awps-project/AWPS CRAWLLING/programmers/{str(namenum)+company_name_text}(programmers).json"
-    with open(file_path,'w',encoding="utf-8") as f :
-        json.dump(dic,f,indent=2,ensure_ascii = False)
+    # file_path = f"C:/Users/홍성학/Desktop/AWPS/awps-project/AWPS CRAWLLING/programmers/{str(namenum)+company_name_text}(programmers).json"
+    # with open(file_path,'w',encoding="utf-8") as f :
+    #     json.dump(dic,f,indent=2,ensure_ascii = False)
     
+    print(dic)
 
     table = dynamodb.Table('programmers')
     table.put_item(Item=dic)
