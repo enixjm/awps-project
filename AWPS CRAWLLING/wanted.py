@@ -82,8 +82,7 @@ while True:
 
     
     """region = driver.find_element(By.XPATH, '//*[@id="__next"]/div[3]/div[1]/div[1]/div[1]/div[2]/section[2]/div[2]/span[2]').text"""
-    # dic['근무지역'] = region
-    # print(region)
+
 
     file_path = f"C:/Users/홍성학/Desktop/AWPS/awps-project/AWPS CRAWLLING/data/wanted/{str(Rid)+company_name}(wanted).json"
     with open(file_path,'w',encoding="utf-8") as f:
