@@ -1,0 +1,11 @@
+{
+  "id": 17011,
+  "회사이름": "라라스테이션",
+  "회사타이틀": "프론트 엔드/ 웹개발자",
+  "본문": "<div class=\"yO7TZRtCO7sznD0Csuw_\"><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">업무 소개</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"1\"><span class=\"colour\" style=\"color: rgb(32, 33, 36);\">1. 플랫폼 서비스 프론트 개발<br/>\n2. 퍼블리싱 및 React 컴포넌트 개발<br/>\n3. 백엔드, 디자이너와 협업을 통한 PC/MO 개발</span></p>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">자격 조건</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"15\"><span class=\"colour\" style=\"color: rgb(32, 33, 36);\">1. 3년 이상의 iOS 개발 경력 혹은 그에 준하는 실력을 가지신 분<br/>\n2. HTML, CSS, Javascript에 대한 지식이 있으신 분<br/>\n3. React, Vue 등을 사용한 프론트엔드 개발 경험<br/>\n4. 클린코드를 만들기 위해 지속적으로 고민하고 리팩토링하시는 분<br/>\n5. 능동적인 업무 수행과 협업을 중요하게 생각하시는 분</span></p>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">우대사항</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"37\"><span class=\"colour\" style=\"color: rgb(32, 33, 36);\">1. 상용화된 서비스 개발 경험이 있으신 분<br/>\n2. 자료구조, 네트워크, 운영체제, 알고리즘에 대한 이해와 논리적 사고력<br/>\n3. React Native, Typescript 등 개발 경험이 있으신 분<br/>\n4. Web에 대한 이해 - http 프로토콜, 헤더, 캐시, 웹소켓, 전반적인 동작과정<br/>\n5 데이터 비주얼라이제이션 프로젝트 경험이 있으신 분</span></p>\n</div></div></section><!--v-if--><!--v-if--><section><h5 class=\"SZUf8mqt2CrHwsWiVENo\">대표 개발자</h5><ul><li class=\"Lh1qTuDpzA2ZIVP80syP\" data-v-70991342=\"\"><header class=\"eSw35LllkBUd0Ngv2Tt2\" data-v-70991342=\"\"><span data-v-70991342=\"\">👨🏻</span><span data-v-70991342=\"\">김재현 CTO</span><svg class=\"ic-24 MwfvY2KO7PMJRNAI9Mea\" data-v-70991342=\"\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M13 13v4h-2v-4H7v-2h4V7h2v4h4v2z\" fill-rule=\"evenodd\"></path></svg></header></li></ul></section></div>",
+  "직무": "프론트엔드",
+  "지원 마감": "상시 채용",
+  "고용 형태": "정규직",
+  "경력": "3 ~ 10년",
+  "기술스택": "JavaScript,CSS,HTML,"
+}

@@ -31,7 +31,7 @@ while True:
     items = driver.find_element(By.XPATH, f'//*[@id="__next"]/div[3]/div/div/div[4]/ul/li[{num}]')
     
     # driver.execute_script("arguments[0].click();", items)
-    driver.execute_script("arguments[0].click();", items)
+    items.click()
     time.sleep(1)
 
     Id = driver.current_url
@@ -91,8 +91,8 @@ while True:
 
     print(dic)
 
-    # table = dynamodb.Table('wanted')
-    # table.put_item(Item=dic)
+    table = dynamodb.Table('wanted')
+    table.put_item(Item=dic)
 
     driver.back()
 

@@ -1,0 +1,11 @@
+{
+  "id": 47633,
+  "회사이름": "<a>엔아이지씨</a>",
+  "회사제목": "<h2>Backend 개발자</h2>",
+  "회사설명": "<span>• 자사 플랫폼 및 서비스의 백엔드 개발과 운영을 함께하실 능력있는 개발자를 모십니다.</span>",
+  "주요업무": "span• 자사 앱테크 플랫폼 개발/운영\n• 자사 앱테크 API G/W 개발/운영\n• 자사 커머스 백엔드 개발/운영",
+  "자격요건": "span• Backend (Java base) 개발 경력 5년 이상 또는 그에 준하는 역량\n• AWS Cloud 환경 개발 경험(EC2, RDS, VPC, Api gateway, S3, CloudFront 등)\n• Spring Boot, Spring framework, Mybatis, JPA 기반의 개발 및 운영\n• Restful API 개발에 대한 역량 및 이해도\n• 요구사항 분석 / 어플리케이션 및 DB 설계 가능",
+  "우대사항": "span• 광고플랫폼 / 이커머스 / 라이브커머스 중 하나 이상의 플랫폼 개발 경험\n• 대용량 트래픽, 대용량 데이터 처리 시스템 개발 경험\n• MSA 구조설계 및 개발경험",
+  "혜택 및 복지": "span• 무료 주차 지원\n• 무제한 커피 제공",
+  "기술스택": "BitBucket,Slack,React,Next.js,"
+}
