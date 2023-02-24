@@ -106,8 +106,8 @@ while True:
         json.dump(dic,f,indent=2,ensure_ascii = False)
 
     print(dic)
-    # table = dynamodb.Table('jumpit')
-    # table.put_item(Item=dic)
+    table = dynamodb.Table('jumpit')
+    table.put_item(Item=dic)
 
 
     driver.back()
