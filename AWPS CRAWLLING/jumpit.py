@@ -85,8 +85,8 @@ while True:
         try :
             stack = driver.find_element(By.XPATH, f'//*[@id="root"]/main/div/div[2]/div/section[2]/dl[1]/dd/pre/div[{i}]').text
             stacks =  stacks + stack + ','
-        except :
-            NoSuchElementException
+        except NoSuchElementException:
+            pass
     dic['기술스택'] = stacks
     
     try :

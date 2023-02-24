@@ -26,13 +26,13 @@ for item in items:
 
             elif i == '경력':
                 career = item[i]
-                #if career == "경력 무관":
-                    #dic["경력"] = "경력 무관"
-                #else:
-                career = career.replace("~", "").replace("년", "")
-                mininum , maxinum = career.split()
-                dic["최소 경력"] = int(mininum)
-                dic["최대 경력"] = int(maxinum)
+                if career == "경력 무관":
+                    dic["경력"] = "경력 무관"
+                else:
+                    career = career.replace("~", "").replace("년", "")
+                    mininum , maxinum = career.split()
+                    dic["최소 경력"] = int(mininum)
+                    dic["최대 경력"] = int(maxinum)
             
             else:
                 pass
@@ -40,8 +40,7 @@ for item in items:
         except:
             pass
     print(dic)
+    table = dynamodb.Table("Processed_programmers")
+    table.put_item(Item=dic)
     dic = {}
-#for item in items:
-    #print(f"id: {item['id']}, career: {item['경력']}, employment type: {item['고용 형태']}, technical stack: {item['기술스택']}, body: {item['본문']}, salary: {item['연봉']}, application deadline: {item['지원 마감']}, job: {item['직무']}, company name: {item['회사이름']}, company title: {item['회사타이틀']}")
-    #x+=1
-    #print(x)
+
