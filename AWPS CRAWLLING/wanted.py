@@ -11,7 +11,7 @@ import re
 
 import boto3
 
-dynamodb = boto3.resource('dynamodb', region_name='us-east-2',aws_access_key_id='AKIAUP5VXNX46QXLNW6J',aws_secret_access_key = '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')
+dynamodb = boto3.resource('dynamodb', region_name='us-east-2',aws_access_key_id='AKIATMPH7BYJY6WQWIE6',aws_secret_access_key = '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')
 
 
 url = "https://www.wanted.co.kr/wdlist/518?country=kr&job_sort=company.response_rate_order&years=-1&locations=all"
@@ -41,7 +41,8 @@ while True:
     company_tag = driver.find_element(By.XPATH,"//*[@id='__next']/div[3]/div[1]/div[1]/div/section[2]/div[1]/h6/a").tag_name
     des = driver.find_element(By.XPATH, "//*[@id='__next']/div[3]/div[1]/div[1]/div/div[2]/section[1]/p[1]/span").text
     des_tag = driver.find_element(By.XPATH, f"//*[@id='__next']/div[3]/div[1]/div[1]/div/div[2]/section[1]/p[1]/span").tag_name
-    dic['id'] = int(re.sub(r"[a-z]", "", Iddd)[5:])
+    Rid = int(re.sub(r"[a-z]", "", Iddd)[5:])
+    dic['id'] = Rid
     dic['회사이름'] = company_tag + company
     dic['회사제목'] = title_tag + title
     dic["회사설명"] = des_tag + des
@@ -70,7 +71,7 @@ while True:
     #dic['마감일'] = magam_tag + magam
     #dic['마감일'] = magam_tag + magam
 
-    file_path = f"C:/Users/홍성학/Desktop/AWPS/awps-project/AWPS CRAWLLING/data/wanted/{str(num)+company}(wanted).json"
+    file_path = f"C:/Users/홍성학/Desktop/AWPS/awps-project/AWPS CRAWLLING/data/wanted/{str(Rid)+company}(wanted).json"
     with open(file_path,'w',encoding="utf-8") as f:
         json.dump(dic,f,indent=2,ensure_ascii = False)
 

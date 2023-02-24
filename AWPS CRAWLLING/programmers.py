@@ -12,7 +12,7 @@ import json
 
 import boto3
 
-dynamodb = boto3.resource('dynamodb', region_name='us-east-2',aws_access_key_id='AKIAUP5VXNX46QXLNW6J',aws_secret_access_key = '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')
+dynamodb = boto3.resource('dynamodb', region_name='us-east-2',aws_access_key_id='AKIATMPH7BYJY6WQWIE6',aws_secret_access_key = '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')
 
 url = "https://career.programmers.co.kr/job"
 
@@ -42,7 +42,8 @@ while True :
 
 
     #회사 이름,타이틀 딕셔너리에 넣기
-    dic['id'] = int(re.sub(r"[a-z]", "", Iddd)[5:])
+    Rid = int(re.sub(r"[a-z]", "", Iddd)[5:])
+    dic['id'] = Rid
     dic['회사이름'] = company_name_text
     dic['회사타이틀'] = company_title_text 
 
@@ -74,7 +75,7 @@ while True :
     
     time.sleep(1)
 
-    file_path = f"C:/Users/홍성학/Desktop/AWPS/awps-project/AWPS CRAWLLING/data/programmers/{str(namenum)+company_name_text}(programmers).json"
+    file_path = f"C:/Users/홍성학/Desktop/AWPS/awps-project/AWPS CRAWLLING/data/programmers/{str(Rid)+company_name_text}(programmers).json"
     with open(file_path,'w',encoding="utf-8") as f :
         json.dump(dic,f,indent=2,ensure_ascii = False)
     

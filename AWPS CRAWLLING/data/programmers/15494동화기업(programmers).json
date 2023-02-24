@@ -1,0 +1,12 @@
+{
+  "id": 15494,
+  "회사이름": "동화기업",
+  "회사타이틀": "동화기업 Backend 개발자 평균 2주 이내 응답",
+  "본문": "<div class=\"yO7TZRtCO7sznD0Csuw_\"><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">업무 소개</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"1\">- B2B  주문/반품/출고/운송 관리 도메인의 백엔드 로직 설계/개발<br/>\n- 웹/모바일  API 개발<br/>\n- AWS RDBMS(MySQL) , Redis  등 Database 설계/개발<br/>\n- SAP ERP, WMS(창고관리) 연동 개발<br/>\n- AWS 기반 시스템 운영</p>\n<p data-nodeid=\"2\">[주요 기술 스택]<br/>\n- Java , Spring Boot, Maven, JPA, Lombok<br/>\n- JavaScript, Vue.js, SPA<br/>\n- AWS EC2, ELB, S3, RDS(MySQL), ElastiCache(Redis), CloudFront, API Gateway, Lambda<br/>\n- AWS Code Series (CI/CD)<br/>\n- Git</p>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">자격 조건</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"56\">- Java/Spring 기반 백엔드 개발 경험이 있으신 분<br/>\n- RESTful API 및 Open Source 사용 경험 있으신 분<br/>\n- MySQL 및 유사한 RDBMS 애플리케이션 개발 경험 있으신 분<br/>\n- AWS 클라우드 기반 서비스 운영 경험이 있으신 분</p>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">우대사항</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"68\">- 영업/물류/구매 등 업무시스템 개발 경험자 우대<br/>\n- SAP 또는 레거시 시스템 연동 개발 경험자 우대</p>\n</div></div></section><section><!--v-if--><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"74\">동화그룹은 1948년 설립된 목재 판상재 제조 회사로 73년의 역사를 가지고 있습니다.</p>\n<p data-nodeid=\"75\">동화그룹은 소재/목재 사업 선두주자인 동화기업과 대성목재, 화학사업의 태양합성과 전해액 생산을 하고 있는 동화 일렉트로라이트, 중고차 매매단지인 엠파크와 언론사인 한국일보를 계열사로 영위하고 있는 글로벌 회사입니다.</p>\n<p data-nodeid=\"76\">국내에는 서울 여의도와 인천, 충남 아산에 본사 및 지사가 있으며, 해외에는 베트남, 말레이시아, 호주, 핀란드, 헝가리, 중국에 사업장을 보유하고 있습니다.</p>\n</div></div></section><section><h5 class=\"jC4vnWhzIi1RsyJP_5Qh\">개발 팀 &amp; 환경</h5><table class=\"nuPUig5lujn1NwuQoScz\"><tbody><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>팀내 개발자</td><td>9</td></tr><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>버전 관리</td><td>CodeCommit</td></tr><!--v-if--><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>프로젝트 관리</td><td>Confluence</td></tr><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>OS 환경</td><td>MacOS</td></tr><!--v-if--></tbody></table></section><!--v-if--></div>",
+  "직무": "서버/백엔드, 프론트엔드, 웹 풀스택",
+  "지원 마감": "상시 채용",
+  "고용 형태": "정규직",
+  "경력": "5 ~ 17년",
+  "연봉": "2400 ~ 8000 만원",
+  "기술스택": "JavaScript,Java,MySQL,Spring,"
+}
