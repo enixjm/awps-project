@@ -79,7 +79,16 @@ while True:
         except NoSuchElementException:
             pass
     
-
+    #기술스택
+    stacks = ''
+    for i in range(1,20) :
+        try :
+            stack = driver.find_element(By.XPATH, f'//*[@id="root"]/main/div/div[2]/div/section[2]/dl[1]/dd/pre/div[{i}]').text
+            stacks =  stacks + stack + ','
+        except :
+            NoSuchElementException
+    dic['기술스택'] = stacks
+    
     try :
         service_intro = driver.find_element(By.XPATH, '//*[@id="root"]/main/div/div[2]/div/section[4]/div[2]/pre').text
         dic['기업/서비스 소개'] = service_intro
@@ -97,8 +106,8 @@ while True:
         json.dump(dic,f,indent=2,ensure_ascii = False)
 
     print(dic)
-    table = dynamodb.Table('jumpit')
-    table.put_item(Item=dic)
+    # table = dynamodb.Table('jumpit')
+    # table.put_item(Item=dic)
 
 
     driver.back()
