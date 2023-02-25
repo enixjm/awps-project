@@ -7,14 +7,23 @@ table = dynamodb.Table('programmers')
 response = table.scan()
 x=0
 dic = {}
-item_list = ['id','연봉','경력','기술스택','직무']
+item_list = ['id','회사이름','연봉','경력','기술스택','직무']
 items = response['Items']
+
+#scan()이 한번에 가져올수 있는 용량 제한이 있어 용량 걸렸을때 리스트 확장하는 코드
+while 'LastEvaluatedKey' in response:
+    response = table.scan(ExclusiveStartKey=response['LastEvaluatedKey'])
+    items.extend(response['Items'])
+
 for item in items:
     salary = None
     for i in item_list:
         try:
             if i == 'id' :
                 dic['id'] = int(item[i])
+
+            elif i == '회사이름' :
+                dic['회사이름'] = item[i]
 
             elif i == '연봉':
                 salary = item[i]
@@ -33,7 +42,8 @@ for item in items:
                     dic["경력"] = list(map(int, careerLsit))
 
             elif i == '기술스택' :
-                stacks_list = item[i].split(',').pop()
+                stacks_list = item[i].split(',')
+                stacks_list.pop()
                 dic['기술스택'] = stacks_list
                 
             elif i == '직무' :
@@ -48,8 +58,8 @@ for item in items:
 
         
     print(dic)
-    # table = dynamodb.Table("Processed_programmers")
-    # table.put_item(Item=dic)
+    table = dynamodb.Table("Processed_programmers")
+    table.put_item(Item=dic)
     dic = {}
     print(x)
     x+=1
