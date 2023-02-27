@@ -13,7 +13,7 @@ function App() {
     labels: UserData.map((data) => data.year),
     datasets: [
       {
-        label: "Users Gained",
+        label: "",
         data: UserData.map((data) => data.userGain),
         backgroundColor: [
           "rgba(75,192,192,1)",
@@ -71,7 +71,7 @@ function App() {
                 "#2a71d0",
               ],
               borderColor: "black",
-              borderWidth: 2,
+              borderWidth: 1,
             },
           ],
         })
@@ -93,21 +93,54 @@ function App() {
         display="flex"
         justifyContent="center"
         alignItems="center"
-        minHeight="100vh"
+        minHeight="50vh"
       >
-        <BarChart chartData={userData}/>
-      </Box>
-      {/* <main className="App-main">
         <div style={{ width: 700 }}>
           <BarChart chartData={userData}/>
         </div>
-        <div style={{ width: 700 }}>
-          <LineChart chartData={userData} />
-        </div>
-        <div style={{ width: 700 }}>
-          <PieChart chartData={userData} />
-        </div>
-      </main> */}
+      </Box>
+        <main className="App-main">
+          <Box
+          display="flex"
+          justifyContent="center"
+          alignItems="center"
+          minHeight="50vh"
+          >
+            <div style={{ width: 700 }}>
+              <BarChart chartData={userData}/>
+            </div>
+          </Box>
+          <Box
+          display="flex"
+          justifyContent="center"
+          alignItems="center"
+          minHeight="50vh"
+          >
+            <div style={{ width: 700 }}>
+              <LineChart chartData={userData}/>
+            </div>
+          </Box>
+          <Box
+          display="flex"
+          justifyContent="center"
+          alignItems="center"
+          minHeight="50vh"
+          >
+            <div style={{ width: 700 }}>
+              <PieChart chartData={userData}/>
+            </div>
+          </Box>
+          <Box
+          display="flex"
+          justifyContent="center"
+          alignItems="center"
+          minHeight="50vh"
+          >
+            <div style={{ width: 1900 }}>
+              <BarChart chartData={programmersData}/>
+            </div>
+          </Box>
+        </main>
     </div>
   );
 }
