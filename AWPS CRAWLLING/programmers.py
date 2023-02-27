@@ -1,15 +1,9 @@
-import requests  # 모듈들 불러오기
 import bs4
 from selenium import webdriver
 import time
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver import ActionChains
 import re
-
-import json
-
 import boto3
 
 dynamodb = boto3.resource('dynamodb', region_name='us-east-2',aws_access_key_id='AKIATMPH7BYJY6WQWIE6',aws_secret_access_key = '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')
@@ -45,12 +39,13 @@ while True :
     Rid = int(re.sub(r"[a-z]", "", Iddd)[5:])
     dic['id'] = Rid
     dic['회사이름'] = company_name_text
-    dic['회사타이틀'] = company_title_text 
+    dic['회사타이틀'] = company_title_text
 
     source = driver.page_source
     bs = bs4.BeautifulSoup(source,'lxml')
     entire = bs.find('div', class_ = 'yO7TZRtCO7sznD0Csuw_').next_sibling.next_sibling
     dic['본문'] = str(entire)
+
 
     for i in range(1,11):
         try :
@@ -75,10 +70,8 @@ while True :
     
     time.sleep(1)
 
-    file_path = f"C:/Users/홍성학/Desktop/AWPS/awps-project/AWPS CRAWLLING/data/programmers/{str(Rid)+company_name_text}(programmers).json"
-    with open(file_path,'w',encoding="utf-8") as f :
-        json.dump(dic,f,indent=2,ensure_ascii = False)
-    
+    s3 =boto3.client('s3')
+
     print(dic)
 
     table = dynamodb.Table('programmers')
