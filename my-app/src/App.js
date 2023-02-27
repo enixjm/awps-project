@@ -8,6 +8,9 @@ import { palette } from '@mui/system';
 import { Box, ThemeProvider } from '@mui/system';
 import { AppBar, Toolbar, Typography } from '@mui/material';
 import Logo from './logo.png';
+import ResponsiveAppBar from './ResponsiveAppBar';
+
+
 function App() {
   const [userData, setUserData] = useState({
     labels: UserData.map((data) => data.year),
@@ -81,14 +84,17 @@ function App() {
 
   return (
     <div className="App">
-      <AppBar position="static">
+      {/* <AppBar position="static">
         <Toolbar>
           <img src={Logo} alt="logo" style={{ marginRight: '1rem' }} />
           <Typography variant="h6" component="div">
             My React App
           </Typography>
         </Toolbar>
-      </AppBar>
+      </AppBar> */}
+
+      <ResponsiveAppBar/>
+
       <Box
         display="flex"
         justifyContent="center"
