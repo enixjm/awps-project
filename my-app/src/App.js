@@ -84,14 +84,14 @@ function App() {
 
   return (
     <div className="App">
-      {/* <AppBar position="static">
+      {<AppBar position="static">
         <Toolbar>
           <img src={Logo} alt="logo" style={{ marginRight: '1rem' }} />
           <Typography variant="h6" component="div">
             My React App
           </Typography>
         </Toolbar>
-      </AppBar> */}
+      </AppBar> }
 
       <ResponsiveAppBar/>
 
