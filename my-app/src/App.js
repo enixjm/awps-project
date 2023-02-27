@@ -4,7 +4,10 @@ import BarChart from "./components/BarChart";
 import LineChart from "./components/LineChart";
 import PieChart from "./components/PieChart";
 import { UserData } from "./Data";
-
+import { palette } from '@mui/system';
+import { Box, ThemeProvider } from '@mui/system';
+import { AppBar, Toolbar, Typography } from '@mui/material';
+import Logo from './logo.png';
 function App() {
   const [userData, setUserData] = useState({
     labels: UserData.map((data) => data.year),
@@ -78,18 +81,33 @@ function App() {
 
   return (
     <div className="App">
-      <div style={{ width: 700 }}>
-        <BarChart chartData={userData} />
-      </div>
-      <div style={{ width: 700 }}>
-        <LineChart chartData={userData} />
-      </div>
-      <div style={{ width: 700 }}>
-        <PieChart chartData={userData} />
-      </div>
-      <div style={{ width: 700 }}>
-        <BarChart chartData={programmersData} />
-      </div>
+      <AppBar position="static">
+        <Toolbar>
+          <img src={Logo} alt="logo" style={{ marginRight: '1rem' }} />
+          <Typography variant="h6" component="div">
+            My React App
+          </Typography>
+        </Toolbar>
+      </AppBar>
+      <Box
+        display="flex"
+        justifyContent="center"
+        alignItems="center"
+        minHeight="100vh"
+      >
+        <BarChart chartData={userData}/>
+      </Box>
+      {/* <main className="App-main">
+        <div style={{ width: 700 }}>
+          <BarChart chartData={userData}/>
+        </div>
+        <div style={{ width: 700 }}>
+          <LineChart chartData={userData} />
+        </div>
+        <div style={{ width: 700 }}>
+          <PieChart chartData={userData} />
+        </div>
+      </main> */}
     </div>
   );
 }
