@@ -23,32 +23,32 @@ for item in items:
                 dic['id'] = int(item[i])
 
             elif i == '회사이름' :
-                dic['회사이름'] = item[i]
+                dic['CompanyName'] = item[i]
 
             elif i == '연봉':
                 salary = item[i]
                 if salary:
                     salary = salary.replace("~", "").replace(" 만원", "")
                     payList = salary.split()
-                    dic["연봉"] = list(map(int, payList))
+                    dic["Pay"] = list(map(int, payList))
                    
             elif i == '경력':
                 career = item[i]
                 if career == "경력 무관":
-                    dic["경력"] = "경력 무관"
+                    dic["Career"] = "경력 무관"
                 else:
                     career = career.replace("~", "").replace("년", "")
                     careerLsit = career.split()
-                    dic["경력"] = list(map(int, careerLsit))
+                    dic["Career"] = list(map(int, careerLsit))
 
             elif i == '기술스택' :
                 stacks_list = item[i].split(',')
                 stacks_list.pop()
-                dic['기술스택'] = stacks_list
+                dic['Stacks'] = stacks_list
                 
             elif i == '직무' :
                 JobDuty = item[i].split(',')
-                dic['직무'] = JobDuty
+                dic['Job'] = JobDuty
 
             else:
                 pass

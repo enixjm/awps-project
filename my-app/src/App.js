@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./App.css";
 import BarChart from "./components/BarChart";
 import LineChart from "./components/LineChart";
@@ -25,7 +25,56 @@ function App() {
     ],
   });
 
-  // IF YOU SEE THIS COMMENT: I HAVE GOOD EYESIGHT
+  const [programmersData, setProgrammersData] = useState({
+    labels: [],
+    datasets: [
+      {
+        label: "Users Gained",
+        data: [],
+        backgroundColor: [
+          "rgba(75,192,192,1)",
+          "#ecf0f1",
+          "#50AF95",
+          "#f3ba2f",
+          "#2a71d0",
+        ],
+        borderColor: "black",
+        borderWidth: 2,
+      },
+    ],
+  });
+
+  useEffect(() => {
+    const URL =
+      "https://0h7pzyxz08.execute-api.us-east-2.amazonaws.com/default/get_pay";
+    fetch(URL, {
+      headers: {
+        Accept: "application/json",
+      },
+    })
+      .then((res) => res.json())
+      .then((data) =>
+        setProgrammersData({
+          labels: data.map((data) => data.CompanyName),
+          datasets: [
+            {
+              label: "Users Gained",
+              data: data.map((data) => data.Pay),
+              backgroundColor: [
+                "rgba(75,192,192,1)",
+                "#ecf0f1",
+                "#50AF95",
+                "#f3ba2f",
+                "#2a71d0",
+              ],
+              borderColor: "black",
+              borderWidth: 2,
+            },
+          ],
+        })
+      )
+      .catch((err) => console.error(err));
+  }, []);
 
   return (
     <div className="App">
@@ -37,6 +86,9 @@ function App() {
       </div>
       <div style={{ width: 700 }}>
         <PieChart chartData={userData} />
+      </div>
+      <div style={{ width: 700 }}>
+        <BarChart chartData={programmersData} />
       </div>
     </div>
   );

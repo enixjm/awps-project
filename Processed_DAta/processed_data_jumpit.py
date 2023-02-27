@@ -24,7 +24,7 @@ for item in items:
                 dic['id'] = int(item[i])
             
             elif i == '회사이름' :            
-                dic['회사이름'] = item[i][3:-4]
+                dic['CompanyName'] = item[i][3:-4]
 
             # jumpit에는 연봉데이터가 없음
             # elif i == '연봉':
@@ -37,16 +37,16 @@ for item in items:
             elif i == '경력':
                 career = item[i]
                 if career == "무관":
-                    dic["경력"] = "경력 무관"
+                    dic["Career"] = "경력 무관"
                 else:
                     if career[0] == '신':
                         career = career.replace('신입', "0").replace("년","").replace(" ","")
                         careerList = career.split('-')
-                        dic['경력'] = list(map(int,careerList))
+                        dic['Career'] = list(map(int,careerList))
                     else :
                         career = career.replace('년','').replace(" ","")
                         careerList = career.split('-')
-                        dic['경력'] = list(map(int,careerList))
+                        dic['Career'] = list(map(int,careerList))
 
                     # career = career.replace("~", "").replace("년", "")
                     # careerLsit = career.split()
@@ -55,11 +55,11 @@ for item in items:
             elif i == '기술스택' :
                 stacks_list = item[i].split(',')
                 stacks_list.pop()
-                dic['기술스택'] = stacks_list
+                dic['Stacks'] = stacks_list
 
             elif i == '회사제목' :
                 JobDuty_1 = item[i][4:-5]
-                dic['직무'] = JobDuty_1
+                dic['Job'] = JobDuty_1
 
             
 

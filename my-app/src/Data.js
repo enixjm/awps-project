@@ -30,3 +30,4 @@ export const UserData = [
       userLost: 234,
     },
   ];
+
