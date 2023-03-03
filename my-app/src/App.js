@@ -43,7 +43,7 @@ function App() {
 export default App;
 
 // 메인에다 다 때려박지말고 컴포넌트를 만들어
-
+// 잠깐 시험해본가야 씨방새야
   // const [programmersData, setProgrammersData] = useState({
   //   labels: [],
   //   datasets: [

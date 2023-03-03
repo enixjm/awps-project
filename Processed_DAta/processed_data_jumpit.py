@@ -11,7 +11,7 @@ response = table.scan()
 
 x=0
 dic = {}
-item_list = ['id','회사이름', '연봉','경력','기술스택','회사제목','']
+item_list = ['id','회사이름', '연봉','경력','기술스택','회사제목','본문']
 items = response['Items']
 s3 = boto3.client('s3', aws_access_key_id=access_key, aws_secret_access_key=secret_key)
 
@@ -27,7 +27,7 @@ for item in items:
     for i in item_list:
         try:
             if i == 'id' :
-                dic['id'] = int(item[i])
+                dic['id'] = int('1'+str(item[i]))
             
             elif i == '회사이름' :            
                 dic['CompanyName'] = item[i][3:-4]
@@ -67,6 +67,9 @@ for item in items:
                 JobDuty_1 = item[i][4:-5]
                 dic['Job'] = JobDuty_1
 
+            elif i == '본문' :
+                MainData = item[i]
+                dic['MainData'] = MainData
             
 
             else:
@@ -78,7 +81,7 @@ for item in items:
     dic['시간'] = ttime
     print(dic)
     json_data = json.dumps(dic, indent=2, ensure_ascii=False)
-    bucket_name = 'processedjumpit'
+    bucket_name = 'awpsprocesseddata'
     file_key = f"{dic['id']}.json"
     table = dynamodb.Table("Processed_jumpit")
     s3.put_object(Bucket=bucket_name, Key=file_key, Body=json_data)

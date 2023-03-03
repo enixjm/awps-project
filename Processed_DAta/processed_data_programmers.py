@@ -12,7 +12,7 @@ table = dynamodb.Table('programmers')
 response = table.scan()
 x=0
 dic = {}
-item_list = ['id','회사이름','연봉','경력','기술스택','직무']
+item_list = ['id','회사이름','연봉','경력','기술스택','직무','본문']
 items = response['Items']
 
 #scan()이 한번에 가져올수 있는 용량 제한이 있어 용량 걸렸을때 리스트 확장하는 코드
@@ -27,7 +27,7 @@ for item in items:
     for i in item_list:
         try:
             if i == 'id' :
-                dic['id'] = int(item[i])
+                dic['id'] = int('2'+str(item[i]))
 
             elif i == '회사이름' :
                 dic['CompanyName'] = item[i]
@@ -57,6 +57,10 @@ for item in items:
                 JobDuty = item[i].split(',')
                 dic['Job'] = JobDuty
 
+            elif i == '본문' :
+                MainData = item[i]
+                dic['MainData'] = MainData
+
             else:
                 pass
 
@@ -66,7 +70,7 @@ for item in items:
     dic['시간'] = ttime
     print(dic)
     json_data = json.dumps(dic,indent=2,ensure_ascii = False)
-    bucket_name = 'processedprogrammers'
+    bucket_name = 'awpsprocesseddata'
     file_key = f"{dic['id']}.json"
     s3.put_object(Bucket=bucket_name, Key=file_key, Body=json_data)
     dic = {}

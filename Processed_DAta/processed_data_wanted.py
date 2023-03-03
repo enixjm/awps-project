@@ -61,7 +61,9 @@ for item in items:
                 JobDuty_1 = item[i][4:-5]
                 dic['Job'] = JobDuty_1
 
-            
+            elif i == '본문' :
+                MainData = item[i]
+                dic['MainData'] = MainData
 
             else:
                 pass
