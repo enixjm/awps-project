@@ -69,6 +69,8 @@ for item in items:
 
     dic['시간'] = ttime
     print(dic)
+    table = dynamodb.Table("ProcessedData")
+    table.put_item(Item=dic)
     json_data = json.dumps(dic,indent=2,ensure_ascii = False)
     bucket_name = 'awpsprocesseddata'
     file_key = f"{dic['id']}.json"
