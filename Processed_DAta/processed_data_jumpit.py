@@ -34,11 +34,12 @@ for item in items:
 
             # jumpit에는 연봉데이터가 없음
             # elif i == '연봉':
-            #     salary = item[i]
-            #     if salary:
-            #         salary = salary.replace("~", "").replace(" 만원", "")
-            #         payList = salary.split()
-            #         dic["연봉"] = list(map(int, payList))
+            #     dic['Pay'] = []
+                # salary = item[i]
+                # if salary:
+                #     salary = salary.replace("~", "").replace(" 만원", "")
+                #     payList = salary.split()
+                #     dic["연봉"] = list(map(int, payList))
                    
             elif i == '경력':
                 career = item[i]
