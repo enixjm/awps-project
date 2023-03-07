@@ -1,6 +1,9 @@
 import boto3
 from pathlib import Path
-
+import os
+import glob
+import pandas as pd
+import json
 
 def get_file_folders(s3_client, bucket_name, prefix=""):
     file_names = []
@@ -50,6 +53,16 @@ def download_files(s3_client, bucket_name, local_path, file_names, folders):
         )
         print(idx, '/', len(file_names), ', installed to '+str(file_path))
 
+def save_to_csv():
+    df = pd.DataFrame()
+
+    path = glob.glob('./Data/*')
+    for file_path in path:
+        with open(file_path, 'r') as file:
+            json_dict = json.load(file)
+            df = df.append(json_dict, ignore_index=True)
+    df.to_csv('./all_data.csv', encoding="utf-8-sig")
+    print('saved csv')
 
 def main():
     client = boto3.client("s3")
@@ -62,6 +75,7 @@ def main():
         file_names,
         folders
     )
+    save_to_csv()
 
 if __name__ == "__main__":
     main()
