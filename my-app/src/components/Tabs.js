@@ -9,10 +9,15 @@ import { useEffect } from "react";
 
 function MyTabs() {
   const [value, setValue] = useState(0);
+  const [subvalue, setSubValue] = useState(0);
+
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
 
+  const handleSubChange = (event, newSubValue) => {
+    setSubValue(newSubValue);
+  };
   const [userData, setUserData] = useState({
     labels: UserData.map((data) => data.year),
     datasets: [
@@ -37,15 +42,37 @@ function MyTabs() {
     <Box sx={{
       width: '80%',
     }}>
-      <Tabs value={value} onChange={handleChange} centered>
-        <Tab label="BarChart" />
-        <Tab label="LineChart" />
-        <Tab label="PieChart" />
-        <Tab label="Chart" />
+      <Tabs
+        value={value}
+        onChange={handleChange}
+        centered
+        sx={{bgcolor:'8a61fb'}}
+        >
+        <Tab label="기술&스택" />
+        <Tab label="급여" />
+        <Tab label="근무 지역" />
+        <Tab label="업무 내용" />
+        <Tab label="평균 재직기간" />
       </Tabs>
-      {value === 0 && <BarChart chartData={userData}/>}
+      {value === 0 && (
+        <Box>
+          <Tabs
+            value={subvalue}
+            onChange={handleSubChange}
+            centered
+            sx={{ bgcolor: "8a61fb" }}
+          >
+            <Tab label="언어" />
+            <Tab label="프레임워크" />
+            <Tab label="개발환경"/>
+          </Tabs>
+          {subvalue === 0 && <BarChart chartData={userData}/>}
+          {subvalue === 1 && <LineChart chartData={userData}/>}
+          {subvalue === 2 && <PieChart chartData={userData}/>}
+        </Box>
+      )}
       {value === 1 && <LineChart chartData={userData}/>}
-      {value === 2 && <PieChart chartData={userData}/>} 
+      {value === 2 && <PieChart chartData={userData}/>}
     </Box>
   );
 }

@@ -32,14 +32,7 @@ for item in items:
             elif i == '회사이름' :            
                 dic['CompanyName'] = item[i][3:-4]
 
-            # jumpit에는 연봉데이터가 없음
-            # elif i == '연봉':
-            #     dic['Pay'] = []
-                # salary = item[i]
-                # if salary:
-                #     salary = salary.replace("~", "").replace(" 만원", "")
-                #     payList = salary.split()
-                #     dic["연봉"] = list(map(int, payList))
+
                    
             elif i == '경력':
                 career = item[i]
@@ -55,9 +48,7 @@ for item in items:
                         careerList = career.split('-')
                         dic['Career'] = list(map(int,careerList))
 
-                    # career = career.replace("~", "").replace("년", "")
-                    # careerLsit = career.split()
-                    # dic["경력"] = list(map(int, careerLsit))
+
 
             elif i == '기술스택' :
                 stacks_list = item[i].split(',')

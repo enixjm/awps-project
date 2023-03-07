@@ -3,9 +3,11 @@ import { useState, useEffect } from "react";
 import "./App.css";
 import { Button, Box } from '@mui/material';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
+import Typography from '@mui/material/Typography';
+import Logo from './logo.png';
 
-import ResponsiveAppBar from './components/ResponsiveAppBar';
 import MyTabs from './components/Tabs';
+
 
 // 테마 설정
 const theme = createTheme({
@@ -25,16 +27,22 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
     <div className="App">
-    <ResponsiveAppBar/>
+    <Typography
+      component="a"
+      href="/"
+      >
+        <img src={Logo} alt="logo" style={{ marginTop: '20px' }} />
+    </Typography>
+
     <Box sx={{
       display: 'flex',
       justifyContent: "center",
-      margin: '10%',
-      border: 'solid',
+      margin: '5%',
+      width:'flex'
     }}>
-      <MyTabs value={2} />
+      <MyTabs value={3} />
     </Box>
-  </div>
+  </div> 
   </ThemeProvider>
   );
 }

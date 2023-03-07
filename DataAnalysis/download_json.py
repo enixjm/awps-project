@@ -58,7 +58,7 @@ def save_to_csv():
 
     path = glob.glob('./Data/*')
     for file_path in path:
-        with open(file_path, 'r') as file:
+        with open(file_path, 'r', encoding='UTF8') as file:
             json_dict = json.load(file)
             df = df.append(json_dict, ignore_index=True)
     df.to_csv('./all_data.csv', encoding="utf-8-sig")
@@ -68,13 +68,13 @@ def main():
     client = boto3.client("s3")
 
     file_names, folders = get_file_folders(client, "awpsprocesseddata")
-    download_files(
-        client,
-        "awpsprocesseddata",
-        "./Data",
-        file_names,
-        folders
-    )
+    # download_files(
+    #     client,
+    #     "awpsprocesseddata",
+    #     "./Data",
+    #     file_names,
+    #     folders
+    # )
     save_to_csv()
 
 if __name__ == "__main__":
