@@ -1,0 +1,23 @@
+{
+  "id": 110170,
+  "CompanyName": "마켓오브메테리얼",
+  "Career": [
+    1,
+    10
+  ],
+  "Stacks": [
+    "HTML5",
+    "CSS 3",
+    "React",
+    "Angular 2",
+    "Vue.js",
+    "ES6",
+    "Recoil",
+    "Redux",
+    "vuex",
+    "mobX"
+  ],
+  "Job": "Web Front-end Engineer",
+  "MainData": "None",
+  "시간": "23-03-06 16:57:50"
+}

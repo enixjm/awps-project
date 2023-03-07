@@ -1,0 +1,26 @@
+{
+  "id": 213560,
+  "CompanyName": "티피코리아",
+  "Pay": [
+    2400,
+    8000
+  ],
+  "Career": [
+    1,
+    5
+  ],
+  "Stacks": [
+    "HTML",
+    "Git",
+    "GitHub",
+    "CSS",
+    "JavaScript",
+    "ReactJS"
+  ],
+  "Job": [
+    "프론트엔드",
+    " 웹 퍼블리싱"
+  ],
+  "MainData": "<div class=\"yO7TZRtCO7sznD0Csuw_\"><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">업무 소개</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"1\">\n<li data-nodeid=\"2\">\n<p data-nodeid=\"3\">ReactJS를 기반으로 하는 웹 어플리케이션을 개발하는 업무</p>\n</li>\n<li data-nodeid=\"4\">\n<p data-nodeid=\"5\">Web chatting 및 관련 서비스 페이지 개발 (ReactJS)</p>\n</li>\n<li data-nodeid=\"6\">\n<p data-nodeid=\"7\">Slack, Zeplin, Postman, GitHub, GoogleWorkspace를 기반으로 프로젝트 진행</p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">자격 조건</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"11\">\n<li data-nodeid=\"12\">\n<p data-nodeid=\"13\">ReactJS 개발 경력 1년 이상 보유 하신 분</p>\n</li>\n<li data-nodeid=\"14\">\n<p data-nodeid=\"15\"><span class=\"colour\" style=\"color:rgb(38, 55, 71)\">Javascript는 기본, HTML5, CSS3 기반 마크업  가능하신 분</span></p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">우대사항</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"20\">\n<li data-nodeid=\"21\">\n<p data-nodeid=\"22\">API 연동 웹어플리케이션 개발 경력 우대</p>\n</li>\n<li data-nodeid=\"23\">\n<p data-nodeid=\"24\">HTML 마크업 숙련자 우대</p>\n</li>\n</ul>\n</div></div></section><section><!--v-if--><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"27\">\n<li data-nodeid=\"28\">\n<p data-nodeid=\"29\">업무 시간 유연 근무 가능</p>\n</li>\n<li data-nodeid=\"30\">\n<p data-nodeid=\"31\"><span class=\"colour\" style=\"color:inherit\">격일 재택근무(홀수 주간 월, 수, 금. 짝수 주간 화, 목)</span></p>\n</li>\n<li data-nodeid=\"32\">\n<p data-nodeid=\"33\"><span class=\"colour\" style=\"color:inherit\">구글 Workspace를 활용한 업무 환경 구성</span></p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"jC4vnWhzIi1RsyJP_5Qh\">개발 팀 &amp; 환경</h5><table class=\"nuPUig5lujn1NwuQoScz\"><tbody><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>팀내 개발자</td><td>5</td></tr><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>버전 관리</td><td>Github</td></tr><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>기술 스택</td><td>AWS S3, CSS, HTML5, ReactJS</td></tr><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>프로젝트 관리</td><td>Slack</td></tr><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>OS 환경</td><td>Linux</td></tr><!--v-if--></tbody></table></section><!--v-if--></div>",
+  "시간": "23-03-06 15:00:04"
+}

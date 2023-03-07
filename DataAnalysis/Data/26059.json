@@ -1,0 +1,19 @@
+{
+  "id": 26059,
+  "CompanyName": "네오사피엔스",
+  "Pay": [
+    4000,
+    10000
+  ],
+  "Career": "경력 무관",
+  "Stacks": [
+    "Kubernetes",
+    "SQL",
+    "MongoDB"
+  ],
+  "Job": [
+    "데이터 엔지니어링"
+  ],
+  "MainData": "<div class=\"yO7TZRtCO7sznD0Csuw_\"><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">업무 소개</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><div data-nodeid=\"1\"><h2>주요 업무</h2><ul><li>서비스 내에서의 데이터 수집, 정제 관련 코딩</li><li>데이터 레이크 및 데이터 파이프라인 설계, 개발 및 운영</li><li>타입캐스트 서비스에서 발생하는 대용량 로그 파이프라인 설계, 개발 및 운영</li><li>비즈니스 요구사항에 따른 빅데이터 처리 및 서빙 시스템 설계, 개발 및 운영</li></ul><p><br/></p><h2>자격 요건</h2><ul><li>데이터 엔지니어링 및 인프라 개발/운영 경력이 3년 이상 또는 이에 준하는 역량</li><li>데이터 엔지니어링 및 분산 처리 기술에 대한 이해</li><li>데이터 엔지니어링을 통한 비즈니스 문제해결능력</li><li>퍼블릭 클라우드(AWS) 활용해서 데이터 엔지니어링 및 인프라 개발/운영 경험</li></ul><p><br/></p><h2>우대 사항</h2><ul><li>스타트업에 대한 이해</li><li>데이터 분석, 딥러닝, 머신러닝 알고리즘에 대한 이해</li><li>분산 처리 기술에 대한 깊은 이해</li><li>클라우드 환경에서의 데이터 엔지니어링 경험</li><li>실시간 데이터 분산 처리 시스템 개발 경험</li></ul></div>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">자격 조건</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"2\"><strong data-nodeid=\"23\">* 자격 조건</strong><br/>\n- 데이터 엔지니어링 및 인프라 개발/운영 경력이 3년 이상이거나 이에 준하는 실력을 가지신 분<br/>\n- 데이터 엔지니어링 및 분산 처리 기술에 대한 이해를 갖고 계신 분<br/>\n- 데이터 엔지니어링을 통해 비즈니스 문제를 해결해 보신 분<br/>\n- 퍼블릭 클라우드(AWS) 활용해서 데이터 엔지니어링 및 인프라 개발/운영 경험이 있으신 분</p>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">우대사항</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"24\"><strong data-nodeid=\"44\">* 우대 사항</strong><br/>\n- 스타트업에 대한 이해<br/>\n- 데이터 분석, 딥러닝, 머신러닝 알고리즘에 대한 이해<br/>\n- 분산 처리 기술에 대한 깊은 이해를 갖고 계신 분<br/>\n- 클라우드 환경에서의 데이터 엔지니어링 경험이 있으신 분<br/>\n- 실시간 데이터 분산 처리 시스템 개발 경험을 갖고 계신 분</p>\n</div></div></section><section><!--v-if--><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"45\"><strong data-nodeid=\"82\">* 혜택 및 복지</strong><br/>\n- 국내 최고 인공지능 전문가, 서비스 개발자들이 매일 매일 의기투합!<br/>\n- 점심/저녁 식사, 간식, 커피까지 모두 회사에서 제공해요<br/>\n- 읽고 싶은 책, 가보고 싶은 세미나, 배우고 싶은 교육 모두 지원해요<br/>\n- 업무 효율성을 위한 유료 툴을 다양하게 사용하며, 언제든 지원해요<br/>\n- 제약 없는 재택 근무와 자율 출·퇴근제를 운영해요<br/>\n- 직급 없는 수평적인 조직을 운영해요<br/>\n- 컨펌 없이, 날짜 제한 없이 자유로운 휴가 사용이 가능해요<br/>\n- 각종 국제 학회나 주요 전시회 행사 참가를 적극 독려해요 (요즘은 코로나라 온라인으로 :))<br/>\n• 차분한 분위기 속 유연한 협업과 동료에 대한 존중이 갖춰진 곳이예요</p>\n<p data-nodeid=\"46\"><br/>\n<br/></p>\n</div></div></section><section><h5 class=\"jC4vnWhzIi1RsyJP_5Qh\">개발 팀 &amp; 환경</h5><table class=\"nuPUig5lujn1NwuQoScz\"><tbody><!--v-if--><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>버전 관리</td><td>Github</td></tr><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>기술 스택</td><td>Docker, Kubernetes, MongoDB</td></tr><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>프로젝트 관리</td><td>Notion</td></tr><!--v-if--><!--v-if--></tbody></table></section><section><h5 class=\"SZUf8mqt2CrHwsWiVENo\">대표 개발자</h5><ul><li class=\"Lh1qTuDpzA2ZIVP80syP\" data-v-70991342=\"\"><header class=\"eSw35LllkBUd0Ngv2Tt2\" data-v-70991342=\"\"><span data-v-70991342=\"\">👽</span><span data-v-70991342=\"\">zironycho</span><svg class=\"ic-24 MwfvY2KO7PMJRNAI9Mea\" data-v-70991342=\"\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M13 13v4h-2v-4H7v-2h4V7h2v4h4v2z\" fill-rule=\"evenodd\"></path></svg></header></li></ul></section></div>",
+  "시간": "23-03-06 14:59:29"
+}

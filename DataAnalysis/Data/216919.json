@@ -1,0 +1,25 @@
+{
+  "id": 216919,
+  "CompanyName": "섹타나인",
+  "Pay": [
+    7000,
+    15000
+  ],
+  "Career": [
+    2,
+    7
+  ],
+  "Stacks": [
+    "Spring Batch",
+    "Socket.IO",
+    "REST API",
+    "Oracle",
+    "Spring",
+    "Java"
+  ],
+  "Job": [
+    "서버/백엔드"
+  ],
+  "MainData": "<div class=\"yO7TZRtCO7sznD0Csuw_\"><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">업무 소개</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"1\">\n<li data-nodeid=\"2\">\n<p data-nodeid=\"3\">해피포인트 멤버십&amp;포인트 시스템 개발/운영</p>\n</li>\n<li data-nodeid=\"4\">\n<p data-nodeid=\"5\">포인트 정산, 백오피스 개발 및 운영</p>\n</li>\n<li data-nodeid=\"6\">\n<p data-nodeid=\"7\">제휴시스템 인터페이스 개발/운영</p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">자격 조건</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"13\">\n<li data-nodeid=\"14\">\n<p data-nodeid=\"15\">2년 이상 Java Spring 개발 경력 및 MVC 이해 보유</p>\n</li>\n<li data-nodeid=\"16\">\n<p data-nodeid=\"17\">Oracle 쿼리 작성 및 개발 경험</p>\n</li>\n<li data-nodeid=\"18\">\n<p data-nodeid=\"19\">Rest API 또는 Socket 통신에 대한 개발 경력</p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">우대사항</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"23\">\n<li data-nodeid=\"24\">\n<p data-nodeid=\"25\">백오피스(관리자) 시스템 개발/운영 경험이 있으신 분</p>\n</li>\n<li data-nodeid=\"26\">\n<p data-nodeid=\"27\">Spring Batch 개발 경험이 있으신 분</p>\n</li>\n<li data-nodeid=\"28\">\n<p data-nodeid=\"29\">X-Internet 툴 사용경험이 있으신 분</p>\n</li>\n<li data-nodeid=\"30\">\n<p data-nodeid=\"31\">Secure Coding에 대한 이해도가 높으신 분</p>\n</li>\n</ul>\n</div></div></section><section><!--v-if--><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><blockquote data-nodeid=\"36\">\n<p data-nodeid=\"37\"><strong data-nodeid=\"53\">Make your life smart</strong></p>\n</blockquote>\n<hr data-nodeid=\"38\"/>\n<p data-nodeid=\"39\">섹타나인은,<br/>\n더 나은 일상을 디자인 하는 SPC 그룹의 IT 서비스 및 디지털 마케팅을 총괄하는<br/>\n‘Smart life technology’ 전문 기업입니다.<br/>\n지난 13년간 IT 서비스 및 디지털 마케팅 분야에서 알차게 성장해온<br/>\nSPC클라우드와 SPC네트웍스가 섹타나인이라는 이름으로 새롭게 출발하였습니다.<br/>\n해피포인트 앱을 기반으로 SPC그룹의 모바일 마케팅과 플랫폼 서비스를 개발 및 운영하고 있으며,<br/>\n7천여 개 가맹점에게 안정적인 결제 시스템과 스마트스토어 솔루션을 공급하고 있습니다.<br/>\n이외에도 메타버스, 딜리버리, 광고사업, 스마트팩토리, 스마트ERP 등<br/>\n다양한 사업 영역에 진출하여 혁신적이고 트렌디한 변화를 선도하고 있습니다.</p>\n<hr data-nodeid=\"40\"/>\n<ul data-nodeid=\"41\">\n<li data-nodeid=\"42\">\n<p data-nodeid=\"43\"><strong data-nodeid=\"75\">그 외 상세한 기업 소개부터 복지까지!</strong></p>\n</li>\n<li data-nodeid=\"44\">\n<p data-nodeid=\"45\">한 눈에 볼 수 있는 채용 페이지로</p>\n</li>\n<li data-nodeid=\"46\">\n<p data-nodeid=\"47\">지금 바로 접속하세요 🧡💛💚💙💜(●'◡'●)</p>\n</li>\n<li data-nodeid=\"48\">\n<p data-nodeid=\"49\">▶ <a data-nodeid=\"85\" href=\"https://secta9ine.oopy.io/\">https://secta9ine.oopy.io/</a></p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"jC4vnWhzIi1RsyJP_5Qh\">개발 팀 &amp; 환경</h5><table class=\"nuPUig5lujn1NwuQoScz\"><tbody><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>팀내 개발자</td><td>11명 이상</td></tr><!--v-if--><!--v-if--><!--v-if--><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>OS 환경</td><td>Windows</td></tr><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>코드 리뷰</td><td>Github <!--v-if--></td></tr></tbody></table></section><!--v-if--></div>",
+  "시간": "23-03-06 14:58:40"
+}

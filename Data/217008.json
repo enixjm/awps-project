@@ -1,0 +1,22 @@
+{
+  "id": 217008,
+  "CompanyName": "이마트",
+  "Career": [
+    5,
+    10
+  ],
+  "Stacks": [
+    "MySQL",
+    "Python",
+    "Java",
+    "Git",
+    "Docker"
+  ],
+  "Job": [
+    "서버/백엔드",
+    " 웹 풀스택",
+    " 데브옵스"
+  ],
+  "MainData": "<div class=\"yO7TZRtCO7sznD0Csuw_\"><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">업무 소개</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"1\">\n<li data-nodeid=\"2\">\n<p data-nodeid=\"3\">AWS/GCP 클라우드 기반의 챗봇/채팅 컨테이너 서비스 개발</p>\n</li>\n<li data-nodeid=\"4\">\n<p data-nodeid=\"5\">Azure DevOps (Repo, Pipeline) 및 GCP/AWS 통한 빌드 및 배포</p>\n</li>\n<li data-nodeid=\"6\">\n<p data-nodeid=\"7\">Java, Python 등의 백엔드 개발, 도커 빌드 및 쿠버네티스 기반 서비스</p>\n</li>\n<li data-nodeid=\"8\">\n<p data-nodeid=\"9\">디지털 상담 플랫폼 운영 모니터링 및 관제, 검증 프로그램 개발</p>\n</li>\n<li data-nodeid=\"10\">\n<p data-nodeid=\"11\">서비스 운영에 필요한 성능 관리(측정, 예측, 튜닝 등)</p>\n</li>\n<li data-nodeid=\"12\">\n<p data-nodeid=\"13\">서비스 운영에 필요한 Batch Job 및 각종 파이프라인 관리</p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">자격 조건</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"20\">\n<li data-nodeid=\"21\">\n<p data-nodeid=\"22\">빌드/배포를 위한 DevOps 파이프라인 구성 및 운영 경험 보유하신 분</p>\n</li>\n<li data-nodeid=\"23\">\n<p data-nodeid=\"24\">Java, Python 활용 백엔드 개발 경험 보유하신 분</p>\n</li>\n<li data-nodeid=\"25\">\n<p data-nodeid=\"26\">컨테이너 아키텍처, 쿠버네티스 노드 구성 및 서비스 운영 경험 보유하신 분</p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">우대사항</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"30\">\n<li data-nodeid=\"31\">\n<p data-nodeid=\"32\">Git, Docker, helm, kubectl, eksctl 등 명령어 사용에 대한 지식</p>\n</li>\n<li data-nodeid=\"33\">\n<p data-nodeid=\"34\">GKE, EKS (관리형 쿠버네티스) 환경 서비스 운영 경험</p>\n</li>\n<li data-nodeid=\"35\">\n<p data-nodeid=\"36\">AI/ML 파이프라인 구성 경험</p>\n</li>\n</ul>\n</div></div></section><section><!--v-if--><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"40\">이마트는 온·오프라인 통합 에코시스템을 구축해 압도적인 경쟁력을 바탕으로 대한민국 유통시장을 선도해가고 있습니다.</p>\n<p data-nodeid=\"41\">특히, DT본부는 온/오프라인 데이터를 기반으로 매장 자동화·효율화를 진행하고 있으며,<br/>\n온/오프라인으로 연계된 고객경험 혁신을 위해 이마트앱을 통해 다양한 서비스를 제공하고 혁신시켜 나아가고 있습니다.</p>\n<p data-nodeid=\"42\">이마트에서 'Digital Transformation'을 주도하며 함께 성장하길 원하는 능력과 열정 있는 분을 모십니다.</p>\n<p data-nodeid=\"43\">[조직소개 - StoreProduct Chapter]<br/>\n디지털을 기반으로 점포의 OP를 혁신하기 위한 프로세스 및 시스템을 개발, 운영하는 조직 입니다.<br/>\n전국 이마트 점포에 대한 문의를 고객상담원들이 효율적으로 대응 하기 위한 음성 및 디지털 상담(챗봇/채팅) 플랫폼, 각종 VOC 를 수집하고 분석하여 고객서비스 개선에 활용하는 고객의 소리 시스템을 운영하고 있습니다.<br/>\n또한 매장에서의 고객환불 편의를 위해 빠른 환불 서비스를 운영 중이고, 그 외에도 다양한 고객서비스 편의를 위한 유즈케이스 발굴 및 개발을 진행하고 있습니다.</p>\n<p data-nodeid=\"44\">채팅 상담에 기반한 온라인서비스 및 오프라인 매장에 AI기반의 O2O 서비스 도입에 필요한 다양한 기능들을 개발하기 위해 도전적이며 창의력이 풍부한 인재들이 모여 애자일하게 업무를 진행하고 있습니다.</p>\n<p data-nodeid=\"45\">[혜택 및 복지]<br/>\n• 주 35시간 근무 (일 7시간 근무)<br/>\n• 신세계그룹 할인 혜택 - 이마트, 신세계백화점, 스타벅스, 조선호텔, SSG.COM, 지마켓 등<br/>\n• 법정 연차와 별도로 주어지는 5일의 연중휴가<br/>\n• 자녀/형제자매 학자금 지원<br/>\n• 본인, 배우자, 자녀의 의료비 지원<br/>\n• 설, 명절, 생일 마일리지 지급 등</p>\n</div></div></section><section><h5 class=\"jC4vnWhzIi1RsyJP_5Qh\">개발 팀 &amp; 환경</h5><table class=\"nuPUig5lujn1NwuQoScz\"><tbody><!--v-if--><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>버전 관리</td><td>Github</td></tr><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>기술 스택</td><td>Amazon Web Services(AWS), AWS CodePipeline, AWS RDS, Google Cloud SQL, GCP(Google Cloud Platform)</td></tr><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>프로젝트 관리</td><td>Slack</td></tr><!--v-if--><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>코드 리뷰</td><td>Github <!--v-if--></td></tr></tbody></table></section><!--v-if--></div>",
+  "시간": "23-03-06 14:58:27"
+}

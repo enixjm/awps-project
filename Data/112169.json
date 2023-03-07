@@ -1,0 +1,23 @@
+{
+  "id": 112169,
+  "CompanyName": "아인시스에이아이랩",
+  "Career": [
+    2,
+    15
+  ],
+  "Stacks": [
+    "Rust",
+    "C++",
+    "NoSql",
+    "GraphQL",
+    "Python",
+    "C",
+    "Java",
+    "MongoDB",
+    "Elasticsearch",
+    "Docker"
+  ],
+  "Job": "소프트웨어 엔지니어 (Software Engineer)",
+  "MainData": "None",
+  "시간": "23-03-06 16:55:33"
+}

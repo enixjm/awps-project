@@ -1,0 +1,25 @@
+{
+  "id": 216978,
+  "CompanyName": "랑데뷰",
+  "Pay": [
+    4000,
+    6000
+  ],
+  "Career": "경력 무관",
+  "Stacks": [
+    "OpenCV",
+    "Git",
+    "Python",
+    "C++",
+    "Docker",
+    "Ubuntu",
+    "ROS"
+  ],
+  "Job": [
+    "인공지능(AI)",
+    " 시스템 소프트웨어",
+    " 로보틱스 미들웨어"
+  ],
+  "MainData": "<div class=\"yO7TZRtCO7sznD0Csuw_\"><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">업무 소개</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"1\">\n<li data-nodeid=\"2\">\n<p data-nodeid=\"3\">모터, 센서(LiDAR, Camera등), 로봇등 ROS기반의 장치 제어</p>\n</li>\n<li data-nodeid=\"4\">\n<p data-nodeid=\"5\">ROS Package 구성</p>\n</li>\n<li data-nodeid=\"6\">\n<p data-nodeid=\"7\">Gazebo 환경 구성 및 테스트</p>\n</li>\n<li data-nodeid=\"8\">\n<p data-nodeid=\"9\">제품 및 솔루션에 필요한 전자/전기 장치 구성 및 테스트</p>\n</li>\n<li data-nodeid=\"10\">\n<p data-nodeid=\"11\">그외 제품 개발에 필요한 SW 개발 및 테스트</p>\n</li>\n<li data-nodeid=\"12\">\n<p data-nodeid=\"13\">스마트팜에서 자동화 솔루션(제품) 테스트</p>\n</li>\n<li data-nodeid=\"14\">\n<p data-nodeid=\"15\">전시회 참가 및 고객사 지원</p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">자격 조건</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"23\">\n<li data-nodeid=\"24\">\n<p data-nodeid=\"25\">나이/성별/학력/전공 무관</p>\n</li>\n<li data-nodeid=\"26\">\n<p data-nodeid=\"27\">ROS 환경에 익숙하시고 사용 경험이 있으신 분</p>\n</li>\n<li data-nodeid=\"28\">\n<p data-nodeid=\"29\"><strong data-nodeid=\"35\">스마트팜에 관심이 많고 기술을 통해 로봇 서비스를 더욱 개선하고자 하는 의지를 가진 분</strong></p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">우대사항</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"36\">\n<li data-nodeid=\"37\">\n<p data-nodeid=\"38\">전기/전자공학, 컴퓨터/시스템공학등 관련 학위를 받으신 분</p>\n</li>\n<li data-nodeid=\"39\">\n<p data-nodeid=\"40\">1종보통운전면허 : 스마트팜 자동화 스타트업으로 테스트배드와 고객은 지방인 경우가 대부분 이어서 <strong data-nodeid=\"48\">1종보통운전면허가 있으면 좋아 합니다.</strong></p>\n</li>\n<li data-nodeid=\"41\">\n<p data-nodeid=\"42\">공모전 입상자, 해당직무 인턴경력, 해당직무 알바경험, 해당직무 근무경험, 석사학위 수여자, 박사학위 수여자등 <strong data-nodeid=\"54\">직무 경험을 중요시 합니다.!</strong></p>\n</li>\n</ul>\n</div></div></section><section><!--v-if--><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"55\"><strong data-nodeid=\"69\">근무조건</strong></p>\n<ul data-nodeid=\"56\">\n<li data-nodeid=\"57\">\n<p data-nodeid=\"58\">근무형태 : 정규직 (수습 3개월)</p>\n</li>\n<li data-nodeid=\"59\">\n<p data-nodeid=\"60\">근무일시 : 주 5일(월~금) 10:00~19:00</p>\n</li>\n</ul>\n<p data-nodeid=\"61\"><br/>\n<strong data-nodeid=\"81\">합류여정</strong></p>\n<ul data-nodeid=\"62\">\n<li data-nodeid=\"63\">\n<p data-nodeid=\"64\">서류전형 &gt; 사전인터뷰(Email) &gt; 인터뷰 &gt; (필요시)추가인터뷰 &gt; 최종합격</p>\n</li>\n</ul>\n<p data-nodeid=\"65\"><br/>\n<br/></p>\n</div></div></section><section><h5 class=\"jC4vnWhzIi1RsyJP_5Qh\">개발 팀 &amp; 환경</h5><table class=\"nuPUig5lujn1NwuQoScz\"><tbody><!--v-if--><!--v-if--><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>기술 스택</td><td>AWS S3, Git, OpenCV, Ubuntu, Docker, ROS</td></tr><!--v-if--><!--v-if--><!--v-if--></tbody></table></section><!--v-if--></div>",
+  "시간": "23-03-06 14:58:51"
+}

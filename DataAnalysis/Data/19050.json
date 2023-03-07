@@ -1,0 +1,22 @@
+{
+  "id": 19050,
+  "CompanyName": "로보코리아",
+  "Career": [
+    0,
+    2
+  ],
+  "Stacks": [
+    "TypeScript",
+    "NestJS",
+    "MongoDB",
+    "NoSql",
+    "MSA",
+    "Datadog",
+    "Grafana",
+    "Prometheus",
+    "AWS"
+  ],
+  "Job": "[전문연구요원] 백엔드 엔지니어",
+  "MainData": "None",
+  "시간": "23-03-06 16:56:36"
+}

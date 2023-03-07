@@ -1,0 +1,23 @@
+{
+  "id": 216917,
+  "CompanyName": "섹타나인",
+  "Pay": [
+    7000,
+    15000
+  ],
+  "Career": [
+    3,
+    7
+  ],
+  "Stacks": [
+    "Google Firebase Crashlytics",
+    "RxSwift",
+    "Objective-C",
+    "iOS"
+  ],
+  "Job": [
+    "iOS"
+  ],
+  "MainData": "<div class=\"yO7TZRtCO7sznD0Csuw_\"><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">업무 소개</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"1\">\n<li data-nodeid=\"2\">\n<p data-nodeid=\"3\">해피포인트/해피오더 iOS 개발 및 운영</p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">자격 조건</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"5\">\n<li data-nodeid=\"6\">\n<p data-nodeid=\"7\">3년 이상 iOS 기반 애플리케이션 개발 경력</p>\n</li>\n<li data-nodeid=\"8\">\n<p data-nodeid=\"9\">WKWebview를 사용한 Hybrid App 개발 경력</p>\n</li>\n<li data-nodeid=\"10\">\n<p data-nodeid=\"11\">Swift의 장단점을 이해하고, 문제해결 경험 보유</p>\n</li>\n<li data-nodeid=\"12\">\n<p data-nodeid=\"13\">Apple Developer 계정 및 인증서 관리 경험 보유</p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">우대사항</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"18\">\n<li data-nodeid=\"19\">\n<p data-nodeid=\"20\">Objective-C 사용 경험이 있으신 분</p>\n</li>\n<li data-nodeid=\"21\">\n<p data-nodeid=\"22\">MVVM 패턴에 대한 이해도가 높고 사용 경험이 있으신 분</p>\n</li>\n<li data-nodeid=\"23\">\n<p data-nodeid=\"24\">RxSwift 사용 경험이 있으신 분</p>\n</li>\n<li data-nodeid=\"25\">\n<p data-nodeid=\"26\">Swift UI 및 Widget 개발 경험이 있으신 분</p>\n</li>\n<li data-nodeid=\"27\">\n<p data-nodeid=\"28\">Git을 통한 협업 개발에 익숙하신 분</p>\n</li>\n<li data-nodeid=\"29\">\n<p data-nodeid=\"30\">Crashlytics 등 로그 분석툴 사용 경험이 있으신 분</p>\n</li>\n<li data-nodeid=\"31\">\n<p data-nodeid=\"32\">커머스 및 간편결제 개발 경험이 있으신 분</p>\n</li>\n</ul>\n</div></div></section><section><!--v-if--><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><blockquote data-nodeid=\"40\">\n<p data-nodeid=\"41\"><strong data-nodeid=\"57\">Make your life smart</strong></p>\n</blockquote>\n<hr data-nodeid=\"42\"/>\n<p data-nodeid=\"43\">섹타나인은,<br/>\n더 나은 일상을 디자인 하는 SPC 그룹의 IT 서비스 및 디지털 마케팅을 총괄하는<br/>\n‘Smart life technology’ 전문 기업입니다.<br/>\n지난 13년간 IT 서비스 및 디지털 마케팅 분야에서 알차게 성장해온<br/>\nSPC클라우드와 SPC네트웍스가 섹타나인이라는 이름으로 새롭게 출발하였습니다.<br/>\n해피포인트 앱을 기반으로 SPC그룹의 모바일 마케팅과 플랫폼 서비스를 개발 및 운영하고 있으며,<br/>\n7천여 개 가맹점에게 안정적인 결제 시스템과 스마트스토어 솔루션을 공급하고 있습니다.<br/>\n이외에도 메타버스, 딜리버리, 광고사업, 스마트팩토리, 스마트ERP 등<br/>\n다양한 사업 영역에 진출하여 혁신적이고 트렌디한 변화를 선도하고 있습니다.</p>\n<hr data-nodeid=\"44\"/>\n<ul data-nodeid=\"45\">\n<li data-nodeid=\"46\">\n<p data-nodeid=\"47\"><strong data-nodeid=\"79\">그 외 상세한 기업 소개부터 복지까지!</strong></p>\n</li>\n<li data-nodeid=\"48\">\n<p data-nodeid=\"49\">한 눈에 볼 수 있는 채용 페이지로</p>\n</li>\n<li data-nodeid=\"50\">\n<p data-nodeid=\"51\">지금 바로 접속하세요 🧡💛💚💙💜(●'◡'●)</p>\n</li>\n<li data-nodeid=\"52\">\n<p data-nodeid=\"53\">▶ <a data-nodeid=\"89\" href=\"https://secta9ine.oopy.io/\">https://secta9ine.oopy.io/</a></p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"jC4vnWhzIi1RsyJP_5Qh\">개발 팀 &amp; 환경</h5><table class=\"nuPUig5lujn1NwuQoScz\"><tbody><!--v-if--><!--v-if--><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>기술 스택</td><td>iOS</td></tr><!--v-if--><!--v-if--><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>코드 리뷰</td><td>Github <!--v-if--></td></tr></tbody></table></section><!--v-if--></div>",
+  "시간": "23-03-06 14:58:24"
+}

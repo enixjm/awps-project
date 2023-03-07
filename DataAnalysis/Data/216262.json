@@ -1,0 +1,25 @@
+{
+  "id": 216262,
+  "CompanyName": "코디웍스",
+  "Pay": [
+    2800,
+    3500
+  ],
+  "Stacks": [
+    "JavaScript",
+    "HTML5",
+    "AWS S3",
+    "AWS EC2",
+    "Git",
+    "Docker",
+    "Python",
+    "PHP",
+    "Node.js",
+    "MySQL"
+  ],
+  "Job": [
+    "서버/백엔드"
+  ],
+  "MainData": "<div class=\"yO7TZRtCO7sznD0Csuw_\"><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">업무 소개</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><h4 data-nodeid=\"1\">시스템 리팩토링</h4>\n<blockquote data-nodeid=\"2\">\n<p data-nodeid=\"3\">저희 팀은 1년 내로 노후화된 기술 스택들을 하나씩 개선할 계획입니다. (<code data-backticks=\"1\" data-nodeid=\"26\">PHP, jQuery, etc.</code>)<br/>\n개발 환경부터 시스템까지 함께 개선하며 성장해나갈 팀원을 찾습니다.<br/>\n언어<code data-backticks=\"1\" data-nodeid=\"32\">language</code>보다는 논리<code data-backticks=\"1\" data-nodeid=\"34\">logic</code>를 중요시 하는 개발자를 찾습니다.</p>\n</blockquote>\n<h4 data-nodeid=\"4\">B2B/B2C e-Commerce</h4>\n<ul data-nodeid=\"5\">\n<li data-nodeid=\"6\">\n<p data-nodeid=\"7\">쇼핑몰의 결제/정산/관리 시스템을 개발하고 운영합니다.</p>\n</li>\n<li data-nodeid=\"8\">\n<p data-nodeid=\"9\">쇼핑몰 운영에 필요한 기능들을 함께 고민하고 개선합니다.</p>\n</li>\n</ul>\n<blockquote data-nodeid=\"10\">\n<p data-nodeid=\"11\"><code data-backticks=\"1\" data-nodeid=\"39\">기술스택(AS-IS) : NGINX, Apache Tomcat, PHP, Python3</code><br/>\n<code data-backticks=\"1\" data-nodeid=\"41\">기술스택(TO-BE) : AWS EC2/S3, NGINX, Node.js(Back-end), Nuxt.js(Front-end)</code></p>\n</blockquote>\n<h5 data-nodeid=\"12\">B2C 화훼 배달 서비스</h5>\n<ul data-nodeid=\"13\">\n<li data-nodeid=\"14\">\n<p data-nodeid=\"15\">SCM to end-point 서비스를 개발하고 운영합니다.</p>\n</li>\n<li data-nodeid=\"16\">\n<p data-nodeid=\"17\">보다 효율적인 배달 및 관리를 위해 고민하고 이를 개발합니다.</p>\n</li>\n<li data-nodeid=\"18\">\n<p data-nodeid=\"19\">시스템 모니터링을 통해 성능 향상 및 개선 업무를 합니다.</p>\n</li>\n</ul>\n<blockquote data-nodeid=\"20\">\n<p data-nodeid=\"21\"><code data-backticks=\"1\" data-nodeid=\"46\">기술스택(AS-IS) : NGINX, Apache Tomcat, PHP, Android(Java), iOS</code><br/>\n<code data-backticks=\"1\" data-nodeid=\"48\">기술스택(TO-BE) : AWS EC2/S3, NGINX, Node.js(Back-end), Nuxt.js(Front-end), Flutter(App)</code></p>\n</blockquote>\n<hr data-nodeid=\"22\"/>\n<p data-nodeid=\"23\"><br/>\n<br/></p>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">자격 조건</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"52\">\n<li data-nodeid=\"53\">\n<p data-nodeid=\"54\">웹 어플리케이션에 대한 이해 및 경험이 있으신 분</p>\n</li>\n<li data-nodeid=\"55\">\n<p data-nodeid=\"56\">RDBMS에 대한 이해 및 경험이 있으신 분</p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">우대사항</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"59\">\n<li data-nodeid=\"60\">\n<p data-nodeid=\"61\">RESTful한 API 및 활용 방법에 대해 고민해보신 분</p>\n</li>\n<li data-nodeid=\"62\">\n<p data-nodeid=\"63\">Node.js 기반 프레임워크에 대한 이해 및 경험이 있으신 분</p>\n</li>\n<li data-nodeid=\"64\">\n<p data-nodeid=\"65\">Git을 이용한 형상관리 경험이 있으신 분</p>\n</li>\n<li data-nodeid=\"66\">\n<p data-nodeid=\"67\">Notion, Slack, JIRA 중 하나 이상의 협업 툴 사용 경험이 있으신 분</p>\n</li>\n<li data-nodeid=\"68\">\n<p data-nodeid=\"69\">관련 학과 전공자 혹은 자격증 보유자</p>\n</li>\n</ul>\n</div></div></section><section><!--v-if--><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><h4 data-nodeid=\"75\">이런 분들과 일하고 싶습니다</h4>\n<ul data-nodeid=\"76\">\n<li data-nodeid=\"77\">\n<p data-nodeid=\"78\"><strong data-nodeid=\"93\">노후된 시스템의 개선 및 리팩토링에 관심이 많으신 분</strong></p>\n</li>\n<li data-nodeid=\"79\">\n<p data-nodeid=\"80\">원활한 협업을 위한 커뮤니케이션 능력을 갖추신 분</p>\n</li>\n<li data-nodeid=\"81\">\n<p data-nodeid=\"82\">서로 함께 배우고 가르치며 성장해나가실 분</p>\n</li>\n<li data-nodeid=\"83\">\n<p data-nodeid=\"84\">새로운 기술 및 트렌드에 관심이 많으신 분</p>\n</li>\n</ul>\n<h4 data-nodeid=\"85\">채용절차</h4>\n<ul data-nodeid=\"86\">\n<li data-nodeid=\"87\">\n<p data-nodeid=\"88\">서류전형 - 코딩테스트(불필요시 생략) - 면접 - 최종합격</p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"jC4vnWhzIi1RsyJP_5Qh\">개발 팀 &amp; 환경</h5><table class=\"nuPUig5lujn1NwuQoScz\"><tbody><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>팀내 개발자</td><td>3</td></tr><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>버전 관리</td><td>Github</td></tr><!--v-if--><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>프로젝트 관리</td><td>Notion</td></tr><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>OS 환경</td><td>MacOS</td></tr><!--v-if--></tbody></table></section><!--v-if--></div>",
+  "시간": "23-03-06 14:58:19"
+}

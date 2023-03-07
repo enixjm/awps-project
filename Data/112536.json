@@ -1,0 +1,21 @@
+{
+  "id": 112536,
+  "CompanyName": "오내피플",
+  "Career": [
+    5,
+    20
+  ],
+  "Stacks": [
+    "Java",
+    "MySQL",
+    "SQL",
+    "Spring Framework",
+    "Spring Boot",
+    "Spring Data JPA",
+    "Git",
+    "AWS"
+  ],
+  "Job": "[캐치시큐] Java 개발자(5년 이상/경력) 채용",
+  "MainData": "<section class=\"styles_position_info__96hrw styles_skeleton__hl_0i\"><h2 class=\"styles_blind__1ajqE\">포지션 상세 정보</h2><dl class=\"sc-fivaXQ jhItVZ\"><dt class=\"sc-lgarKF dUeySC\">기술스택</dt><dd><pre><div class=\"sc-PZsNp kfVAua\"><img alt=\"\" class=\"sc-jftFmt igzngw\" src=\"https://cdn.jumpit.co.kr/images/stacks/java.png\"/>Java</div><div class=\"sc-PZsNp kfVAua\"><img alt=\"\" class=\"sc-jftFmt igzngw\" src=\"https://cdn.jumpit.co.kr/images/stacks/mysql.png\"/>MySQL</div><div class=\"sc-PZsNp kfVAua\"><img alt=\"\" class=\"sc-jftFmt igzngw\" src=\"https://cdn.jumpit.co.kr/images/stacks/sql.png\"/>SQL</div><div class=\"sc-PZsNp kfVAua\"><img alt=\"\" class=\"sc-jftFmt igzngw\" src=\"https://cdn.jumpit.co.kr/images/stacks/springframework.png\"/>Spring Framework</div><div class=\"sc-PZsNp kfVAua\"><img alt=\"\" class=\"sc-jftFmt igzngw\" src=\"https://cdn.jumpit.co.kr/images/stacks/springboot.png\"/>Spring Boot</div><div class=\"sc-PZsNp kfVAua\"><img alt=\"\" class=\"sc-jftFmt igzngw\" src=\"https://cdn.jumpit.co.kr/images/stacks/SpringDataJpa.png\"/>Spring Data JPA</div><div class=\"sc-PZsNp kfVAua\"><img alt=\"\" class=\"sc-jftFmt igzngw\" src=\"https://cdn.jumpit.co.kr/images/stacks/git.png\"/>Git</div><div class=\"sc-PZsNp kfVAua\"><img alt=\"\" class=\"sc-jftFmt igzngw\" src=\"https://cdn.jumpit.co.kr/images/stacks/aws.png\"/>AWS</div></pre></dd></dl><dl class=\"sc-fivaXQ jhItVZ\"><dt class=\"sc-lgarKF dUeySC\">주요업무</dt><dd><pre>• Spring Framework를 사용하여 서비스 설계하고 구축합니다. (Spring Boot)\n• 클라우드 환경에서 아키텍쳐를 설계하고 개발하며 기능을 구현합니다.\n• 레거시 코드의 개선과 함께 가용성이 높고 확장성 있는 API를 설계하고 개발합니다.\n• 서비스 아키텍쳐의 설계부터 출시까지 전 과정을 경험하고 참여할 수 있습니다.\n\n[개발 환경]\n• 주요 기술 : MySQL, Spring framework (Spring Boot), Spring Cloud, MyBatis, Spring Data JPA, Junit, Git, AWS SDK\n• 개발 환경 : AWS (EC2, RDS, SQS, Lambda), GCP (Compute Engine, Cloud Storage), Colab\n• 업무 도구 : Bitbucket, Jira, Confluence \n• 소통 채널 : Slack, Google Workspace\n• 코드 리뷰 : Bitbucket 을 통한 Pull Request\n• 빌드/배포 자동화 : Bitbucket Pipeline\n• 모니터링 : Datadog</pre></dd></dl><dl class=\"sc-fivaXQ jhItVZ\"><dt class=\"sc-lgarKF dUeySC\">자격요건</dt><dd><pre>[직무핏]\n• 5년 이상의 Java Spring framework 개발 경력을 보유하신 분\n• 객체지향 설계 및 구현이 가능하신 분\n• RESTul API 기반 설계 및 구현이 가능하신 분\n• RDBMS, NoSQL 등 DB설계 및 개발 경험이 있으신 분\n\n[컬처핏]\n• 팀 플레이를 즐기며, 긍정적이고 적극적으로 커뮤니케이션 하시는 분\n• 변화를 두려워하지 않고 개선할 사항을 고민해갈 수 있는 분\n• 새로운 기술에 빠르게 적응하며 지속적인 성장을 원하시는 분</pre></dd></dl><dl class=\"sc-fivaXQ jhItVZ\"><dt class=\"sc-lgarKF dUeySC\">우대사항</dt><dd><pre>• 대용량 트래픽 처리에 대한 이해가 있으신 분\n• MSA 기반 서비스 설계 및 운영 경험이 있으신 분\n• Docker, K8s 사용 및 개발 경험이 있으신 분\n• Redis 등의 서버 캐시를 이용한 개발 경험이 있으신 분\n• AWS와 같은 Public Cloud 작업 경험이 있으신 분</pre></dd></dl><dl class=\"sc-fivaXQ jhItVZ\"><dt class=\"sc-lgarKF dUeySC\">복지 및 혜택</dt><dd><pre>• 업무 관련 장비 일체 제공\n• 업무 관련 교육 및 자격증 취득 비용 지원\n• 중소기업복지 혜택 제공(청년내일채움공제, 근로자 휴가지원사업, EAP 지원사업 등)\n• 수평적 근무, 자율 복장, 연차 사용 자유\n• 캐치시큐 홈페이지 : <a href=\"https://www.catchsecu.com/\" rel=\"noreferrer\" target=\"_blank\">https://www.catchsecu.com/</a></pre></dd></dl><dl class=\"sc-fivaXQ jhItVZ\"><dt class=\"sc-lgarKF dUeySC\">채용절차 및 기타 지원 유의사항</dt><dd><pre>• 근무형태 : 정규직(수습기간 3개월)\n• 근무일시 : 주5일(월-금) 9시 30분 ~ 18시 30분\n• 전형절차 : 서류전형 &gt; 인성면접 &gt; 코딩테스트 &gt; 기술면접 &gt; 처우협의 &gt; 최종합격\n　- 합격여부에 관계없이 과제(코딩테스트)제출 시, 과제비 3만원을 지급해드립니다.\n• 입사지원 서류에 허위사실이 발견될 경우, 채용확정 이후라도 채용이 취소될 수 있습니다.</pre></dd></dl></section>",
+  "시간": "23-03-06 16:55:51"
+}

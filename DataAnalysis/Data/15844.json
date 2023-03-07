@@ -1,0 +1,22 @@
+{
+  "id": 15844,
+  "CompanyName": "미스터블루",
+  "Career": [
+    3,
+    8
+  ],
+  "Stacks": [
+    "C#",
+    ".NET",
+    "Docker",
+    "Go",
+    "REST API",
+    "MSSQL",
+    "Slack",
+    "Jira",
+    "git"
+  ],
+  "Job": "백엔드 개발자 (C#, .NET)",
+  "MainData": "None",
+  "시간": "23-03-06 16:56:06"
+}

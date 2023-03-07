@@ -1,0 +1,22 @@
+{
+  "id": 11649,
+  "CompanyName": "이스트게임즈",
+  "Career": [
+    0,
+    10
+  ],
+  "Stacks": [
+    "Node.js",
+    "MySQL",
+    "MongoDB",
+    "Linux",
+    "C#",
+    "C++",
+    "Redis",
+    "GitHub",
+    "Jenkins"
+  ],
+  "Job": "캐주얼게임 서버 개발 담당자",
+  "MainData": "None",
+  "시간": "23-03-06 16:58:02"
+}
