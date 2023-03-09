@@ -3,7 +3,7 @@ import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import Divider from '@mui/material/Divider';
-import { Tabs, Tab, Box } from '@mui/material';
+import {Grid, Tabs, Tab, Box } from '@mui/material';
 
 import BarChart from "./BarChart";
 import LineChart from "./LineChart";
@@ -54,7 +54,10 @@ export default function ListDividers() {
   }
 
   return (
-      <div >
+    <Grid container spacing={2} sx={{
+        width: '80%',
+    }}>
+        <Grid item xs={3}>
         <List 
             sx={style} 
             component="nav" 
@@ -95,9 +98,13 @@ export default function ListDividers() {
             <ListItemText primary="게임" />
             </ListItem>
         </List>
-        {selectedChart === 'ServerBackEnd' && <BarChart chartData={userData}/>}
-        {selectedChart === 'FrontEnd' && <PieChart chartData={userData}/>}
-        {selectedChart === 'WebFullStack' && <LineChart chartData={userData}/>}
-      </div>
+        </Grid>
+          <Grid item xs={9}>
+            {selectedChart === 'ServerBackEnd' && <BarChart chartData={userData}/>}
+            {selectedChart === 'FrontEnd' && <PieChart chartData={userData}/>}
+            {selectedChart === 'WebFullStack' && <LineChart chartData={userData}/>}
+          </Grid>
+    </Grid>
+
     );
   }
