@@ -5,6 +5,8 @@ import { Button, Box } from '@mui/material';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import Typography from '@mui/material/Typography';
 import Logo from './logo.png';
+import Logo_python from './';
+
 
 import MyTabs from './components/Tabs';
 
@@ -27,6 +29,11 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
     <div className="App">
+      <div className="background">
+        <img src={java_logo} alt="logo1" className="logo" />
+        <img src={python_logo} alt="logo2" className="logo" />
+
+      </div>
     <Typography
       component="a"
       href="/"
