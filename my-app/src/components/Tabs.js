@@ -7,6 +7,8 @@ import PieChart from "./PieChart";
 import { UserData } from "./Data";
 import { useEffect } from "react";
 
+import ListDividers from "./Stacks_Lan"
+
 function MyTabs() {
   const [value, setValue] = useState(0);
   const [subvalue, setSubValue] = useState(0);
@@ -40,7 +42,7 @@ function MyTabs() {
 
   return (
     <Box sx={{
-      width: '80%',
+      width: '80%'
     }}>
       <Tabs
         value={value}
@@ -51,9 +53,8 @@ function MyTabs() {
         <Tab label="기술&스택" />
         <Tab label="급여" />
         <Tab label="근무 지역" />
-        <Tab label="업무 내용" />
         <Tab label="평균 재직기간" />
-        <Tab label="업종별 스펙"/>
+        <Tab label="요구 경력"/>
       </Tabs>
       {value === 0 && (
         <Box>
@@ -68,7 +69,7 @@ function MyTabs() {
             <Tab label="개발" />
             <Tab label="test" />
           </Tabs>
-          {subvalue === 0 && <BarChart chartData={userData}/>}
+          {subvalue === 0 && <ListDividers/>}
           {subvalue === 1 && <LineChart chartData={userData}/>}
           {subvalue === 2 && <PieChart chartData={userData}/>}
           {subvalue === 3 && <BarChart chartData={userData}/>}

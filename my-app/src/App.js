@@ -13,15 +13,13 @@ import MyTabs from './components/Tabs';
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#0095ff',
+      main: '#8a61fb',
     },
     secondary: {
-      main: '#ff0090',
+      main: '#2196f3',
     },
   },
 });
-
-
 
 function App() {
 
@@ -40,7 +38,7 @@ function App() {
       display: 'flex',
       justifyContent: "center",
       margin: '5%',
-      
+      marginTop:'1%',
     }}>
       <MyTabs value={3} />
     </Box>
