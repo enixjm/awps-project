@@ -38,7 +38,7 @@ function App() {
       display: 'flex',
       justifyContent: "center",
       margin: '5%',
-      width:'flex'
+      
     }}>
       <MyTabs value={3} />
     </Box>
