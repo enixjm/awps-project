@@ -13,13 +13,15 @@ import MyTabs from './components/Tabs';
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#8a61fb',
+      main: '#0095ff',
     },
     secondary: {
-      main: '#2196f3',
+      main: '#ff0090',
     },
   },
 });
+
+
 
 function App() {
 
