@@ -53,6 +53,7 @@ function MyTabs() {
         <Tab label="근무 지역" />
         <Tab label="업무 내용" />
         <Tab label="평균 재직기간" />
+        <Tab label="업종별 스펙"/>
       </Tabs>
       {value === 0 && (
         <Box>
@@ -64,15 +65,30 @@ function MyTabs() {
           >
             <Tab label="언어" />
             <Tab label="프레임워크" />
-            <Tab label="개발환경"/>
+            <Tab label="개발" />
+            <Tab label="test" />
           </Tabs>
           {subvalue === 0 && <BarChart chartData={userData}/>}
           {subvalue === 1 && <LineChart chartData={userData}/>}
           {subvalue === 2 && <PieChart chartData={userData}/>}
+          {subvalue === 3 && <BarChart chartData={userData}/>}
         </Box>
       )}
-      {value === 1 && <LineChart chartData={userData}/>}
+
+      {value === 1 && (
+        <Box>
+          <Tabs
+            value={subvalue}
+            onChange={handleSubChange}
+            centered
+            sx={{ bgcolor: "8a61fb" }}
+          >
+            <Tab label="Front" />
+            <Tab label="Back" />
+          </Tabs>
       {value === 2 && <PieChart chartData={userData}/>}
+        </Box>
+      )}
     </Box>
   );
 }
