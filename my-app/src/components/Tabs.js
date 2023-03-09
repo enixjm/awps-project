@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Tabs, Tab, Box } from '@mui/material';
+import { Grid, Tabs, Tab, Box } from '@mui/material';
 
 import BarChart from "./BarChart";
 import LineChart from "./LineChart";
@@ -69,10 +69,12 @@ function MyTabs() {
             <Tab label="개발" />
             <Tab label="test" />
           </Tabs>
+          <Box  sx={{ width: "100%", height: "500px" }}>
           {subvalue === 0 && <ListDividers/>}
           {subvalue === 1 && <LineChart chartData={userData}/>}
           {subvalue === 2 && <PieChart chartData={userData}/>}
           {subvalue === 3 && <BarChart chartData={userData}/>}
+          </Box>
         </Box>
       )}
 
