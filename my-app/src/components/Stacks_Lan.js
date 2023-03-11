@@ -29,14 +29,27 @@ export default function ListDividers() {
           label: "Users Gained",
           data: UserData.map((data) => data.userGain),
           backgroundColor: [
-              "rgba(75,192,192,1)",
-              "#ecf0f1",
-              "#50AF95",
-              "#f3ba2f",
-              "#2a71d0",
+              "rgba(75,192,192,0.7)",
+              "rgba(97,61,248,0.73)",
+              "rgba(80,175,149,0.71)",
+              "rgba(243,186,47,0.75)",
+              "rgba(42,113,208,0.75)",
           ],
-          borderColor: "black",
+          borderColor: "rgba(255, 99, 132, 0.2)",
           borderWidth: 2,
+          },
+      ],
+  });
+
+  const [userData_radar, setUserData_radar] = useState({
+      labels: UserData.map((data) => data.year),
+      datasets: [
+          {
+          label: "Users Gained",
+          data: UserData.map((data) => data.userGain),
+          backgroundColor: 'rgba(255, 99, 132, 0.2)',
+          borderColor: 'rgba(255, 99, 132, 1)',
+          borderWidth: 1,
           },
       ],
   });
@@ -109,7 +122,7 @@ export default function ListDividers() {
             {selectedChart === 'ServerBackEnd' && <BarChart chartData={userData}/>}
             {selectedChart === 'FrontEnd' && <PieChart chartData={userData}/>}
             {selectedChart === 'WebFullStack' && <LineChart chartData={userData}/>}
-            {selectedChart === 'Android' && <RadarChart chartData={userData}/>}
+            {selectedChart === 'Android' && <RadarChart chartData={userData_radar}/>}
           </Grid>
     </Grid>
 

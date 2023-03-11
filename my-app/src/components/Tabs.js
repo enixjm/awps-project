@@ -21,22 +21,22 @@ function MyTabs() {
     setSubValue(newSubValue);
   };
   const [userData, setUserData] = useState({
-    labels: UserData.map((data) => data.year),
-    datasets: [
-      {
-        label: "Users Gained",
-        data: UserData.map((data) => data.userGain),
-        backgroundColor: [
-          "rgba(75,192,192,1)",
-          "#ecf0f1",
-          "#50AF95",
-          "#f3ba2f",
-          "#2a71d0",
-        ],
-        borderColor: "black",
-        borderWidth: 2,
-      },
-    ],
+      labels: UserData.map((data) => data.year),
+      datasets: [
+          {
+          label: "Users Gained",
+          data: UserData.map((data) => data.userGain),
+          backgroundColor: [
+              "rgba(75,192,192,0.7)",
+              "rgba(97,61,248,0.73)",
+              "rgba(80,175,149,0.71)",
+              "rgba(243,186,47,0.75)",
+              "rgba(42,113,208,0.75)",
+          ],
+          borderColor: "rgba(255, 99, 132, 0.2)",
+          borderWidth: 2,
+          },
+      ],
   });
 
 
