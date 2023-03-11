@@ -5,11 +5,13 @@ import ListItemText from '@mui/material/ListItemText';
 import Divider from '@mui/material/Divider';
 import {Grid, Tabs, Tab, Box } from '@mui/material';
 
+import RadarChart from "./RadarChart";
 import BarChart from "./BarChart";
 import LineChart from "./LineChart";
 import PieChart from "./PieChart";
 import { UserData } from "./Data";
 import { useState } from 'react';
+
 
   
 export default function ListDividers() {
@@ -53,6 +55,10 @@ export default function ListDividers() {
     setSelectedChart('WebFullStack')
   }
 
+  const handleAndorid = () => {
+    setSelectedChart('Android')
+  }
+
   return (
     <Grid container spacing={2} sx={{
         width: '80%',
@@ -72,9 +78,9 @@ export default function ListDividers() {
             </ListItem>
             <ListItem button onClick={handleWebFullStack}>
             <ListItemText primary="웹 풀스택" />
-            </ListItem>
+            </ListItem >
             <Divider light />
-            <ListItem button>
+            <ListItem button onClick={handleAndorid}>
             <ListItemText primary="안드로이드" />
             </ListItem>
             <Divider />
@@ -103,6 +109,7 @@ export default function ListDividers() {
             {selectedChart === 'ServerBackEnd' && <BarChart chartData={userData}/>}
             {selectedChart === 'FrontEnd' && <PieChart chartData={userData}/>}
             {selectedChart === 'WebFullStack' && <LineChart chartData={userData}/>}
+            {selectedChart === 'Android' && <RadarChart chartData={userData}/>}
           </Grid>
     </Grid>
 
