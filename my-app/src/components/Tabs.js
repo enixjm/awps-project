@@ -69,7 +69,7 @@ function MyTabs() {
             <Tab label="개발" />
             <Tab label="test" />
           </Tabs>
-          {subvalue === 0 && <ListDividers/>}
+          {subvalue === 0 && <ListDividers value={3}/>}
           {subvalue === 1 && <LineChart chartData={userData}/>}
           {subvalue === 2 && <PieChart chartData={userData}/>}
           {subvalue === 3 && <BarChart chartData={userData}/>}
