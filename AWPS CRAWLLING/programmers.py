@@ -45,7 +45,11 @@ while True :
     bs = bs4.BeautifulSoup(source,'lxml')
     entire = bs.find('div', class_ = 'yO7TZRtCO7sznD0Csuw_').next_sibling.next_sibling
     dic['본문'] = str(entire)
-
+    work_location = str(bs.find('div', class_ = 'vunG5wjvEv8U_KHdk4kP zSKDV8I_SEqkr28qZWk8').next_sibling.text)
+    dic['근무지역'] = work_location[5:]
+    Dead_Line = bs.find('div', class_ = 'KACXxUyP7jEgxQYiU_Bq').next_sibling.text
+    dic['마감일'] = str(Dead_Line)[5:]
+    print(dic['마감일'])
 
     for i in range(1,11):
         try :

@@ -63,8 +63,9 @@ while True:
     
     source = driver.page_source
     bs = bs4.BeautifulSoup(source,'lxml')
-    entire = bs.find('section', class_ = 'styles_position_info__96hrw styles_skeleton__hl_0i')
+    entire = bs.find('section', class_ = 'position_info')
     dic['본문'] = str(entire)
+    
     
 
     for i in range(1,11) :
@@ -112,11 +113,7 @@ while True:
 
     driver.back()
 
-    # if (num%16 == 0) :
-    #     time.sleep(1)
-    #     driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
-    #     time.sleep(1)
-    #     print("asdfasdf")
+
     
     if (num%16 == 0) :
         for i in range(1,5) :
@@ -125,7 +122,7 @@ while True:
 
 
     time.sleep(1)
-    # print(dic)
+    print(dic)
     num += 1
 
 

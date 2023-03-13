@@ -1,11 +1,9 @@
-import { useState, useEffect } from "react";
-
 import "./App.css";
 import { Button, Box } from '@mui/material';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import Typography from '@mui/material/Typography';
 import Logo from './logo.png';
-import Logo_python from './';
+
 
 
 import MyTabs from './components/Tabs';

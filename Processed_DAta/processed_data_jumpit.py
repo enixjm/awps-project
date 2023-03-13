@@ -11,7 +11,7 @@ response = table.scan()
 
 x=0
 dic = {}
-item_list = ['id','회사이름', '연봉','경력','기술스택','회사제목','본문']
+item_list = ['id','회사이름', '연봉','경력','기술스택','회사제목','본문','근무지역','마감일']
 items = response['Items']
 s3 = boto3.client('s3', aws_access_key_id=access_key, aws_secret_access_key=secret_key)
 
@@ -31,8 +31,6 @@ for item in items:
             
             elif i == '회사이름' :            
                 dic['CompanyName'] = item[i][3:-4]
-
-
                    
             elif i == '경력':
                 career = item[i]
@@ -48,8 +46,6 @@ for item in items:
                         careerList = career.split('-')
                         dic['Career'] = list(map(int,careerList))
 
-
-
             elif i == '기술스택' :
                 stacks_list = item[i].split(',')
                 stacks_list.pop()
@@ -63,6 +59,13 @@ for item in items:
                 MainData = item[i]
                 dic['MainData'] = MainData
             
+            elif i == '근무지역' :
+                Work_Location = item[i]
+                dic['WorkLocation'] = Work_Location
+
+            elif i == '마감일' :
+                Dead_Line = item[i]
+                dic['DeadLind'] = Dead_Line
 
             else:
                 pass

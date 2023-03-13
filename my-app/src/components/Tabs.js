@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Tabs, Tab, Box } from '@mui/material';
+import { Grid, Tabs, Tab, Box } from '@mui/material';
 
 import BarChart from "./BarChart";
 import LineChart from "./LineChart";
@@ -21,22 +21,22 @@ function MyTabs() {
     setSubValue(newSubValue);
   };
   const [userData, setUserData] = useState({
-    labels: UserData.map((data) => data.year),
-    datasets: [
-      {
-        label: "Users Gained",
-        data: UserData.map((data) => data.userGain),
-        backgroundColor: [
-          "rgba(75,192,192,1)",
-          "#ecf0f1",
-          "#50AF95",
-          "#f3ba2f",
-          "#2a71d0",
-        ],
-        borderColor: "black",
-        borderWidth: 2,
-      },
-    ],
+      labels: UserData.map((data) => data.year),
+      datasets: [
+          {
+          label: "Users Gained",
+          data: UserData.map((data) => data.userGain),
+          backgroundColor: [
+              "rgba(75,192,192,0.7)",
+              "rgba(97,61,248,0.73)",
+              "rgba(80,175,149,0.71)",
+              "rgba(243,186,47,0.75)",
+              "rgba(42,113,208,0.75)",
+          ],
+          borderColor: "rgba(255, 99, 132, 0.2)",
+          borderWidth: 2,
+          },
+      ],
   });
 
 
@@ -69,10 +69,12 @@ function MyTabs() {
             <Tab label="개발" />
             <Tab label="test" />
           </Tabs>
-          {subvalue === 0 && <ListDividers value={3}/>}
+          <Box  sx={{ width: "100%", height: "500px" }}>
+          {subvalue === 0 && <ListDividers/>}
           {subvalue === 1 && <LineChart chartData={userData}/>}
           {subvalue === 2 && <PieChart chartData={userData}/>}
           {subvalue === 3 && <BarChart chartData={userData}/>}
+          </Box>
         </Box>
       )}
 

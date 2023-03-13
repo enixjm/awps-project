@@ -12,7 +12,7 @@ table = dynamodb.Table('programmers')
 response = table.scan()
 x=0
 dic = {}
-item_list = ['id','회사이름','연봉','경력','기술스택','직무','본문']
+item_list = ['id','회사이름','연봉','경력','기술스택','직무','본문','근무지역','마감일']
 items = response['Items']
 
 #scan()이 한번에 가져올수 있는 용량 제한이 있어 용량 걸렸을때 리스트 확장하는 코드
@@ -60,6 +60,14 @@ for item in items:
             elif i == '본문' :
                 MainData = item[i]
                 dic['MainData'] = MainData
+
+            elif i == '근무지역' :
+                Work_Location = item[i]
+                dic['WorkLocation'] = Work_Location
+
+            elif i == '마감일' :
+                Dead_Line = item[i]
+                dic['DeadLind'] = Dead_Line
 
             else:
                 pass
