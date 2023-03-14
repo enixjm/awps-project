@@ -49,7 +49,6 @@ while True :
     dic['근무지역'] = work_location[5:]
     Dead_Line = bs.find('div', class_ = 'KACXxUyP7jEgxQYiU_Bq').next_sibling.text
     dic['마감일'] = str(Dead_Line)[5:]
-    print(dic['마감일'])
 
     for i in range(1,11):
         try :
@@ -74,7 +73,6 @@ while True :
     
     time.sleep(1)
 
-    s3 =boto3.client('s3')
 
     print(dic)
 
@@ -82,11 +80,18 @@ while True :
     table.put_item(Item=dic)
 
     if (num%20 == 0) :
-        driver.find_element(By.XPATH, f'//*[@id="tab_position"]/div[3]/ul/li[{page}]').click()
+        if (page < 7) :
+            driver.find_element(By.XPATH, f'//*[@id="tab_position"]/div[3]/ul/li[{page}]').click()
+        else :
+            driver.find_element(By.XPATH, '//*[@id="tab_position"]/div[3]/ul/li[7]').click()
+
+
         time.sleep(1)
         page += 1
         num = 0
-    
+
+    print(num)
+    print(page)
     
     namenum += 1
     num += 1
