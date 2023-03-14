@@ -83,18 +83,18 @@ export default function ListDividers() {
             aria-label="mailbox folders"
             >
             <ListItem button onClick={handleServerBackEnd}>
-            <ListItemText primary="서버/백엔드" />
+            <ListItemText primary="백엔드 개발자" />
             </ListItem>
             <Divider />
             <ListItem button onClick={handleFrontEnd} divider>
-            <ListItemText primary="프론트엔드" />
+            <ListItemText primary="프론트엔드 개발자" />
             </ListItem>
             <ListItem button onClick={handleWebFullStack}>
-            <ListItemText primary="웹 풀스택" />
+            <ListItemText primary="웹 풀스택 개발자" />
             </ListItem >
             <Divider light />
             <ListItem button onClick={handleAndorid}>
-            <ListItemText primary="안드로이드" />
+            <ListItemText primary="데이터베이스" />
             </ListItem>
             <Divider />
             <ListItem button>

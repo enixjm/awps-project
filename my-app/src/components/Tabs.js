@@ -71,9 +71,9 @@ function MyTabs() {
           </Tabs>
           <Box  sx={{ width: "100%", height: "500px" }}>
           {subvalue === 0 && <ListDividers/>}
-          {subvalue === 1 && <LineChart chartData={userData}/>}
-          {subvalue === 2 && <PieChart chartData={userData}/>}
-          {subvalue === 3 && <BarChart chartData={userData}/>}
+          {subvalue === 1 && <ListDividers/>}
+          {subvalue === 2 && <ListDividers/>}
+          {subvalue === 3 && <ListDividers/>}
           </Box>
         </Box>
       )}
@@ -89,6 +89,10 @@ function MyTabs() {
             <Tab label="Front" />
             <Tab label="Back" />
           </Tabs>
+          <Box  sx={{ width: "100%", height: "500px" }}>
+          {subvalue === 0 && <ListDividers/>}
+          {subvalue === 1 && <ListDividers/>}
+          </Box>
       {value === 2 && <PieChart chartData={userData}/>}
         </Box>
       )}
