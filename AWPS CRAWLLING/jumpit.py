@@ -20,7 +20,6 @@ url = "https://www.jumpit.co.kr/positions"
 
 driver = webdriver.Chrome()
 
-dic = {}
 
 driver.get(url)
 
@@ -29,6 +28,8 @@ driver.get(url)
 num = 1
 
 while True:
+    dic = {}
+
     # if num%16 == 0 :
     #     driver.execute_script("document.body.scrollHeight")
     time.sleep(1)

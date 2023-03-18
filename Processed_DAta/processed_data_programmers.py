@@ -11,7 +11,6 @@ table = dynamodb.Table('programmers')
 
 response = table.scan()
 x=0
-dic = {}
 item_list = ['id','회사이름','연봉','경력','기술스택','직무','본문','근무지역','마감일']
 items = response['Items']
 
@@ -21,6 +20,7 @@ while 'LastEvaluatedKey' in response:
     items.extend(response['Items'])
 
 for item in items:
+    dic = {}
     now = datetime.datetime.now()
     ttime = now.strftime("%y-%m-%d %H:%M:%S")
     salary = None

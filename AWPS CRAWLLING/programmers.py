@@ -5,15 +5,12 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
 import re
 import boto3
-import json
 
 dynamodb = boto3.resource('dynamodb', region_name='us-east-2',aws_access_key_id='AKIATMPH7BYJY6WQWIE6',aws_secret_access_key = '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')
 
 url = "https://career.programmers.co.kr/job"
 
 driver = webdriver.Chrome()
-
-dic = {}
 
 driver.get(url)
 
@@ -23,6 +20,7 @@ page = 3
 
 
 while True :
+    dic = {}
     element = driver.find_element(By.XPATH, f'//*[@id="list-positions-wrapper"]/ul/li[{num}]')
     element.click()
     time.sleep(1)
@@ -77,12 +75,8 @@ while True :
 
     print(dic)
 
-    file_path = f"C:/Users/홍성학/Desktop/AWPS/awps-project/AWPS CRAWLLING/data/programmers/{str(Rid)+company_name_text}(jumpit).json"
-    with open(file_path,'w',encoding="utf-8") as f :
-        json.dump(dic,f,indent=2,ensure_ascii = False)
-
-    # table = dynamodb.Table('programmers')
-    # table.put_item(Item=dic)
+    table = dynamodb.Table('programmers')
+    table.put_item(Item=dic)
 
     if (num%20 == 0) :
         if (page < 7) :

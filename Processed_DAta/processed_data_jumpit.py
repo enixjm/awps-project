@@ -10,7 +10,6 @@ secret_key = 'jT8WlQ0kzjgGboXypuaZyphFDsdmUwXFoStrnIti'
 response = table.scan()
 
 x=0
-dic = {}
 item_list = ['id','회사이름', '연봉','경력','기술스택','회사제목','본문','근무지역','마감일']
 items = response['Items']
 s3 = boto3.client('s3', aws_access_key_id=access_key, aws_secret_access_key=secret_key)
@@ -21,6 +20,7 @@ while 'LastEvaluatedKey' in response:
     items.extend(response['Items'])
 
 for item in items:
+    dic = {}
     now = datetime.datetime.now()
     ttime = now.strftime("%y-%m-%d %H:%M:%S")
     salary = None
@@ -29,7 +29,7 @@ for item in items:
             if i == 'id' :
                 dic['id'] = int('1'+str(item[i]))
             
-            elif i == '회사이름' :            
+            elif i == '회사이름' :
                 dic['CompanyName'] = item[i][3:-4]
                    
             elif i == '경력':
