@@ -5,6 +5,7 @@ import Typography from '@mui/material/Typography';
 import Logo from './logo.png';
 import MyTabs from './components/Tabs';
 import LanguageTable from './components/LanguageTable';
+import React, { useState, useEffect } from 'react';
 
 // 테마 설정
 const theme = createTheme({
@@ -19,7 +20,13 @@ const theme = createTheme({
 });
 
 function App() {
-  const test_data = { python: 300, JAVA: 280, 'C++': 270 };
+  const [data, setData] = useState({});
+  useEffect(() => {
+    fetch('https://29gkc1qfga.execute-api.us-east-2.amazonaws.com/default/get_TotalStacks')
+      .then(response => response.json())
+      .then(data => setData(data))
+      .catch(error => console.error(error));
+  }, []);
 
   return (
     <ThemeProvider theme={theme}>
@@ -40,7 +47,7 @@ function App() {
       <MyTabs value={3} />
     </Box>
     <h1>Programming Language Popularity</h1>
-      <LanguageTable data={test_data} />
+      <LanguageTable data={data} />
   </div>
   </ThemeProvider>
   );

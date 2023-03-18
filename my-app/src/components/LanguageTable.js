@@ -37,36 +37,22 @@ function LanguageTable({ data }) {
           'rgba(255, 159, 64, 1)',
         ],
         borderWidth: 1,
+        maintainAspectRatio: false,
+        indexAxis: 'y',
+
       },
     ],
   };
 
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', height: '100vh' }}>
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
       <h2 style={{ marginBottom: '20px' }}>Language Popularity</h2>
-      <div style={{ width: '50%', marginBottom: '40px' }}>
+      <div style={{ width: '100%', height: '100%' }}>
         <Bar data={chartData} />
       </div>
-      <table style={{ borderCollapse: 'collapse', border: '2px solid #ddd', width: '50%' }}>
-        <thead>
-          <tr style={{ backgroundColor: '#f2f2f2', fontWeight: 'bold' }}>
-            <th style={{ border: '2px solid #ddd', padding: '8px' }}>Language</th>
-            <th style={{ border: '2px solid #ddd', padding: '8px' }}>Users</th>
-          </tr>
-        </thead>
-        <tbody>
-          {Object.entries(data).map(([language, users], index) => (
-            <tr key={language} style={{ backgroundColor: index % 2 === 0 ? '#f2f2f2' : 'transparent' }}>
-              <td style={{ border: '2px solid #ddd', padding: '8px' }}>{language}</td>
-              <td style={{ border: '2px solid #ddd', padding: '8px' }}>{users}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
     </div>
   );
 }
-
 
 
 export default LanguageTable;
