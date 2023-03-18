@@ -1,0 +1,31 @@
+{
+  "id": 215715,
+  "CompanyName": "미스고",
+  "Pay": [
+    3800,
+    5000
+  ],
+  "Career": [
+    3,
+    15
+  ],
+  "Stacks": [
+    "ReactJS",
+    "TypeScript",
+    "ECMAScript(ES)",
+    "REST API",
+    "Redux.js",
+    "Jest",
+    "Storybook",
+    "CI/CD",
+    "HTML",
+    "CSS"
+  ],
+  "Job": [
+    "프론트엔드"
+  ],
+  "MainData": "<div class=\"yO7TZRtCO7sznD0Csuw_\"><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">업무 소개</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"1\">• 어드민 페이지 개발<br/>\n• 자사 서비스 유지 및 보수</p>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">자격 조건</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"5\">• 프론트엔드 3년 이상의 경력자<br/>\n• 주도적인 서비스 개선 및 개발을 진행 하실 수 있는 분<br/>\n• 적극적으로 동료들과 소통하고 책임감이 높은 분<br/>\n• 새로운 기술  습득, 사용에 능동적인 분<br/>\n• React 라이브러리를 통해 개발이 가능한 분 (필수★)<br/>\n• Typescript 개발 경험이 있으신 분</p>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">우대사항</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"17\">• 금융 관련 프로젝트 경험 보유자<br/>\n• 핀테크 관련 프로젝트 경험 보유자<br/>\n• 최신 ECMAScript 기능 사용 경험 (ES2016 이상)<br/>\n• REST API에 대한 이해<br/>\n• 상태관리 라이브러리 기반 개발 경험(Redux,Zustand,Recoil)<br/>\n• TDD 경험이 있으신 분(jest,stroybook 등)<br/>\n• CI/CD 에 대한 경험이 있으신 분</p>\n</div></div></section><section><!--v-if--><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"31\">※ 취업축하금 300만원 지급 ※<br/>\n※ 스톡옵션 최소 1000만원 이상 ※</p>\n<p data-nodeid=\"32\">[사내문화]<br/>\n- 자율복장<br/>\n- 수평적 문화<br/>\n- 자유로운 연차 사용<br/>\n- 회식강요 없음<br/>\n- 음료, 간식 무제한 제공<br/>\n- 명절 한우세트, 귀성비 지원<br/>\n- 고성능 장비 (맥북프로 16인치 고급형)</p>\n<p data-nodeid=\"33\"><br/>\n[주거지원]<br/>\n- 주거안정지원금 월세 최대 100만원<br/>\n- 보증금 1000만원<br/>\n- 생활안정자금 500만원</p>\n<p data-nodeid=\"34\">[복지혜택]<br/>\n- 생일 상품권 지급(20만원 상당)<br/>\n- 우수사원 : 포상금 지급 (월50만원/분기100만원) + 연차포상휴가<br/>\n- 취업축하금 300만원 지급<br/>\n- 복지포인트 100만원<br/>\n- 스톡옵션 지급 (최소 1000만원 이상)</p>\n<p data-nodeid=\"35\"><br/>\n[자기개발]<br/>\n- 업무관련 자격증 교육 지원<br/>\n- 도서지원비 월 5만원</p>\n<p data-nodeid=\"36\"><br/>\n★ 연봉 협의 가능 - 경력에 따른 대우<br/>\n★ 금융에 관심이 있거나 투자가치 높은 스타트업에서 함께 혁신을 이끌어가고 싶은 열정있는 인재분들은 주저 없이 수락해주세요! 미스고의 꿈에 동참해주시면 아낌없는 지원하고 보상해드릴 것을 약속합니다.</p>\n</div></div></section><!--v-if--><!--v-if--></div>",
+  "WorkLocation": "서울 강남구 언주로30길 13, (도곡동, 대림아크로빌, 대림아크로텔) ",
+  "DeadLind": "23년 04월 05일 16:31까지",
+  "시간": "23-03-18 17:13:59"
+}

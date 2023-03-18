@@ -1,0 +1,22 @@
+{
+  "id": 217379,
+  "CompanyName": "이케이(EK)",
+  "Pay": [
+    3000,
+    6000
+  ],
+  "Career": [
+    2,
+    10
+  ],
+  "Stacks": [],
+  "Job": [
+    "서버/백엔드",
+    " 프론트엔드",
+    " 시스템/네트워크"
+  ],
+  "MainData": "<div class=\"yO7TZRtCO7sznD0Csuw_\"><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">업무 소개</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"1\">[4.5일 자율근무]</p>\n<p data-nodeid=\"2\">1. 웹개발<br/>\n- 사이트 고도화 및 유지보수를 합니다.<br/>\n- 쇼핑몰 고도화 및 유지보수를 합니다.<br/>\n- LMS 사이트 고도화 및 유지보수를 합니다.<br/>\n- 이 외에 많은 경험을 더 하실 수 있는 기회가 있어요.</p>\n<p data-nodeid=\"3\">2. JAVA 개발<br/>\n- Java로 구현된 사이트의 고도화 및 유지보수를 합니다.<br/>\n- 자사 서비스를 구성하는 RESTful API 개발을 합니다.<br/>\n- 쇼핑몰 고도화 및 유지보수를 합니다.<br/>\n- LMS 사이트 고도화 및 유지보수를 합니다.<br/>\n- 이 외에 많은 경험을 더 하실 수 있는 기회가 있어요.</p>\n<p data-nodeid=\"4\">3. 앱개발<br/>\n- 키드키즈/알림장 앱 안드로이드, IOS 고도화 및 유지보수</p>\n<p data-nodeid=\"5\">4. 인프라 시스템 엔지니어<br/>\n- IDC 환경 및 클라우드의 시스템 구축 운영<br/>\n- Linux 및 오픈소스 기반 인프라 운영<br/>\n- 인프라 관리 자동화<br/>\n<span class=\"colour\" style=\"color:rgb(73, 73, 73)\"><span class=\"colour\" style=\"color:rgb(255, 255, 255)\"> - 이 외에 많은 경험을 더 하실 수 있는 기회가 </span></span></p>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">자격 조건</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"75\">1. 웹개발<br/>\n- 웹 프론트엔드 관련 경력 2년 이상 보유하신 분<br/>\n- php, vue, laravel 등 경험이 있으신 분<br/>\n- WEB 또는 APP 개발 및 운영 경험이 있으신 분</p>\n<p data-nodeid=\"76\">2. JAVA 개발<br/>\n- Java, JSP 웹 어플리케이션 개발이 가능하신 분<br/>\n- 3년 이상 경력이 있으신 분</p>\n<p data-nodeid=\"77\">3. 앱개발<br/>\n- 개발 경력 2년 이상, 그에 준하는 실력을 보유하신 분<br/>\n- Kotlin/Java 또는 Swift/Objective-C로 개발에 능숙하신 분<br/>\n- 앱 등록 경험이 있으신 분<br/>\n- 서버&amp;클라이언트 간 RESTFUL 기반 연동 개발 경험이 있느신 분<br/>\n- 타부서 업무를 이해하기를 좋아하고 커뮤니케이션이 능숙한 분</p>\n<p data-nodeid=\"78\">4. 인프라 시스템 엔지니어<br/>\n- 2년 이상 경력 보유하신 분<br/>\n- 네트워크 및 클라우드 운영 경험이 있으신 분<br/>\n- Linux, Windows OS 운영 경험이 있으신 분<br/>\n- ISMS 인증 심사 경험이 있으신 분</p>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">우대사항</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"137\">1. 웹개발<br/>\n- 팀 단위 Git &amp; Github, Branch 사용 경험이 있으신 분<br/>\n- 최신 앱 UI트렌드에 민감 하신 분<br/>\n- 각종 장애발생 시 원인을 찾아서 해결하는 의지를 갖춘 분<br/>\n- 주도적으로 개발해 보고 싶으신 분</p>\n<p data-nodeid=\"138\">2. JAVA 개발<br/>\n- Spring 혹은 Spring Boot로 개발해 보신 분<br/>\n- 팀 단위 Git &amp; Github, Branch 사용 경험이 있으신 분<br/>\n- Legacy 코드를 분석하고 리팩토링 가능하신 분<br/>\n- 최신 트렌드에 민감하신 분<br/>\n- 각종 장애발생 시 원인을 찾아서 해결하는 의지를 갖춘 분<br/>\n- 주도적으로 개발해 보고 싶으신 분<br/>\n- 원활한 커뮤니케이션이 가능하신 분</p>\n<p data-nodeid=\"139\">3. 앱개발<br/>\n- 최신 앱 UI트렌드에 민감하신 분<br/>\n- 보안 취약점에 대한 이해가 있으신 분<br/>\n- Legacy 코드를 분석하고 리팩토링 가능하신 분<br/>\n- 각종 장애발생 시 원인을 찾아서 해결하는 의지를 갖춘 분<br/>\n- 신규 프로젝트로 새로운 앱을 만들어 보고 싶으신 분<br/>\n- 주도적으로 앱을 개발해 보고 싶으신 분<br/>\n- Flutter 또는 React Native를 이용하여 앱을 만들어 보신 분</p>\n<p data-nodeid=\"140\">4. 인프라 시스템 엔지니어<br/>\n- MySQL, Mssql, postgresql 설치/운영<br/>\n- 네트워크의 기본적인 역량을 보유한 분<br/>\n- 다양한 오픈소스 활용이 가능하신 분</p>\n</div></div></section><!--v-if--><!--v-if--><!--v-if--></div>",
+  "WorkLocation": "경기 용인시 기흥구 기흥로 58, (구갈동) B동 29층",
+  "DeadLind": "23년 05월 31일 10:44까지",
+  "시간": "23-03-18 17:17:26"
+}

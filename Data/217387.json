@@ -1,0 +1,26 @@
+{
+  "id": 217387,
+  "CompanyName": "히츠",
+  "Pay": [
+    4200,
+    8000
+  ],
+  "Career": [
+    1,
+    5
+  ],
+  "Stacks": [
+    "Git",
+    "Kubernetes",
+    "Python"
+  ],
+  "Job": [
+    "서버/백엔드",
+    " 머신러닝",
+    " 데브옵스"
+  ],
+  "MainData": "<div class=\"yO7TZRtCO7sznD0Csuw_\"><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">업무 소개</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"1\">\n<li data-nodeid=\"2\">\n<p data-nodeid=\"3\">Cloud-native 접근 방식으로 서비스를 운영할 수 있도록 설계합니다.</p>\n</li>\n<li data-nodeid=\"4\">\n<p data-nodeid=\"5\">연구진과 협력하여 실행 순서가 복잡한 프로그램의 Argo Workflows Directed-Acyclic Graph(DAG)를 설계합니다.</p>\n</li>\n<li data-nodeid=\"6\">\n<p data-nodeid=\"7\">연구진이 계산 엔진을 직접 DAG로 옮길 수 있도록 템플릿을 개발하여 제공합니다.</p>\n</li>\n<li data-nodeid=\"8\">\n<p data-nodeid=\"9\">프로그래밍적으로 최적화가 필요한 경우 연구진과 협력하여 코드 리팩토링을 수행합니다.</p>\n</li>\n<li data-nodeid=\"10\">\n<p data-nodeid=\"11\">전/후처리, 모델 실행으로만 구성되고 짧은 시간 내에 연산이 완료되는 단순한 작업의 경우 BentoML, Kserve 등을 활용하여 모델 서빙 인프라를 관리합니다.</p>\n</li>\n</ul>\n<h4 data-nodeid=\"12\">이런 경험을 할 수 있어요.</h4>\n<ul data-nodeid=\"13\">\n<li data-nodeid=\"14\">\n<p data-nodeid=\"15\">도입을 원하는 어떤 기술이든 긍정적으로 검토하고 적용할 수 있습니다. 무엇보다 본인이 결정하고 만든 결과가 세상에 어떤 변화를 가져오는지 코드 내의 스코프가 아닌 현실 스코프에서 바라보실 수 있습니다.</p>\n</li>\n<li data-nodeid=\"16\">\n<p data-nodeid=\"17\">본인의 아이디어를 실제 프로젝트에 빠르게 도입하여 적용할 수 있습니다.</p>\n</li>\n<li data-nodeid=\"18\">\n<p data-nodeid=\"19\">API 비즈니스 로직 개발뿐만이 아닌 서버 네트워크 인프라 전체를 관리할 수 있습니다.</p>\n</li>\n<li data-nodeid=\"20\">\n<p data-nodeid=\"21\">AI 신약개발을 위한 대규모 병렬 시스템에서 발생하는 데이터를 수집 및 분석할 수 있습니다.</p>\n</li>\n<li data-nodeid=\"22\">\n<p data-nodeid=\"23\">탄탄한 코드리뷰 문화를 통해서 동료와 함께 빠르게 성장할 수 있습니다.</p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">자격 조건</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"35\">\n<li data-nodeid=\"36\">\n<p data-nodeid=\"37\">Python을 이용한 서비스 개발 경험이 있으신 분</p>\n</li>\n<li data-nodeid=\"38\">\n<p data-nodeid=\"39\">영어로 된 기술 문서를 이해할 수 있는 정도의 독해력이 있으신 분</p>\n</li>\n<li data-nodeid=\"40\">\n<p data-nodeid=\"41\">빠른 기술 변화에 대한 적응력이 있으신 분</p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">우대사항</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"45\">\n<li data-nodeid=\"46\">\n<p data-nodeid=\"47\">Golang을 이용한 서비스 개발 경험</p>\n</li>\n<li data-nodeid=\"48\">\n<p data-nodeid=\"49\">Linux 환경에서의 서비스 개발 경험</p>\n</li>\n<li data-nodeid=\"50\">\n<p data-nodeid=\"51\">Public Cloud 운영 경험(AWS, Azure, GCP 등)</p>\n</li>\n<li data-nodeid=\"52\">\n<p data-nodeid=\"53\">Kubernetes 운영 경험</p>\n</li>\n</ul>\n</div></div></section><section><!--v-if--><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><h4 data-nodeid=\"58\">[함께할 팀을 소개합니다]</h4>\n<p data-nodeid=\"59\">히츠 플랫폼 개발팀은 새로운 기술을 두려워하지 않는 열정적인 동료들로 가득합니다. 빠르게 성장하는 회사인 만큼 사용자의 UX에 대한 피드백 반영, 기존 기능 변경, 새로운 기능 추가 등의 업무가 활발하게 이뤄지고 있습니다. 우리는 더 나은 프로덕트를 위해 함께 머리를 맞대고 치열하게 고민합니다. 예를 들어 화면상의 어떤 기능이 필요할 때 “이거 여기 추가해주세요”가 아닌 “어떻게 추가하면 좋을까요?”의 소통 방식을 추구합니다. 따라서 자신의 아이디어를 적극적으로 제시할 수 있는 열정적인 동료를 찾고 있습니다.</p>\n<h4 data-nodeid=\"60\">[개발 문화]</h4>\n<p data-nodeid=\"61\">• 코드리뷰 문화가 잘 형성되어 있습니다. 각자가 개발한 코드에 대해 함께 공유하고 이해하고 개선합니다.<br/>\n• 새로운 기술을 도입하는 것에 열려있습니다. 함께 스터디 하고 토론하여 기술 적용을 결정합니다.<br/>\n• 수평적인 토의/토론 문화가 있습니다. 어떤 의견이든 자유롭게 내고 그에 대해 활발히 논의합니다.<br/>\n• 공부와 연구가 취미이자 특기인 분들로 가득합니다. 함께 공부하기 좋은 환경입니다.</p>\n<h4 data-nodeid=\"62\">[합류 여정]</h4>\n<p data-nodeid=\"63\">서류 전형 → 코딩테스트(알고리즘) → 실무자 인터뷰(화상) → 대표 인터뷰 → 최종 합격</p>\n<h4 data-nodeid=\"64\">[히츠팀 혜택 및 복지]</h4>\n<p data-nodeid=\"65\">&lt;구성원의 업무 능률 향상을 위해&gt;<br/>\n• 고사양 업무 장비(노트북, 모니터 등) 지원<br/>\n• 재택근무 업무 장비 지원<br/>\n• 자유로운 간식 신청 &amp; 무제한 제공</p>\n<p data-nodeid=\"66\">&lt;자율과 효율을 위한 업무 환경 조성&gt;<br/>\n• 오전 7시~10시 사이 자유롭게 출근<br/>\n• 점심시간 최대 2시간까지 사용<br/>\n• 주 4일 재택근무 시행(플랫폼 사업 본부)</p>\n<p data-nodeid=\"67\">&lt;'워러밸'(Work &amp; Learning Balance)을 위한 아낌없는 지원&gt;<br/>\n• 성장에 필요한 강의·세미나 지원<br/>\n• 도서 구입비 지원<br/>\n• 사내 스터디 지원</p>\n<p data-nodeid=\"68\">&lt;일도 삶도 건강하게&gt;<br/>\n• 자유롭게 쓰는 연차 20일 지원<br/>\n• 분 단위 연차 사용<br/>\n• 건강검진비 연 20만 원 지원 (배우자 추가 지원)<br/>\n• 각종 경조사 휴가 및 경조비 지원</p>\n</div></div></section><section><h5 class=\"jC4vnWhzIi1RsyJP_5Qh\">개발 팀 &amp; 환경</h5><table class=\"nuPUig5lujn1NwuQoScz\"><tbody><!--v-if--><!--v-if--><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>기술 스택</td><td>Ansible, Packer, Terraform, AWS CodePipeline, AWS Lambda, AWS DynamoDB, GitHub</td></tr><!--v-if--><!--v-if--><!--v-if--></tbody></table></section><!--v-if--></div>",
+  "WorkLocation": "서울특별시 강남구 테헤란로 124, 902호(역삼동, 삼원타워)",
+  "DeadLind": "상시 채용",
+  "시간": "23-03-18 17:11:35"
+}

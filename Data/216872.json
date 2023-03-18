@@ -1,0 +1,27 @@
+{
+  "id": 216872,
+  "CompanyName": "메이아이",
+  "Pay": [
+    4200,
+    7000
+  ],
+  "Career": [
+    3,
+    10
+  ],
+  "Stacks": [
+    "Datadog",
+    "FastAPI",
+    "Next.js",
+    "Amazon Web Services(AWS)",
+    "PostgreSQL",
+    "Python"
+  ],
+  "Job": [
+    "서버/백엔드"
+  ],
+  "MainData": "<div class=\"yO7TZRtCO7sznD0Csuw_\"><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">업무 소개</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"1\">\n<li data-nodeid=\"2\">\n<p data-nodeid=\"3\"><span class=\"colour\" style=\"color:rgb(40, 50, 60)\">방문객 분석의 input이 되는 영상 데이터와 관련된 시스템 전반을 다루게 됩니다.</span></p>\n</li>\n<li data-nodeid=\"4\">\n<p data-nodeid=\"5\"><span class=\"colour\" style=\"color:rgb(40, 50, 60)\">CCTV 인프라로부터 영상을 수집, 변환하여 클라우드에 업로드하는 수집 모듈을 고도화합니다. 영상 수집 모듈은 하드웨어 장치(미니PC) 또는 클라우드에 구현됩니다.</span></p>\n</li>\n<li data-nodeid=\"6\">\n<p data-nodeid=\"7\"><span class=\"colour\" style=\"color:rgb(40, 50, 60)\"> 원하는 카메라로부터 영상을 수집하기 위해 필요한 설정을 할 수 있는 툴을 개발합니다. 현장 설치 업무를 외주화하기 위해 내부적으로만 사용하던 툴을 외부 인력이 활용할 수 있도록 제품화 합니다.</span></p>\n</li>\n<li data-nodeid=\"8\">\n<p data-nodeid=\"9\"><span class=\"colour\" style=\"color:rgb(40, 50, 60)\"> 공간을 분석하는 기간 중에 영상이 소실되지 않도록 CCTV 인프라와 영상수집장치의 상태를 모니터링하고, 디바이스를 관리하는 시스템을 만듭니다.</span></p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">자격 조건</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"22\">\n<li data-nodeid=\"23\">\n<p data-nodeid=\"24\"><span class=\"colour\" style=\"color:rgb(40, 50, 60)\">3년 이상의 백엔드 관련 경력 혹은 그에 준하는 경험이 있으신 분</span></p>\n</li>\n<li data-nodeid=\"25\">\n<p data-nodeid=\"26\"><span class=\"colour\" style=\"color:rgb(40, 50, 60)\"> Python으로 자신만의 서비스를 만들어보거나, 프로덕션 서비스를 운영해본 경험이 있으신 분</span></p>\n</li>\n<li data-nodeid=\"27\">\n<p data-nodeid=\"28\"><span class=\"colour\" style=\"color:rgb(40, 50, 60)\"> Datadog, AWS IoT 등 클라우드 모니터링 시스템을 적용/운영해본 경험이 있으신 분</span></p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">우대사항</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"38\">\n<li data-nodeid=\"39\">\n<p data-nodeid=\"40\"><span class=\"colour\" style=\"color:rgb(40, 50, 60)\">Github Action을 활용한 CI/CD 구축 경험이 있으신 분</span></p>\n</li>\n<li data-nodeid=\"41\">\n<p data-nodeid=\"42\"><span class=\"colour\" style=\"color:rgb(40, 50, 60)\">RTSP, Onvif를 사용하는 CCTV 영상 시스템에 대한 이해가 있으신 분</span></p>\n</li>\n<li data-nodeid=\"43\">\n<p data-nodeid=\"44\"><span class=\"colour\" style=\"color:rgb(40, 50, 60)\"> 비디오 압축(코덱) 및 전송(스트리밍)과 관련된 이해가 있으신 분</span></p>\n</li>\n<li data-nodeid=\"45\">\n<p data-nodeid=\"46\"><span class=\"colour\" style=\"color:rgb(40, 50, 60)\"> 레거시 시스템의 보안 취약점을 점검하고 개선한 경험이 있으신 분</span></p>\n</li>\n<li data-nodeid=\"47\"></li>\n<li data-nodeid=\"48\"></li>\n</ul>\n</div></div></section><section><!--v-if--><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"61\"><span class=\"colour\" style=\"color:rgb(40, 50, 60)\">1. 지원 안내</span><br/>\n<span class=\"colour\" style=\"color:rgb(40, 50, 60)\">＊ 3 영업일 안에 답장을 드립니다.</span><br/>\n<span class=\"colour\" style=\"color:rgb(40, 50, 60)\">＊ 자유 양식 - 본인 소개, 프로젝트 경험 및 기여도 등</span><br/>\n<span class=\"colour\" style=\"color:rgb(40, 50, 60)\">2. 사무실에서 1~2시간 대면 인터뷰를 진행합니다.</span></p>\n<p data-nodeid=\"62\"><span class=\"colour\" style=\"color:rgb(40, 50, 60)\">3. 1차 대면 인터뷰와 2차 대면 인터뷰를 진행합니다.</span></p>\n<p data-nodeid=\"63\"><span class=\"colour\" style=\"color:rgb(40, 50, 60)\">4. 최대 3개월의 랜딩 기간을 가집니다.</span><br/>\n<span class=\"colour\" style=\"color:rgb(40, 50, 60)\">＊ 랜딩 기간은 팀과의 핏을 서로 알아보는 기간입니다.</span><br/>\n<span class=\"colour\" style=\"color:rgb(40, 50, 60)\">＊ 기간 내에 정직원 전환 또는 자발적 중지가 가능합니다.</span></p>\n<p data-nodeid=\"64\"><span class=\"colour\" style=\"color:rgb(40, 50, 60)\">▶ 직전 연봉 대비 협상이 가능합니다.</span></p>\n<p data-nodeid=\"65\"><span class=\"colour\" style=\"color:rgb(40, 50, 60)\">▶ 산업기능요원 `현역 전직`/`보충역 편입 및 전직` 가능합니다.</span></p>\n</div></div></section><!--v-if--><!--v-if--></div>",
+  "WorkLocation": "서울 강남구 테헤란로82길 15, (대치동) 3층 메이아이",
+  "DeadLind": "상시 채용",
+  "시간": "23-03-18 17:10:32"
+}

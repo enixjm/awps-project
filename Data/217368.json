@@ -1,0 +1,26 @@
+{
+  "id": 217368,
+  "CompanyName": "비투엔",
+  "Pay": [
+    4000,
+    8000
+  ],
+  "Career": [
+    5,
+    10
+  ],
+  "Stacks": [
+    "Linux",
+    "SQL",
+    "MySQL"
+  ],
+  "Job": [
+    "프론트엔드",
+    " 데이터 엔지니어링",
+    " DBA"
+  ],
+  "MainData": "<div class=\"yO7TZRtCO7sznD0Csuw_\"><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">업무 소개</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"1\">\n<li data-nodeid=\"2\">\n<p data-nodeid=\"3\">메타데이터(데이터 카탈로그) 추출, 통합관리 및 분석 솔루션 제품을 개발합니다.</p>\n</li>\n<li data-nodeid=\"4\">\n<p data-nodeid=\"5\">Java, Spring 기반 Frontend, Backend 개발을 수행합니다.</p>\n</li>\n<li data-nodeid=\"6\">\n<p data-nodeid=\"7\">연구개발 기반 기술에 대한 솔루션 제품화를 진행합니다.</p>\n</li>\n<li data-nodeid=\"8\">\n<p data-nodeid=\"9\">메타데이터 솔루션 관련 신기술 및 Trend 분석을 통한 솔루션 로드맵 수립 및 기획업무를 지원합니다.</p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">자격 조건</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"14\">\n<li data-nodeid=\"15\">\n<p data-nodeid=\"16\">Spring Framework 기반 Java S/W 개발 경험이 5년 이상인 분을 찾습니다.</p>\n</li>\n<li data-nodeid=\"17\">\n<p data-nodeid=\"18\">Javascript를 활용한 Web 개발 경험이 있으신 분을 찾습니다.</p>\n</li>\n<li data-nodeid=\"19\">\n<p data-nodeid=\"20\">DB(RDBMS, NoSQL) 및 트랜잭션 처리에 대한 이해가 있으신 분을 찾습니다.</p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">우대사항</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"24\">\n<li data-nodeid=\"25\">\n<p data-nodeid=\"26\">SQL 사용에 능숙하신 분이면 더 좋습니다.</p>\n</li>\n<li data-nodeid=\"27\">\n<p data-nodeid=\"28\">다양한 DBMS (Oracle, DB2, MS SQL, Sybase, My SQL, MariaDB, Cubrid, Tibero, Altibase 등)에 대한 활용 경험이 있으신 분이면 더 좋습니다.</p>\n</li>\n<li data-nodeid=\"29\">\n<p data-nodeid=\"30\">Cloud Data Source(S3, Athena, Redshift, Aurora 등) 관리 경험이 있으신 분이면 더 좋습니다.</p>\n</li>\n<li data-nodeid=\"31\">\n<p data-nodeid=\"32\">Linux/Unix 환경에 대한 이해와 WAS 구조 및 WAS 활용 경험이 있으신 분이면 더 좋습니다</p>\n</li>\n<li data-nodeid=\"33\">\n<p data-nodeid=\"34\">데이터 거버넌스에 대한 이해가 있으신 분이면 더 좋습니다.</p>\n</li>\n</ul>\n</div></div></section><section><!--v-if--><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"40\"><br/>\n<br/>\n🔎 채용절차</p>\n<ul data-nodeid=\"41\">\n<li data-nodeid=\"42\">\n<p data-nodeid=\"43\"><strong data-nodeid=\"76\">[서류전형 &gt; 1차면접 &gt; 임원면접 &gt; 최종합격]</strong></p>\n</li>\n<li data-nodeid=\"44\">\n<p data-nodeid=\"45\">지원방법 : 즉시 지원</p>\n</li>\n</ul>\n<p data-nodeid=\"46\"><br/>\n<br/>\n🔎 B2EN Benefit</p>\n<ul data-nodeid=\"47\">\n<li data-nodeid=\"48\">\n<p data-nodeid=\"49\">연 500만원 복지포인트</p>\n</li>\n<li data-nodeid=\"50\">\n<p data-nodeid=\"51\">유연근무제</p>\n</li>\n<li data-nodeid=\"52\">\n<p data-nodeid=\"53\">음료 및 간식제공</p>\n</li>\n<li data-nodeid=\"54\">\n<p data-nodeid=\"55\">휴게공간</p>\n</li>\n<li data-nodeid=\"56\">\n<p data-nodeid=\"57\">기술, 직무, 역량 개발 적극 지원</p>\n</li>\n<li data-nodeid=\"58\">\n<p data-nodeid=\"59\">자녀학자금 지원</p>\n</li>\n<li data-nodeid=\"60\">\n<p data-nodeid=\"61\">주거안정자금 지원</p>\n</li>\n<li data-nodeid=\"62\">\n<p data-nodeid=\"63\">대학병원 건강검진 (직계가족 1인 포함)</p>\n</li>\n<li data-nodeid=\"64\">\n<p data-nodeid=\"65\">단체상해보험 (임직원/배우자)</p>\n</li>\n</ul>\n</div></div></section><!--v-if--><!--v-if--></div>",
+  "WorkLocation": "서울 영등포구 선유로 146, (양평동3가) 이앤씨드림타워 2층 210호",
+  "DeadLind": "23년 03월 31일 23:59까지",
+  "시간": "23-03-18 17:11:22"
+}

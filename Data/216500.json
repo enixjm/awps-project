@@ -1,0 +1,28 @@
+{
+  "id": 216500,
+  "CompanyName": "MOLOCO",
+  "Pay": [
+    3000,
+    8000
+  ],
+  "Career": [
+    2,
+    15
+  ],
+  "Stacks": [
+    "ReactJS",
+    "Node.js",
+    "MySQL",
+    "JavaScript",
+    "HTML"
+  ],
+  "Job": [
+    "서버/백엔드",
+    " 프론트엔드",
+    " 웹 풀스택"
+  ],
+  "MainData": "<div class=\"yO7TZRtCO7sznD0Csuw_\"><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">업무 소개</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"1\"><span class=\"colour\" style=\"color:rgb(0, 0, 0)\">Moloco seeks exceptional Software Engineers to join us in building a state-of-the-art mobile advertising platform. You will be building world-class infrastructure which combines machine learning and big data to help companies supercharge their growth. Many leading service owners and marketers worldwide already benefit from Moloco’s innovative technology to scale performance quickly and efficiently through battle tested prediction models.</span></p>\n<p data-nodeid=\"2\"><span class=\"colour\" style=\"color:rgb(0, 0, 0)\">As a company founded by Software Engineers, we understand the value of a strong engineering team and strive to hire only the best talent. You will be challenged to solve real-world problems with top-notch colleagues. Check out our case study published by Google <a data-nodeid=\"18\" href=\"https://cloud.google.com/customers/moloco/\">https://cloud.google.com/customers/moloco/</a>.</span></p>\n<p data-nodeid=\"3\"><span class=\"colour\" style=\"color:rgb(0, 0, 0)\"><strong data-nodeid=\"26\">Here’s what you’ll be working on:</strong></span></p>\n<ul data-nodeid=\"4\">\n<li data-nodeid=\"5\">\n<p data-nodeid=\"6\">Build the world-class online advertising platform, analytics platform, and supporting tools.</p>\n</li>\n<li data-nodeid=\"7\">\n<p data-nodeid=\"8\">Collaborate with internal/external cross-functional teams to make the best advertising products.</p>\n</li>\n<li data-nodeid=\"9\">\n<p data-nodeid=\"10\">Learn and explore new front-end technologies for planning new features to improve the services.</p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">자격 조건</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"30\">\n<li data-nodeid=\"31\">\n<p data-nodeid=\"32\">Outstanding problem-solving skills with proper data structures and algorithms.</p>\n</li>\n<li data-nodeid=\"33\">\n<p data-nodeid=\"34\">Excellent software development skills at least in one programming language</p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">우대사항</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"37\">\n<li data-nodeid=\"38\">\n<p data-nodeid=\"39\">Fluent in English and Korean (both verbal and written)</p>\n</li>\n<li data-nodeid=\"40\">\n<p data-nodeid=\"41\">Excellent development skills and experiences with modern web technologies (such as JavaScript ES5-ES6, CSS, HTML, and RESTful web services)</p>\n</li>\n<li data-nodeid=\"42\">\n<p data-nodeid=\"43\">Experience with JavaScript libraries (e.g. Redux, RxJS), and modern frameworks (e.g. Angular, React, VueJS)</p>\n</li>\n<li data-nodeid=\"44\">\n<p data-nodeid=\"45\">Experience in the digital advertising technology business</p>\n</li>\n</ul>\n</div></div></section><section><!--v-if--><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"50\"><strong data-nodeid=\"70\">[ 채용 프로세스 ]</strong></p>\n<ol data-nodeid=\"51\">\n<li data-nodeid=\"52\">\n<p data-nodeid=\"53\">Application Review <span class=\"colour\" style=\"color:inherit\">(</span><span class=\"colour\" style=\"color:rgb(75, 76, 80)\">영문 이력서로 제출 필수)</span></p>\n</li>\n<li data-nodeid=\"54\">\n<p data-nodeid=\"55\">Online Test (프로그래머스 주관 과제 테스트와는 별개로 추가 진행됩니다.)</p>\n</li>\n<li data-nodeid=\"56\">\n<p data-nodeid=\"57\">Screening interview (once)</p>\n</li>\n<li data-nodeid=\"58\">\n<p data-nodeid=\"59\">Technical Interview (3-4 times)</p>\n</li>\n<li data-nodeid=\"60\">\n<p data-nodeid=\"61\">Reference Check</p>\n</li>\n<li data-nodeid=\"62\">\n<p data-nodeid=\"63\">Offering</p>\n</li>\n</ol>\n<p data-nodeid=\"64\"><br/>\n<strong data-nodeid=\"96\">[ 주의 사항 ]</strong><br/>\n몰로코에서 등록되는 이력서는 실리콘밸리 본사에서도 함께 리뷰됩니다. 그래서 지원 시에 <strong data-nodeid=\"97\">영문이력서</strong>도 반드시 함께 첨부 부탁 드립니다.</p>\n</div></div></section><!--v-if--><section><h5 class=\"SZUf8mqt2CrHwsWiVENo\">대표 개발자</h5><ul><li class=\"Lh1qTuDpzA2ZIVP80syP\" data-v-70991342=\"\"><header class=\"eSw35LllkBUd0Ngv2Tt2\" data-v-70991342=\"\"><span data-v-70991342=\"\">👨🏻</span><span data-v-70991342=\"\">안익진 대표</span><svg class=\"ic-24 MwfvY2KO7PMJRNAI9Mea\" data-v-70991342=\"\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M13 13v4h-2v-4H7v-2h4V7h2v4h4v2z\" fill-rule=\"evenodd\"></path></svg></header></li></ul></section></div>",
+  "WorkLocation": "서울 강남구 테헤란로 231, (역삼동) WEST 8층PCCP/PCCEPCCP Lv.4 - C++, Java, JavaScript, Python (우대) ",
+  "DeadLind": "상시 채용",
+  "시간": "23-03-18 17:15:20"
+}

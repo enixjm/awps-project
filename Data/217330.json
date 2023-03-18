@@ -1,0 +1,24 @@
+{
+  "id": 217330,
+  "CompanyName": "에이에스엠케이",
+  "Pay": [
+    4000,
+    9000
+  ],
+  "Career": [
+    2,
+    8
+  ],
+  "Stacks": [
+    "C++",
+    "C#"
+  ],
+  "Job": [
+    "시스템 소프트웨어",
+    " 응용 프로그램"
+  ],
+  "MainData": "<div class=\"yO7TZRtCO7sznD0Csuw_\"><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">업무 소개</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"1\"><span class=\"colour\" style=\"color:rgb(64, 64, 64)\"><strong data-nodeid=\"26\">Key Responsibilities</strong></span></p>\n<ul data-nodeid=\"2\">\n<li data-nodeid=\"3\">\n<p data-nodeid=\"4\">PEALD product software (Engine area)</p>\n</li>\n<li data-nodeid=\"5\">\n<p data-nodeid=\"6\">Design &amp; code software features with C++ and C# language</p>\n</li>\n<li data-nodeid=\"7\">\n<p data-nodeid=\"8\">Make engineering documents</p>\n</li>\n<li data-nodeid=\"9\">\n<p data-nodeid=\"10\">Communication control for various devices in the equipment</p>\n</li>\n<li data-nodeid=\"11\">\n<p data-nodeid=\"12\">Device control using interfaces such as TCP/IP, EtherCAT, device net, and Serial</p>\n</li>\n<li data-nodeid=\"13\">\n<p data-nodeid=\"14\">Development of touch UX for semiconductor equipment control</p>\n</li>\n<li data-nodeid=\"15\">\n<p data-nodeid=\"16\">Investigate faults, defects and bugs that happened at customers’ sites or manufacturing site, and consider fixing and improving the functions</p>\n</li>\n<li data-nodeid=\"17\">\n<p data-nodeid=\"18\">Evaluate designed/developed software with simulator and the actual demo lab tool</p>\n</li>\n<li data-nodeid=\"19\">\n<p data-nodeid=\"20\">Update and upgrade software and examine operations of ASM equipment</p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">자격 조건</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"38\"><span class=\"colour\" style=\"color:rgb(64, 64, 64)\"><strong data-nodeid=\"53\">Key Requirements</strong></span></p>\n<ul data-nodeid=\"39\">\n<li data-nodeid=\"40\">\n<p data-nodeid=\"41\">Excellent written and English communication skills (Native)</p>\n</li>\n<li data-nodeid=\"42\">\n<p data-nodeid=\"43\">BS degree in Computer Science, similar technical field of study with at least 3 years of experience</p>\n</li>\n<li data-nodeid=\"44\">\n<p data-nodeid=\"45\">Strong responsibility and ownership and harmonious relationship.</p>\n</li>\n<li data-nodeid=\"46\">\n<p data-nodeid=\"47\">Positive people who have a passion for life and job.</p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">우대사항</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"58\"><strong data-nodeid=\"77\">Preferred Qualifications</strong></p>\n<ul data-nodeid=\"59\">\n<li data-nodeid=\"60\">\n<p data-nodeid=\"61\">Experience in semiconductor equipment control software development</p>\n</li>\n<li data-nodeid=\"62\">\n<p data-nodeid=\"63\">Experience in semiconductor production line(Fab)</p>\n</li>\n<li data-nodeid=\"64\">\n<p data-nodeid=\"65\">Experience in OOP Language</p>\n</li>\n<li data-nodeid=\"66\">\n<p data-nodeid=\"67\">Experience with TwinCAT topology</p>\n</li>\n<li data-nodeid=\"68\">\n<p data-nodeid=\"69\">Experience with ST Language</p>\n</li>\n<li data-nodeid=\"70\">\n<p data-nodeid=\"71\">Experience with Software Engineering Tool (TFS, Jira, git, etc.)</p>\n</li>\n<li data-nodeid=\"72\">\n<p data-nodeid=\"73\">Experienced in development for TCP/IP, RS232, deviceNet, etherCAT communication</p>\n</li>\n</ul>\n</div></div></section><!--v-if--><!--v-if--><!--v-if--></div>",
+  "WorkLocation": "경기 화성시 동탄첨단산업1로 63-11, (영천동) ",
+  "DeadLind": "상시 채용",
+  "시간": "23-03-18 17:17:58"
+}

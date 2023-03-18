@@ -1,0 +1,26 @@
+{
+  "id": 210445,
+  "CompanyName": "한화비전",
+  "Pay": [
+    3000,
+    4000
+  ],
+  "Career": [
+    6,
+    12
+  ],
+  "Stacks": [
+    "Qt",
+    "C++",
+    "C"
+  ],
+  "Job": [
+    "서버/백엔드",
+    " 시스템/네트워크",
+    " 임베디드 소프트웨어"
+  ],
+  "MainData": "<div class=\"yO7TZRtCO7sznD0Csuw_\"><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">업무 소개</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"1\"><span class=\"colour\" style=\"color:rgb(102, 104, 114)\"><span class=\"colour\" style=\"color:rgb(239, 129, 50)\">🎵**Our Job (앞으로 저희와 함께하실 일들이에요)**🎵</span></span></p>\n<ul data-nodeid=\"2\">\n<li data-nodeid=\"3\">\n<p data-nodeid=\"4\">NVR 기능을 개발하고 성능 최적화를 진행해요.</p>\n</li>\n<li data-nodeid=\"5\">\n<p data-nodeid=\"6\">카메라 영상/음성 수신, 저장, 검색, 네트웍 재전송 관련 기능 개발<br/>\n- AI 카메라 연동 및 자체 AI 기능 개발</p>\n</li>\n<li data-nodeid=\"7\">\n<p data-nodeid=\"8\">카메라, NVR 간 프로토콜 연동 개발을 해요.</p>\n</li>\n</ul>\n<p data-nodeid=\"9\">- 카메라 RTSP 영상, Event, AI Meta 등 수신 및 처리</p>\n<ul data-nodeid=\"10\">\n<li data-nodeid=\"11\">\n<p data-nodeid=\"12\">NVR, Viewer 간 프로토콜 연동 개발을 해요.</p>\n</li>\n<li data-nodeid=\"13\">\n<p data-nodeid=\"14\">RTSP 영상, Event, AI Meta 등 송신<br/>\n - 당사 프로토콜 및 ONVIF 프로토콜 연동</p>\n</li>\n</ul>\n<h3 data-nodeid=\"15\"><span class=\"colour\" style=\"color:rgb(239, 129, 50)\">🐾전형 절차 안내🐾</span></h3>\n<h4 data-nodeid=\"16\">서류전형 → 실무면접 → 임원면접 → 채용검진 → 최종결과발표</h4>\n<p data-nodeid=\"17\">* 채용시까지 서류모집이 진행되며, 접수된 이력서는 순차적으로 결과발표를 진행합니다 *</p>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">자격 조건</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"47\"><br/>\n<br/></p>\n<h3 data-nodeid=\"48\"><span class=\"colour\" style=\"color:rgb(239, 129, 50)\">🥺Our Expectation (이런 분들을 찾고 있어요)🥺</span></h3>\n<ul data-nodeid=\"49\">\n<li data-nodeid=\"50\">\n<p data-nodeid=\"51\">Embeded Linux / Ubuntu 환경에서 App 개발을 해보신 분</p>\n</li>\n<li data-nodeid=\"52\">\n<p data-nodeid=\"53\">C++, Network 프로그래밍이 능숙하신 분</p>\n</li>\n<li data-nodeid=\"54\">\n<p data-nodeid=\"55\">유관 경험이 6년 이상인 분</p>\n</li>\n<li data-nodeid=\"56\">\n<p data-nodeid=\"57\"><span class=\"colour\" style=\"color:rgb(102, 104, 114)\">(우대)</span><span class=\"colour\" style=\"color:rgb(102, 104, 114)\">DVR, NVR SW 개발 경험</span></p>\n</li>\n<li data-nodeid=\"58\">\n<p data-nodeid=\"59\"><span class=\"colour\" style=\"color:rgb(102, 104, 114)\">(우대)</span>RTSP, ONVIF 사용하여 영상 송수신 개발한 경험이 있으신 분</p>\n</li>\n<li data-nodeid=\"60\">\n<p data-nodeid=\"61\"><span class=\"colour\" style=\"color:rgb(102, 104, 114)\">(우대)QT 개발 경험</span></p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">우대사항</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"84\">공통 응시 자격<br/>\n     □ 연구실적, 경력사항 등 확인 가능한 포트폴리오 또는 경력기술서(PDF 파일) 첨부 가능<br/>\n     □ 학사 이상, 관련 경력 각 공고 참조<br/>\n     □ 해외여행에 결격사유가 없는 분(남성의 경우, 군필 또는 군 면제 해당인원)<br/>\n     □ 국가등록장애인 및 국가보훈대상자는 관련법 및 내부규정에 의거하여 우대합니다.<br/>\n     □ 입사지원서에 허위 기재가 있거나 제출서류가 허위로 판명되는 경우 채용이 취소될 수 있습니다.</p>\n</div></div></section><section><!--v-if--><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"96\"><span class=\"colour\" style=\"color:rgb(239, 129, 50)\">💪**Our team (오시게 될 팀을 소개해드려요)**💪</span></p>\n<h4 data-nodeid=\"97\"><span class=\"colour\" style=\"color:rgb(239, 129, 50)\"><span class=\"colour\" style=\"color:rgb(239, 129, 50)\"><strong data-nodeid=\"120\">백엔드SW개발</strong>팀</span>은 코덱 제어, Qt UI, HDD Manager, File Manager, 네트웍 수신/송신, 네트웍 프로토콜 (RTSP, ONVIF), P2P, 보안 업무 등 진행 등 장비 SW의 전반적인 부분을 다루고 있습니다. One-team으로 일하며 팀의 역량과 함께 발전하여 장비 SW 전문가로 성장할 수 있는 팀입니다.</span></h4>\n<h3 data-nodeid=\"98\"><span class=\"colour\" style=\"color:rgb(239, 129, 50)\">🍀Our Culture (우리의 문화를 알려드려요)🍀</span></h3>\n<p data-nodeid=\"99\"><br/>\n<span class=\"colour\" style=\"color:rgb(102, 104, 114)\">🏠’가족’을 생각하는 문화🏠</span><br/>\n<span class=\"colour\" style=\"color:rgb(102, 104, 114)\">다양한 복지제도와 행사를 통하여 건강한 가정을 지원합니다.</span><br/>\n<span class=\"colour\" style=\"color:rgb(102, 104, 114)\">가족 초청 행사, 자녀 학자금 지원 제도, 아빠 휴가, 자녀 의료비 지원, 난임 시술 지원, 상조서비스 및 경조금/경조 휴가 지원, 본인/배우자 건강검진, 실비보험 등</span></p>\n<p data-nodeid=\"100\"><span class=\"colour\" style=\"color:rgb(102, 104, 114)\">🤸‍♂️‘나’를 생각하는 문화🤸‍♂️</span><br/>\n<span class=\"colour\" style=\"color:rgb(102, 104, 114)\">한화테크윈은 건강증진과 자기개발을 적극적으로 지원하고 있습니다.</span><br/>\n<span class=\"colour\" style=\"color:rgb(102, 104, 114)\">복지포인트 지원, 하계휴가, 안식월 휴가, 자기개발 휴직, 직무/어학 교육 지원</span></p>\n<p data-nodeid=\"101\"><span class=\"colour\" style=\"color:rgb(102, 104, 114)\">💃‘우리’를 생각하는 문화🕺</span><br/>\n<span class=\"colour\" style=\"color:rgb(102, 104, 114)\">Team으로 하나되는 문화를 위하여 다음의 제도들을 운영합니다.</span><br/>\n<span class=\"colour\" style=\"color:rgb(102, 104, 114)\">동호회 지원, 사내 스터디 지원, 장기근속 포상, 멘토-멘티제도 운영 등</span></p>\n</div></div></section><!--v-if--><!--v-if--></div>",
+  "WorkLocation": "경기도 성남시 분당구 판교로319번길 6 (삼평동) ",
+  "DeadLind": "상시 채용",
+  "시간": "23-03-18 17:16:50"
+}

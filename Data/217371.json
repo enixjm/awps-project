@@ -1,0 +1,22 @@
+{
+  "id": 217371,
+  "CompanyName": "비투엔",
+  "Pay": [
+    4000,
+    8000
+  ],
+  "Career": [
+    5,
+    10
+  ],
+  "Stacks": [
+    "JavaScript"
+  ],
+  "Job": [
+    "프론트엔드"
+  ],
+  "MainData": "<div class=\"yO7TZRtCO7sznD0Csuw_\"><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">업무 소개</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"1\">\n<li data-nodeid=\"2\">\n<p data-nodeid=\"3\">분산 환경상에서의  트랜잭션 통합 관리 솔루션에 대한 제품 개발 업무를 수행합니다.</p>\n</li>\n<li data-nodeid=\"4\">\n<p data-nodeid=\"5\">Java, Spring 기반 Frontend, Backend 개발을 수행합니다.</p>\n</li>\n<li data-nodeid=\"6\">\n<p data-nodeid=\"7\">연구개발을 통해 축적된 기술에 대한 솔루션 제품화를 진행합니다.</p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">자격 조건</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"11\">\n<li data-nodeid=\"12\">\n<p data-nodeid=\"13\">Java 및 Spring 프레임웍을 이용한 S/W 개발 경험이 5년 이상인 분을 찾습니다.</p>\n</li>\n<li data-nodeid=\"14\">\n<p data-nodeid=\"15\">Spring 에서 transaction 사용방법에 대한 실무적인 경험(Mybatis/JPA/Db connection 직접 이용 등)을 보유하신 분을 찾습니다.</p>\n</li>\n<li data-nodeid=\"16\">\n<p data-nodeid=\"17\">관계형 데이터베이스기반에서 분산 처리 트랜잭션에 대한 관리 또는 개발 경험이 있으신 분을 찾습니다.</p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">우대사항</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"21\">\n<li data-nodeid=\"22\">\n<p data-nodeid=\"23\">Microservices 아키텍처 기반의 시스템 개발 경험이 있으신 분이면 더 좋습니다.</p>\n</li>\n<li data-nodeid=\"24\">\n<p data-nodeid=\"25\">Cloud 환경에서의 서비스 개발 및 운영 경험이 있으신 분이면 더 좋습니다.</p>\n</li>\n<li data-nodeid=\"26\">\n<p data-nodeid=\"27\">Docker / Kubernetis 등 Container 기반 환경에서의 개발 또는 운영 경험이 있으신 분이면 더 좋습니다.</p>\n</li>\n<li data-nodeid=\"28\">\n<p data-nodeid=\"29\">대용량 처리를 위한 비동기 Event Driven Architecture 경험이 있으신 분이면 더 좋습니다.</p>\n</li>\n<li data-nodeid=\"30\">\n<p data-nodeid=\"31\">코드 품질 향상을 위한 개발 경험이 있으신 분이면 더 좋습니다.</p>\n</li>\n<li data-nodeid=\"32\">\n<p data-nodeid=\"33\">Apache Ignite(In-Memory DBMS) 사용 경험이 있으신 분이면 더 좋습니다.</p>\n</li>\n<li data-nodeid=\"34\">\n<p data-nodeid=\"35\">Opensource 코드 분석 또는 Opensource Contribute 경험이 있으신 분이면 더 좋습니다.</p>\n</li>\n<li data-nodeid=\"36\">\n<p data-nodeid=\"37\">Agile 기반 개발 업무 수행 경험이 있으신 분이면 더 좋습니다.</p>\n</li>\n<li data-nodeid=\"38\">\n<p data-nodeid=\"39\">CI/CD(형상관리 및 배포)와 관련하여  jithub, gitlab, jenkins등 활용 경험이 있으신 분이면 더 좋습니다.</p>\n</li>\n<li data-nodeid=\"40\">\n<p data-nodeid=\"41\">미들웨어 플랫폼과 같이 트랜잭션 관리와 관련된 솔루션 개발 경험이 있으신 분이면 더 좋습니다.</p>\n</li>\n</ul>\n</div></div></section><section><!--v-if--><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"52\"><br/>\n<br/>\n🔎 채용절차</p>\n<ul data-nodeid=\"53\">\n<li data-nodeid=\"54\">\n<p data-nodeid=\"55\"><strong data-nodeid=\"89\">[서류전형 &gt; 1차면접 &gt; 임원면접 &gt; 최종합격]</strong></p>\n</li>\n<li data-nodeid=\"56\">\n<p data-nodeid=\"57\">지원방법 : 즉시 지원</p>\n</li>\n</ul>\n<p data-nodeid=\"58\"><br/>\n<br/>\n🔎 B2EN Benefit</p>\n<ul data-nodeid=\"59\">\n<li data-nodeid=\"60\">\n<p data-nodeid=\"61\">연 500만원 복지포인트</p>\n</li>\n<li data-nodeid=\"62\">\n<p data-nodeid=\"63\">유연근무제</p>\n</li>\n<li data-nodeid=\"64\">\n<p data-nodeid=\"65\">음료 및 간식제공</p>\n</li>\n<li data-nodeid=\"66\">\n<p data-nodeid=\"67\">휴게공간</p>\n</li>\n<li data-nodeid=\"68\">\n<p data-nodeid=\"69\">기술, 직무, 역량 개발 적극 지원</p>\n</li>\n<li data-nodeid=\"70\">\n<p data-nodeid=\"71\">자녀학자금 지원</p>\n</li>\n<li data-nodeid=\"72\">\n<p data-nodeid=\"73\">주거안정자금 지원</p>\n</li>\n<li data-nodeid=\"74\">\n<p data-nodeid=\"75\">대학병원 건강검진 (직계가족 1인 포함)</p>\n</li>\n<li data-nodeid=\"76\">\n<p data-nodeid=\"77\">단체상해보험 (임직원/배우자)</p>\n</li>\n</ul>\n<p data-nodeid=\"78\"><br/>\n<br/></p>\n</div></div></section><!--v-if--><!--v-if--></div>",
+  "WorkLocation": "서울 영등포구 선유로 146, (양평동3가) 이앤씨드림타워 2층 210호",
+  "DeadLind": "23년 03월 31일 22:59까지",
+  "시간": "23-03-18 17:17:12"
+}

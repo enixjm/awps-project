@@ -1,0 +1,25 @@
+{
+  "id": 217442,
+  "CompanyName": "111퍼센트",
+  "Pay": [
+    4200,
+    7000
+  ],
+  "Career": [
+    5,
+    15
+  ],
+  "Stacks": [
+    "AWS Batch",
+    "AWS Serverless Application Repository",
+    "CI/CD"
+  ],
+  "Job": [
+    "모바일 게임",
+    " 시스템/네트워크"
+  ],
+  "MainData": "<div class=\"yO7TZRtCO7sznD0Csuw_\"><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">업무 소개</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"1\"><span class=\"colour\" style=\"color: rgba(0, 0, 0, 0.85);\"><span class=\"colour\" style=\"color: rgb(29, 28, 29);\">(하기 업무 중 선택적 해당 내역)</span></span></p>\n<ul data-nodeid=\"2\">\n<li data-nodeid=\"3\">\n<p data-nodeid=\"4\"><span class=\"colour\" style=\"color: rgb(29, 28, 29);\">요구 사항 분석 및 아키텍처 제안, 설계, 구축</span></p>\n</li>\n<li data-nodeid=\"5\">\n<p data-nodeid=\"6\"><span class=\"colour\" style=\"color: rgb(29, 28, 29);\">퍼블릭 클라우드 기반 서비스 운영 및 배포 자동화 및 가용성 확보</span></p>\n</li>\n<li data-nodeid=\"7\">\n<p data-nodeid=\"8\"><span class=\"colour\" style=\"color: rgb(29, 28, 29);\">시스템 및 애플리케이션 핵심 지표 분석 및 시각화, 서비스 변경 추적 및 관리, 장애 대응 및 개선안 도출</span></p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">자격 조건</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"23\">\n<li data-nodeid=\"24\">\n<p data-nodeid=\"25\"><span class=\"colour\" style=\"color: rgb(32, 33, 36);\">유관 경력 5년 이상 혹은 이에 준하는 역량을 보유하신 분</span></p>\n</li>\n<li data-nodeid=\"26\">\n<p data-nodeid=\"27\"><span class=\"colour\" style=\"color: rgb(32, 33, 36);\">퍼블릭 클라우드 환경 인프라 구축 및 운영 경험이 있으신 분</span></p>\n</li>\n<li data-nodeid=\"28\">\n<p data-nodeid=\"29\"><span class=\"colour\" style=\"color: rgb(32, 33, 36);\">Virtualization, Serverless, Orchestration 관련 기술 경험이 있으신 분</span></p>\n</li>\n<li data-nodeid=\"30\">\n<p data-nodeid=\"31\"><span class=\"colour\" style=\"color: rgb(32, 33, 36);\">다양한 언어의 에러, 익셉션 확인 및 기초적인 내용 분석이 가능하신 분</span></p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">우대사항</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"44\">\n<li data-nodeid=\"45\">\n<p data-nodeid=\"46\"><span class=\"colour\" style=\"color: rgb(29, 28, 29);\">글로벌 서비스 지원 경험이 있으신 분</span></p>\n</li>\n<li data-nodeid=\"47\">\n<p data-nodeid=\"48\"><span class=\"colour\" style=\"color: rgb(29, 28, 29);\">대용량 트래픽 환경의 운영 업무 경험이 있으신 분</span></p>\n</li>\n<li data-nodeid=\"49\">\n<p data-nodeid=\"50\"><span class=\"colour\" style=\"color: rgb(29, 28, 29);\">다양한 아키텍처(MSA, Stateless, Serverless, Batch 등)에 대한 경험과 지식이 있으신 분</span></p>\n</li>\n<li data-nodeid=\"51\">\n<p data-nodeid=\"52\"><span class=\"colour\" style=\"color: rgb(29, 28, 29);\">다양한 오픈소스 서비스를 설치, 운영해 보시고 문제가 발생했을 때 빠르게 대응하고 효율적으로 운영 가능하신 분</span></p>\n</li>\n<li data-nodeid=\"53\">\n<p data-nodeid=\"54\">CI/CD 플랫폼, IaC, SaC 배포 스크립트 사용 경험이 있으신 분</p>\n</li>\n</ul>\n</div></div></section><section><!--v-if--><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><h4 data-nodeid=\"68\">근무조건</h4>\n<ul data-nodeid=\"69\">\n<li data-nodeid=\"70\">\n<p data-nodeid=\"71\">정규직(수습기간 3개월)</p>\n</li>\n</ul>\n<h4 data-nodeid=\"72\">전형절차</h4>\n<ul data-nodeid=\"73\">\n<li data-nodeid=\"74\">\n<p data-nodeid=\"75\">서류접수 &gt; 1차 화상 인터뷰 &gt; 2차 인터뷰 &gt; 최종합격</p>\n</li>\n</ul>\n<h4 data-nodeid=\"76\">혜택 및 복지</h4>\n<ul data-nodeid=\"77\">\n<li data-nodeid=\"78\">\n<p data-nodeid=\"79\">무제한 연차제도</p>\n</li>\n<li data-nodeid=\"80\">\n<p data-nodeid=\"81\">점심 식대 최대 12,000원 지원</p>\n</li>\n<li data-nodeid=\"82\">\n<p data-nodeid=\"83\">야근 식대 최대 20,000원 지원</p>\n</li>\n<li data-nodeid=\"84\">\n<p data-nodeid=\"85\">사내 카페테리아 운영</p>\n</li>\n<li data-nodeid=\"86\">\n<p data-nodeid=\"87\">사내 스낵바 운영</p>\n</li>\n<li data-nodeid=\"88\">\n<p data-nodeid=\"89\">연 1회 건강검진 지원(25만원 상당)</p>\n</li>\n<li data-nodeid=\"90\">\n<p data-nodeid=\"91\">생일/명절 상품권(or 선물) 제공</p>\n</li>\n<li data-nodeid=\"92\">\n<p data-nodeid=\"93\">야근 택시비 지원</p>\n</li>\n<li data-nodeid=\"94\">\n<p data-nodeid=\"95\">안마의자 운영</p>\n</li>\n</ul>\n</div></div></section><!--v-if--><!--v-if--></div>",
+  "WorkLocation": "서울 강남구 테헤란로 152, 33층(역삼동, 강남파이낸스센터) ",
+  "DeadLind": "상시 채용",
+  "시간": "23-03-18 17:15:51"
+}

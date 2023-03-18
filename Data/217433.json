@@ -1,0 +1,25 @@
+{
+  "id": 217433,
+  "CompanyName": "일성",
+  "Pay": [
+    8000,
+    12000
+  ],
+  "Career": [
+    10,
+    25
+  ],
+  "Stacks": [
+    "HTML",
+    "JavaScript",
+    "ReactJS"
+  ],
+  "Job": [
+    "웹 풀스택",
+    " 개발PM"
+  ],
+  "MainData": "<div class=\"yO7TZRtCO7sznD0Csuw_\"><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">업무 소개</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"1\">프론트엔드/백엔드 풀스택 개발</p>\n<p data-nodeid=\"2\">- React 환경의 사내 시스템 개발 / 운영 (HRMS, Mattermost Custom, Portal System 등)<br/>\n- 클라우드 환경에 맞춘 React 최적화<br/>\n- 웹 어플리케이션 아키텍쳐 설계 및 개발<br/>\n- Database Modeling</p>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">자격 조건</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"18\"><strong data-nodeid=\"27\">자격요건</strong></p>\n<p data-nodeid=\"19\">-만 10년 이상 웹 프론트엔드/백엔드 개발 경력<br/>\n-리액트 개발 경력 1년 이상</p>\n<p data-nodeid=\"20\"><strong data-nodeid=\"34\">필요지식</strong></p>\n<p data-nodeid=\"21\">- React(Hooks), JAVASCRIPT(ES6), HTML,CSS(SCSS)<br/>\n- RDBMS - PostgreSQL 스키마 분석 및 Query 작성<br/>\n- ORM – Sequelize<br/>\n- Git 을 활용한 버전관리 및 협업<br/>\n- 컨테이너 환경에 대한 이해 및 배포 (Docker, Kubernetes)</p>\n<p data-nodeid=\"22\"><strong data-nodeid=\"68\">필요기술</strong></p>\n<p data-nodeid=\"23\">- React(Hooks) 개발 흐름과 JavaScript(ES6)에 대한 깊은 이해<br/>\n- MobX, Recoil 등 상태관리 라이브러리에 대한 이해<br/>\n- React 기반 서비스 릴리즈 경험<br/>\n- 프로그램 분석/설계<br/>\n- RDBMS 스키마 설계<br/>\n- ORM에 대한 이해<br/>\n- 공통파트 개발에 대한 이해</p>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">우대사항</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"97\">- Next.js를 사용한 웹서비스 개발<br/>\n- Webpack, Babel 환경 셋팅<br/>\n- SCSS, LESS, StyledCompinents 등 CSS 전/후 처리기 개발 경험<br/>\n- 리액트 성능 최적화 경험<br/>\n- 자료구조, 알고리즘, 네트워크, 보안 등 기본적인 컴퓨터공학 지식 보유</p>\n</div></div></section><section><!--v-if--><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"114\">* 채용 정보<br/>\n주소지 : 대구광역시 동구 율암로 149-28(상매동)<br/>\n고용형태 : 정규직<br/>\n근무시간 : 탄력적 운영<br/>\n연봉 : 8,000만원 이상 경력에 따른 협의가능<br/>\n거주지 지원 협의</p>\n<p data-nodeid=\"115\">* 복리 후생<br/>\n구내식당 식사지원 : 매일 점심, 저녁 경력직 영양사께서 편성해준 맛있는 식사가 제공되요.<br/>\n성과와 보상 : 우리는 성과에따라 매년 8% 이상의 평균 연봉인상을 진행하고 있습니다.<br/>\n자율출퇴근 : 나에게 딱 맞는 시간에 업무 할 수 있습니다.<br/>\n야근없는 문화 : 오래 일한다고 일의 효율이 늘지않아요. 부담없이 퇴근하세요.<br/>\n자율 복장 : 자신에게 가장 편한 옷을 입고 출근하세요.<br/>\n사내 편의시설 : 카페테리아와 편의점이 있어서 멀리 나가지 않아도 맛있는 커피와 간식이 제공되요.<br/>\n자유로운 휴가 : 원할 때 편하게 사용하세요. 누구도 눈치주지않아요.</p>\n</div></div></section><!--v-if--><!--v-if--></div>",
+  "WorkLocation": "대구 동구 율암로 149-28, (상매동) 일성유한책임회사",
+  "DeadLind": "상시 채용",
+  "시간": "23-03-18 17:17:13"
+}

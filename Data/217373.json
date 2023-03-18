@@ -1,0 +1,24 @@
+{
+  "id": 217373,
+  "CompanyName": "개념원리",
+  "Pay": [
+    4000,
+    9000
+  ],
+  "Career": [
+    3,
+    10
+  ],
+  "Stacks": [
+    "flutter"
+  ],
+  "Job": [
+    "프론트엔드",
+    " 안드로이드",
+    " iOS"
+  ],
+  "MainData": "<div class=\"yO7TZRtCO7sznD0Csuw_\"><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">업무 소개</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"1\"><span class=\"colour\" style=\"color: rgb(51, 51, 51);\">• </span>에듀 테크 플랫폼 앱, 태블릿 개발/운영<br/>\n<span class=\"colour\" style=\"color: rgb(51, 51, 51);\">• </span>3~4개 의 앱/태블릿 개발 예정</p>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">자격 조건</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"13\"><span class=\"colour\" style=\"color: rgb(51, 51, 51);\">• 플러터 개발 2년 이상의 경력</span><br/>\n<span class=\"colour\" style=\"color: rgb(51, 51, 51);\">• GetX, Riverpod 등 상태관리를 사용해보신 분</span><br/>\n<span class=\"colour\" style=\"color: rgb(51, 51, 51);\">• Dio를 사용하여 Restful API 연동해보신 분</span><br/>\n<span class=\"colour\" style=\"color: rgb(51, 51, 51);\">• Firebase 연동 경험이 있으신 분</span></p>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">우대사항</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"29\"><span class=\"colour\" style=\"color: rgb(51, 51, 51);\">• IOS 개발 경험</span><br/>\n<span class=\"colour\" style=\"color: rgb(51, 51, 51);\">• DI 및 Clean architecture에 대한 이해</span><br/>\n<span class=\"colour\" style=\"color: rgb(51, 51, 51);\">• Plugin 개발 경험</span><br/>\n<span class=\"colour\" style=\"color: rgb(51, 51, 51);\">• Webview 연동 경험</span><br/>\n<span class=\"colour\" style=\"color: rgb(51, 51, 51);\">• PlatformView 사용 경험</span></p>\n</div></div></section><section><!--v-if--><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"49\">안녕하세요. (주)개념원리 CTO 김성욱입니다.</p>\n<p data-nodeid=\"50\">리멤버에 등록하신 이력서를 보고 저희가 이번에 새롭게 런칭을 계획하고 있는 서비스의 Flutter 개발 포지션에 적합하실 것이라고 판단되어 메세지 드립니다.</p>\n<p data-nodeid=\"51\">기술에 대한 욕심이 있으시고 그런 개발자들로만 이루어진 팀과 함께 실력과 보상이 빠르게 성장하시고 싶으신 분이면 꼭 읽어주세요!</p>\n<p data-nodeid=\"52\">**회사 소개** ✅</p>\n<p data-nodeid=\"53\">저희 개념원리는 1991년 출판 후 독보적인 수학 수험서 자리를 지키고 있습니다. 탄탄한 매출과 안정적 자금흐름(연매출 200억/이익율 50%)을 바탕으로 2017년 대표자(한국 1세대 IT 창업가 고사무열)변경 후 IT 플랫폼 기업으로의 체질 개선을 위해 조직 재정비를 진행중입니다.</p>\n<p data-nodeid=\"54\">교육 업계의 혁신을 실현하기 위해 각 팀에 이미 성공적인 서비스를 런칭 해본 경험이 있는 네이버, 삼성전사, 삼성SDS, 쿠팡, 스타트업 출신의 리더들이 합류 및 합류 예정에 있습니다.</p>\n<p data-nodeid=\"55\">유니콘기업으로의 성장을 꿈꾸며 환골탈태 중인 개념원리에 합류하실 의사가 있으시다면, 합류 여정과 관련된 이야기를 나누고 싶어 정성 담아 메세지 드립니다.</p>\n<p data-nodeid=\"56\">**사업부 소개** ✅</p>\n<p data-nodeid=\"57\">- 개념원리 사내 벤처 형태로 신규 서비스 초기 기획 중에 있습니다. 중고등학생들이 자신의 수준을 정확하게 진단받고, 꼭 필요한 콘텐츠(문제, 영상, 카드, 공식집 등)만 처방받아 **가장 빠르고 효율적으로** 수학 실력을 향상할 수 있는 수학 공부 mate 시스템을 만들고자 합니다.</p>\n<p data-nodeid=\"58\">더 나아가 B2B/B2P 로도 확장하여, 우리 시스템을 통해 선생님들도 학생들의 학습 관리가 용이하고, 부모님들도 학생들의 학습 현황을 쉽게 확인할 수 있는 Education Platform을 만드는 것이 최종 목표 입니다.</p>\n<p data-nodeid=\"59\">이를 달성하기 위해 수학 문제 풀이/진단&amp;처방/관리 시스템을 기반으로 한 신규 서비스가 기획되고 있으며, 추후 AI 가 접목 되어 있는 추천 시스템, 인식 시스템 도입을 위한 각 분야의 전문가들을 빠르게 모으는 과정에 있습니다.</p>\n<p data-nodeid=\"60\"><br/>\n**팀 소개** 👥</p>\n<p data-nodeid=\"61\">- 사내 벤처 사업부의 주요 리더들은 아래와 같습니다.<br/>\n    - 삼성SDS/미래전략실, 네이버, 스타트업 CTO (13년차) - 총괄<br/>\n    - 삼성전자, 스타트업 (12년차) - 개발팀장<br/>\n    - 삼성SDS, 스타트업 (10년차) - 기획팀장</p>\n</div></div></section><section><h5 class=\"jC4vnWhzIi1RsyJP_5Qh\">개발 팀 &amp; 환경</h5><table class=\"nuPUig5lujn1NwuQoScz\"><tbody><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>팀내 개발자</td><td>10</td></tr><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>버전 관리</td><td>Github</td></tr><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>기술 스택</td><td>flutter, AWS EKS, AWS EC2, Next.js, TypeScript, MySQL, Spring Boot, Java</td></tr><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>프로젝트 관리</td><td>swit</td></tr><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>OS 환경</td><td>MacOS</td></tr><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>코드 리뷰</td><td>Github <!--v-if--></td></tr></tbody></table></section><section><h5 class=\"SZUf8mqt2CrHwsWiVENo\">대표 개발자</h5><ul><li class=\"Lh1qTuDpzA2ZIVP80syP\" data-v-70991342=\"\"><header class=\"eSw35LllkBUd0Ngv2Tt2\" data-v-70991342=\"\"><span data-v-70991342=\"\">👨🏻</span><span data-v-70991342=\"\">김성욱 CTO</span><svg class=\"ic-24 MwfvY2KO7PMJRNAI9Mea\" data-v-70991342=\"\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M13 13v4h-2v-4H7v-2h4V7h2v4h4v2z\" fill-rule=\"evenodd\"></path></svg></header></li></ul></section></div>",
+  "WorkLocation": "서울 강남구 테헤란로 8길 37 한동빌딩 6,7층",
+  "DeadLind": "상시 채용",
+  "시간": "23-03-18 17:15:42"
+}

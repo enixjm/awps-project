@@ -1,0 +1,28 @@
+{
+  "id": 210706,
+  "CompanyName": "엑심베이",
+  "Pay": [
+    4000,
+    8000
+  ],
+  "Career": [
+    3,
+    8
+  ],
+  "Stacks": [
+    "Java",
+    "JavaScript",
+    "jQuery",
+    "MySQL",
+    "Spring",
+    "JPA(Java Persistent API)"
+  ],
+  "Job": [
+    "서버/백엔드",
+    " 웹 풀스택"
+  ],
+  "MainData": "<div class=\"yO7TZRtCO7sznD0Csuw_\"><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">업무 소개</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"1\"><strong data-nodeid=\"16\">\"결제의 문화를 바꾸다, 엑심베이\"</strong></p>\n<p data-nodeid=\"2\">엑심베이는 국내 최초로 해외결제서비스를 론칭한  해외결제 전문 기업입니다.</p>\n<p data-nodeid=\"3\">국내 기업과 개인 고객의 해외결제를 도와, 비즈니스의 해외진출과  성장을 지원함으로써 함께 발전해오고 있습니다. 다양한 유형의 결제서비스를 한번에 이용할 수 있도록 엑심베이 만의 차별화된 전문 기술역량을 보유하여, 공간의 제약을 벗어나 전 세계의 결제가 국경을 자유로이 넘나들도록 통합결제 인프라 구축을 위해 나아갑니다.</p>\n<p data-nodeid=\"4\">전세계 수백만 명의 고객을 하나로 잇는 시작,<br/>\n세계결제를 하나로 연결하는 엑심베이의 여정에 동참할 당신을 기다립니다.</p>\n<p data-nodeid=\"5\"><br/>\n<strong data-nodeid=\"27\">업무소개</strong></p>\n<p data-nodeid=\"6\"><strong data-nodeid=\"32\">l</strong> 엑심베이 전사 시스템을 Public Cloud(AWS)로 마이그레이션 및 신규 구축, 운영하는 업무를 담당합니다.</p>\n<p data-nodeid=\"7\"><br/>\n<strong data-nodeid=\"38\">담당업무</strong></p>\n<p data-nodeid=\"8\"><span class=\"colour\" style=\"color: rgb(51, 51, 51);\"><span class=\"colour\" style=\"color: rgb(68, 68, 68);\"><strong data-nodeid=\"47\">ㅣ</strong>클라우드 기반 시스템 구축 및 운영(AWS)</span></span></p>\n<p data-nodeid=\"9\"><span class=\"colour\" style=\"color: rgb(51, 51, 51);\"><span class=\"colour\" style=\"color: rgb(68, 68, 68);\">    - 서비스 운영(Java, Python, C++, C# node.js 등)</span></span><br/>\n<span class=\"colour\" style=\"color: rgb(51, 51, 51);\"><span class=\"colour\" style=\"color: rgb(68, 68, 68);\">    - 주요 성능지표 모니터링, 분석, 트러블슈팅</span></span><br/>\n<span class=\"colour\" style=\"color: rgb(51, 51, 51);\"><span class=\"colour\" style=\"color: rgb(68, 68, 68);\">    - 시스템 보안 및 분석 (ACL 구성, 운영로그 분석)</span></span><br/>\n<span class=\"colour\" style=\"color: rgb(51, 51, 51);\"><span class=\"colour\" style=\"color: rgb(68, 68, 68);\">    - Database에 대한 기본적인 이해(MySQL)</span></span></p>\n<p data-nodeid=\"10\"><br/>\n<span class=\"colour\" style=\"color:rgb(0, 0, 0)\"></span></p>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">자격 조건</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"75\"><strong data-nodeid=\"80\">자격요건</strong></p>\n<p data-nodeid=\"76\">- 시스템 엔지니어 3년(Cloud Engineer 2년) 이상 경력이 있으신 분<br/>\n- Linux, Network에 대한 지식이 있으신 분<br/>\n- Application 운영 및 유지보수 경험이 있으신 분<br/>\n- On-premise와 Cloud 기반의 서비스 구축, 운영, 트러블슈팅 경험이 있으신 분<br/>\n- 서비스 지향적이며, 주도적인 업무 수행과 적극적으로 소통하시는 분<br/>\n- 새로운 기술에 관심이 많고, 도전적이며, 열정이 있으신 분</p>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">우대사항</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"104\"><strong data-nodeid=\"109\">우대사항</strong></p>\n<p data-nodeid=\"105\"><span class=\"colour\" style=\"color: rgb(51, 51, 51);\">- Public Cloud 마이그레이션 또는 Cloud Native 프로젝트 경험이 있으신 분</span><br/>\n<span class=\"colour\" style=\"color: rgb(51, 51, 51);\">- Cloud 기반의 MSA 설계 또는 운영 경험이 있으신 분</span><br/>\n<span class=\"colour\" style=\"color: rgb(51, 51, 51);\">- AWS 관련 자격증을 보유하고 있으신 분</span><br/>\n<span class=\"colour\" style=\"color: rgb(51, 51, 51);\">- 영어 의사소통 가능하신 분</span></p>\n</div></div></section><section><!--v-if--><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><h5 data-nodeid=\"129\">진행 절차</h5>\n<ol data-nodeid=\"130\">\n<li data-nodeid=\"131\">\n<p data-nodeid=\"132\">서류 전형</p>\n</li>\n<li data-nodeid=\"133\">\n<p data-nodeid=\"134\">인성검사( <em data-nodeid=\"151\">*</em> 필요에 따라 기술test가 진행될 수 있습니다.)</p>\n</li>\n<li data-nodeid=\"135\">\n<p data-nodeid=\"136\">면접 전형</p>\n</li>\n<li data-nodeid=\"137\">\n<p data-nodeid=\"138\">최종합격</p>\n</li>\n</ol>\n<h5 data-nodeid=\"139\">즐겁게 일할 수 있는 최선의 환경을 만들어 갑니다.</h5>\n<p data-nodeid=\"140\"><br/>\n<strong data-nodeid=\"175\">1. 균형있는 삶과 휴식을 중요하게 생각합니다.</strong><br/>\n• 자유로운 휴가 사용<br/>\n• 근속 3년마다 리프레시 휴가 3일 제공<br/>\n• EXciting Day ! 매월 마지막 주 금요일 2시간 단축근무<br/>\n• 야근 지양 문화<br/>\n• 시차출근제도 시행 (출근시간 선택 가능)</p>\n<p data-nodeid=\"141\"><strong data-nodeid=\"194\">2. 배려하는 문화를 정립합니다.</strong><br/>\n• 자유 복장<br/>\n• 사내 영어 호칭 사용<br/>\n• 커피 무제한 제공<br/>\n• 매일 조식 제공<br/>\n• 예산 안에서 생일 선물 선택<br/>\n• 중소기업 소득세 감면제도 시행</p>\n<p data-nodeid=\"142\"><strong data-nodeid=\"205\">3. 업무와 성장에 집중하도록 지원합니다.</strong><br/>\n• 성장을 위한 업무비용 (도서, 워크샵, 세미나 참석 등) 지원<br/>\n• 최신형 장비 지원</p>\n<p data-nodeid=\"143\"><strong data-nodeid=\"220\">4. 엑심베이 피플의 가족도 소중합니다.</strong><br/>\n• 종합건강검진 프로그램 지원<br/>\n• 각종 경조사비 지원<br/>\n• 자녀학자금 지원<br/>\n• 육아수당 지원</p>\n</div></div></section><section><h5 class=\"jC4vnWhzIi1RsyJP_5Qh\">개발 팀 &amp; 환경</h5><table class=\"nuPUig5lujn1NwuQoScz\"><tbody><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>팀내 개발자</td><td>11명 이상</td></tr><!--v-if--><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>기술 스택</td><td>JIRA, Git, Slack API, Java, JavaScript, Spring, JSP, Framework7</td></tr><!--v-if--><!--v-if--><!--v-if--></tbody></table></section><!--v-if--></div>",
+  "WorkLocation": "서울 구로구 디지털로26길 111, (구로동) 1101호",
+  "DeadLind": "상시 채용",
+  "시간": "23-03-18 17:10:24"
+}

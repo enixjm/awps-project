@@ -1,0 +1,28 @@
+{
+  "id": 217378,
+  "CompanyName": "나연테크",
+  "Pay": [
+    3000,
+    6000
+  ],
+  "Career": [
+    4,
+    8
+  ],
+  "Stacks": [
+    "Vue.js",
+    "Spring",
+    "Java",
+    "JavaScript",
+    "Git"
+  ],
+  "Job": [
+    "서버/백엔드",
+    " 프론트엔드",
+    " 웹 풀스택"
+  ],
+  "MainData": "<div class=\"yO7TZRtCO7sznD0Csuw_\"><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">업무 소개</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"1\">\n<li data-nodeid=\"2\">\n<p data-nodeid=\"3\">전자무역 ERP 웹 서비스 기능 개발</p>\n</li>\n<li data-nodeid=\"4\">\n<p data-nodeid=\"5\">신규 서비스 R&amp;D Back-end 개발</p>\n</li>\n<li data-nodeid=\"6\">\n<p data-nodeid=\"7\">API Gateway  관리자용 Web Service 개발</p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">자격 조건</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"13\">\n<li data-nodeid=\"14\">\n<p data-nodeid=\"15\">나이/성별 무관</p>\n</li>\n<li data-nodeid=\"16\">\n<p data-nodeid=\"17\">웹 어플리케이션 개발 경험자로서 실무 4년차 이상 또는 그에 준하는 역량 보유자</p>\n</li>\n<li data-nodeid=\"18\">\n<p data-nodeid=\"19\">자바에 익숙하고 Spring 프레임웍을 이용한 Web Application 개발 경험이 있으신 분</p>\n</li>\n<li data-nodeid=\"20\">\n<p data-nodeid=\"21\">기본적인 Linux 명령 사용 능력 보유자</p>\n</li>\n<li data-nodeid=\"22\">\n<p data-nodeid=\"23\">외부 프로젝트 팀으로 참여하여 파견 근무에 이상이 없는 자</p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">우대사항</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"29\">\n<li data-nodeid=\"30\">\n<p data-nodeid=\"31\">자바 개발 환경 구축 경험이 있으신 분</p>\n</li>\n<li data-nodeid=\"32\">\n<p data-nodeid=\"33\">Open API 기반 서버 시스템 개발 및 운영 경험이 있으신 분</p>\n</li>\n<li data-nodeid=\"34\">\n<p data-nodeid=\"35\">3~5인의 프로젝트 경험이 많으신 분</p>\n</li>\n</ul>\n</div></div></section><section><!--v-if--><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"41\">\n<li data-nodeid=\"42\">\n<p data-nodeid=\"43\">새로운 기술에 호기심이 많고 공유하시는 분</p>\n</li>\n<li data-nodeid=\"44\">\n<p data-nodeid=\"45\">문제해결능력과 커뮤니케이션이 원활하신 분</p>\n</li>\n<li data-nodeid=\"46\">\n<p data-nodeid=\"47\">근무여건 : 재택근무 + 유연근무제</p>\n</li>\n</ul>\n</div></div></section><!--v-if--><section><h5 class=\"SZUf8mqt2CrHwsWiVENo\">대표 개발자</h5><ul><li class=\"Lh1qTuDpzA2ZIVP80syP\" data-v-70991342=\"\"><header class=\"eSw35LllkBUd0Ngv2Tt2\" data-v-70991342=\"\"><span data-v-70991342=\"\">👨🏻</span><span data-v-70991342=\"\">연구개발소장</span><svg class=\"ic-24 MwfvY2KO7PMJRNAI9Mea\" data-v-70991342=\"\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M13 13v4h-2v-4H7v-2h4V7h2v4h4v2z\" fill-rule=\"evenodd\"></path></svg></header></li></ul></section></div>",
+  "WorkLocation": "경기 하남시 미사대로 550, (덕풍동) 현대지식산업센터1차 A6-057호",
+  "DeadLind": "상시 채용",
+  "시간": "23-03-18 17:15:26"
+}

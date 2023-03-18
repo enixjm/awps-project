@@ -1,0 +1,29 @@
+{
+  "id": 217399,
+  "CompanyName": "나비프라",
+  "Pay": [
+    5000,
+    7000
+  ],
+  "Career": [
+    3,
+    10
+  ],
+  "Stacks": [
+    "GitHub",
+    "Docker",
+    "Node.js",
+    "JavaScript",
+    "TypeScript",
+    "Vue.js"
+  ],
+  "Job": [
+    "프론트엔드",
+    " 웹 퍼블리싱",
+    " 그래픽스"
+  ],
+  "MainData": "<div class=\"yO7TZRtCO7sznD0Csuw_\"><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">업무 소개</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><h4 data-nodeid=\"1\">주요 업무</h4>\n<p data-nodeid=\"2\">- Vue.js 기반의 프론트 앤드 개발</p>\n<p data-nodeid=\"3\">- 자사 솔루션 기능 개발 및 유지 보수</p>\n<p data-nodeid=\"4\">- 신규 서비스 개발 및 테스트</p>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">자격 조건</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"14\"><strong data-nodeid=\"36\">자격요건</strong><br/>\n- JavaScript (ES6+) 또는 TypeScript에 대한 충분한 이해를 갖추고 개발한 경험이(2+ years) 있으신 분</p>\n<p data-nodeid=\"15\">- API 서버와의 비동기 통신을 이해하고 있으신 분</p>\n<p data-nodeid=\"16\">- 어느 Framework든 사용에 제한이 없으신 분</p>\n<p data-nodeid=\"17\">- Git/ GitHub 환경을 통한 협업 프로젝트 경험이 있으신 분</p>\n<p data-nodeid=\"18\">- 커뮤니케이션을 좋아하고 긍정적인 분</p>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">우대사항</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"45\"><strong data-nodeid=\"57\">우대사항</strong><br/>\n- 안 예쁜 UI를 못견디는 분</p>\n<p data-nodeid=\"46\">- Linux 개발 환경 경험 보유하신 분</p>\n<p data-nodeid=\"47\">- Node.js, npm 을 사용한 개발 경험이 있거나 관심이 많으신 분</p>\n<p data-nodeid=\"48\">- 코드의 품질 향상, 코드 리팩토링을 즐기고 프로그래밍 언어 학습에 관심이 많으신 분</p>\n<p data-nodeid=\"49\">- Three.js 라이브러리를 사용한 개발 경험이 있으신 분</p>\n<p data-nodeid=\"50\">- 자기주도적이며, 동료들과 함께 성장하기위해 노력하는 분</p>\n</div></div></section><section><!--v-if--><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"72\"><span class=\"colour\" style=\"color: rgb(51, 51, 51);\">로봇 제어용 웹 프론트엔드 개발자를 모집합니다!</span></p>\n<p data-nodeid=\"73\"><span class=\"colour\" style=\"color: rgb(51, 51, 51);\">나비프라와 함께할 멋진 동료를 찾고 있어요</span></p>\n<p data-nodeid=\"74\"><span class=\"colour\" style=\"color: rgb(51, 51, 51);\">나비프라는 (Navigation + Infra structure)의 합성어로, 자율주행 기술과 자율주행 인프라를 만드는 스타트업 이에요.</span></p>\n<p data-nodeid=\"75\"><span class=\"colour\" style=\"color: rgb(51, 51, 51);\">나비프라의 궁극적인 목표는 시간이 소모되고, 지겹고, 위험한 `이동과 관련된 일`을 로봇이 모두 대신하는 세상을 꿈꾸고 있어요. 그래서 먼저 로봇 자율주행을 활용한 물류 운송을 중심으로 사업을 펼쳐 나가고 있어요.</span></p>\n<p data-nodeid=\"76\"><span class=\"colour\" style=\"color: rgb(51, 51, 51);\">2022년 1월에 설립된 회사로 강남역 3분거리에 위치하고 있으며, 자세한 내용은 아래 채용페이지에서 확인하세요.</span></p>\n<h4 data-nodeid=\"77\">혜택 및 복지</h4>\n<p data-nodeid=\"78\">선택적 출퇴근(8시~11시 출근)</p>\n<p data-nodeid=\"79\">연차 및 휴가 제도 (눈치 보지 않고!)</p>\n<p data-nodeid=\"80\">다양한 간식 및 커피 무료 제공</p>\n<p data-nodeid=\"81\">업무관련 서적 무료 제공</p>\n<p data-nodeid=\"82\">피자파티 (점심에 다같이 피자 먹으며 자유롭게 대화해요!!)</p>\n</div></div></section><!--v-if--><!--v-if--></div>",
+  "WorkLocation": "서울 서초구 서초대로73길 7, (서초동) 우송빌딩",
+  "DeadLind": "상시 채용",
+  "시간": "23-03-18 17:10:26"
+}

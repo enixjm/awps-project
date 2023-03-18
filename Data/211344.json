@@ -1,0 +1,26 @@
+{
+  "id": 211344,
+  "CompanyName": "한화비전",
+  "Pay": [
+    3000,
+    4000
+  ],
+  "Career": [
+    4,
+    10
+  ],
+  "Stacks": [
+    "WPF",
+    "C++",
+    "C#"
+  ],
+  "Job": [
+    "서버/백엔드",
+    " 시스템 소프트웨어",
+    " 응용 프로그램"
+  ],
+  "MainData": "<div class=\"yO7TZRtCO7sznD0Csuw_\"><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">업무 소개</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"1\">• 영상관제 (VMS) 서버/클라이언트 S/W Plugin 개발<br/>\n• CCTV 카메라, 저장장치 및 3rd Party 시스템 연동 개발<br/>\n• MS윈도우 Application 개발<br/>\n<br/></p>\n<ul data-nodeid=\"2\">\n<li data-nodeid=\"3\">\n<p data-nodeid=\"4\">서류전형 → 1차면접 → 2차면접→ 채용검진 → 최종결과 발표</p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">자격 조건</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"13\">• Window 프로그램 개발 경험(C#, C++, Winform/WPF)<br/>\n• 네트워크, 멀티스레드 프로그래밍 개발 경험<br/>\n• 관련 경험 4년 이상</p>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">우대사항</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"19\">• Genetec, Milestone Plugin 개발 또는 SDK 개발 경험<br/>\n• Video Surveillance(VMS) 관련 개발 경험<br/>\n- 영상 전송, 디코딩/렌더링, 녹화/재생, 모니터링 개발 경험<br/>\n- 네트워크 및 데이터 스트리밍 개발 경험<br/>\n- RTP/RTSP, ONVIF, 네트워크 보안에 대한 이해</p>\n</div></div></section><section><!--v-if--><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"32\">• 교통/출퇴근 : 자율출퇴근제<br/>\n• 연금보험 : 국민연금(4대보험), 고용보험(4대보험), 산재보험(4대보험), 건강보험(4대보험), 퇴직연금<br/>\n• 동호회 : 사내동호회 운영, 사내동호회 지원<br/>\n• 회사분위기 : 인재육성 중시, 가족같은 분위기<br/>\n• 의료/건강 : 건강검진<br/>\n• 출산/육아 : 산전 후 휴가, 육아휴직, 남성출산휴가(아빠휴가)<br/>\n• 의복관련 : 자유복장, 노 타이(Tie)<br/>\n• 교육/훈련 : 신입사원교육(OJT), 직무능력향상교육, 리더쉽강화교육, 사외교육 지원<br/>\n• 휴일/휴가 : 연차, 경조휴가제, 반차, 아빠휴가, 안식월, 채움휴직(자기개발휴직)</p>\n</div></div></section><!--v-if--><!--v-if--></div>",
+  "WorkLocation": "경기도 성남시 분당구 판교로319번길 6 (삼평동) ",
+  "DeadLind": "상시 채용",
+  "시간": "23-03-18 17:14:11"
+}

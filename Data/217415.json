@@ -1,0 +1,27 @@
+{
+  "id": 217415,
+  "CompanyName": "콜리",
+  "Pay": [
+    8000,
+    12000
+  ],
+  "Career": [
+    3,
+    10
+  ],
+  "Stacks": [
+    "PyTorch",
+    "MySQL",
+    "MongoDB",
+    "Python",
+    "Kotlin",
+    "Android"
+  ],
+  "Job": [
+    "안드로이드"
+  ],
+  "MainData": "<div class=\"yO7TZRtCO7sznD0Csuw_\"><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">업무 소개</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><h2 data-nodeid=\"1\">👀 이런 분을 찾습니다</h2>\n<ul data-nodeid=\"2\">\n<li data-nodeid=\"3\">\n<p data-nodeid=\"4\">같이 콜리(Colley) Android 앱 개발의 중심이 되실 분</p>\n</li>\n<li data-nodeid=\"5\">\n<p data-nodeid=\"6\">다양한 기능(이미지/영상/결제/DM 등)을 통해 개발경험을 다양화하고 싶으신 분</p>\n</li>\n<li data-nodeid=\"7\">\n<p data-nodeid=\"8\">80만 다운로드 앱에서부터 시작해서 500만 이상 다운로드까지의 앱 성장 레코드를 같이 하실 분</p>\n</li>\n<li data-nodeid=\"9\">\n<p data-nodeid=\"10\">유저와 같이 호흡하는 앱서비스를 개발하고 싶으신 분</p>\n</li>\n<li data-nodeid=\"11\">\n<p data-nodeid=\"12\">탄탄한 시니어 개발자들과 같이 작업하시고 싶으신 분</p>\n</li>\n</ul>\n<h2 data-nodeid=\"13\">🧑‍💼Android 개발자가 하는 일</h2>\n<ul data-nodeid=\"14\">\n<li data-nodeid=\"15\">\n<p data-nodeid=\"16\">콜리(Colley) Android 앱 개발(Kotlin 기반)</p>\n</li>\n<li data-nodeid=\"17\">\n<p data-nodeid=\"18\">Android 앱 문의 및 버그 확인, 수정</p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">자격 조건</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><h2 data-nodeid=\"28\">🖥️자격요건</h2>\n<ul data-nodeid=\"29\">\n<li data-nodeid=\"30\">\n<p data-nodeid=\"31\">Android 3년 이상 경력</p>\n</li>\n</ul>\n</div></div></section><!--v-if--><!--v-if--><section><h5 class=\"jC4vnWhzIi1RsyJP_5Qh\">개발 팀 &amp; 환경</h5><table class=\"nuPUig5lujn1NwuQoScz\"><tbody><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>팀내 개발자</td><td>9</td></tr><!--v-if--><!--v-if--><!--v-if--><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>OS 환경</td><td>MacOS</td></tr><!--v-if--></tbody></table></section><section><h5 class=\"SZUf8mqt2CrHwsWiVENo\">대표 개발자</h5><ul><li class=\"Lh1qTuDpzA2ZIVP80syP\" data-v-70991342=\"\"><header class=\"eSw35LllkBUd0Ngv2Tt2\" data-v-70991342=\"\"><span data-v-70991342=\"\">👨🏻</span><span data-v-70991342=\"\">김남혁 CTO</span><svg class=\"ic-24 MwfvY2KO7PMJRNAI9Mea\" data-v-70991342=\"\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M13 13v4h-2v-4H7v-2h4V7h2v4h4v2z\" fill-rule=\"evenodd\"></path></svg></header></li></ul></section></div>",
+  "WorkLocation": "서울 강남구 논현로 709, (논현동) 5층",
+  "DeadLind": "상시 채용",
+  "시간": "23-03-18 17:13:56"
+}

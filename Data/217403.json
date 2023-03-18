@@ -1,0 +1,25 @@
+{
+  "id": 217403,
+  "CompanyName": "리팅랩스",
+  "Pay": [
+    3000,
+    6000
+  ],
+  "Career": [
+    4,
+    8
+  ],
+  "Stacks": [
+    "Google BigQuery",
+    "Tableau",
+    "Python",
+    "SQL"
+  ],
+  "Job": [
+    "DBA"
+  ],
+  "MainData": "<div class=\"yO7TZRtCO7sznD0Csuw_\"><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">업무 소개</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"1\">'[업무소개]<br/>\n병원의  경영전반을 관리하는 MSO 시스템을 개발(CRM, ERP) 을 준비하고 있습니다.<br/>\n폭넓게 많은 영역을 경험하고 싶은 개발자라면 서비스 개발에서 분석까지 좋은 경험을 할 수 있을 것입니다.</p>\n<p data-nodeid=\"2\">[주요업무]<br/>\n• C-Level 보고를 위한 시각화 최적화 기획<br/>\n• 의사결정을 위한 데이터분석 및 결과 도출<br/>\n• 성과 모니터링을 위한 대시보드 및 리포트 자동화<br/>\n• 지표구조 설정 및 확장 기획/실행</p>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">자격 조건</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"22\">• 경력 : DA 경력 4년 이상 ~ 8년 이하<br/>\n• Tableau, Google Data Studio, Spread Sheet, Big Query 등 다양한 BI를 통한 시각한 경험<br/>\n• SQL 중급, Python 초급 이상  데이터를 통한 인사이트를 도출 하고 개선점을 적용해본 경험</p>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">우대사항</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"30\">• 가설 검증을 위한 A/B 테스트를 설계하고 결과를 분석하여 프로덕트에 적용 한 경험이 있으신 분<br/>\n• 고객 비즈니스 지표(Retention, LTV, CPI 등)에 대한 이해가 있으신 분 <br/>\n• ML을 활용한 경험이 있으신 분<br/>\n• 배우고자하는열정과 Fellowship이있으신분<br/>\n• 스타트업, IT기업 등 빠르게 변화하는 환경에 대처가 가능하신 분<br/>\n• 논리, 분석적 사고에 강하고커뮤니케이션이 명료한 분</p>\n</div></div></section><section><!--v-if--><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"42\"><span class=\"colour\" style=\"color:rgb(38, 55, 71)\">인터뷰 전형안내</span><br/>\n<span class=\"colour\" style=\"color:rgb(38, 55, 71)\">1차) 대면면접 (실무 관리자) -&gt; 과제 전형</span><br/>\n<span class=\"colour\" style=\"color:rgb(38, 55, 71)\">2차) 대면면접 (임원)</span></p>\n</div></div></section><!--v-if--><!--v-if--></div>",
+  "WorkLocation": "서울특별시 강남구 도산대로 121, 6층 (신사동 YK타워)",
+  "DeadLind": "상시 채용",
+  "시간": "23-03-18 17:16:20"
+}

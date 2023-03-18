@@ -1,0 +1,22 @@
+{
+  "id": 217428,
+  "CompanyName": "모빌테크",
+  "Pay": [
+    8000,
+    12000
+  ],
+  "Career": "경력 무관",
+  "Stacks": [
+    "Linux",
+    "ROS",
+    "C++",
+    "C"
+  ],
+  "Job": [
+    "인공지능(AI)"
+  ],
+  "MainData": "<div class=\"yO7TZRtCO7sznD0Csuw_\"><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">업무 소개</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"1\"><span class=\"colour\" style=\"color: rgb(38, 55, 71);\"><strong data-nodeid=\"10\">주식회사 모빌테크</strong>는 AI를 기반으로 3D 공간 정보를 다루는 스타트업입니다.</span></p>\n<p data-nodeid=\"2\">공간을 있는 그대로 복제하는 3D 공간 스캐너를 개발하여 스마트시티를 위한 3차원 공간정보, 하드웨어,소프트웨어 솔루션을 공급하고 있습니다.<br/>\n현재까지 실리콘 밸리를 포함한 국내외 30여곳에서 자율주행차량, 배달로봇 서비스를 위한 3차원 데이터를 공급하였습니다.<br/>\n모빌테크는 기술력을 인정받아 네이버, 현대자동차 등 주요 SI,FI 로부터 누적 약 80억원 투자 유치 하였습니다.</p>\n<p data-nodeid=\"3\"><br/>\n<br/>\n<span class=\"colour\" style=\"color: rgb(51, 51, 51);\"><strong data-nodeid=\"35\">담당업무</strong></span><br/>\n<span class=\"colour\" style=\"color: rgb(51, 51, 51);\"></span>• 센서 간의 캘리브레이션<br/>\n• 캘리브레이션 SW개발<br/>\n• 카메라, 라이다, IMU 센서 캘리브레이션<br/>\n• 센서 데이터 (Camera, LiDAR, GNSS/INS) 로깅 및 추출 SW개발</p>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">자격 조건</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"36\">• C / C++ Programming<br/>\n• ROS Programming<br/>\n• Linux 운영체제를 활용해 보셨던 분</p>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">우대사항</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"42\">• 네트워크에 대한 이해도가 있으신 분<br/>\n• 센서 활용 경험<br/>\n  (LiDAR, GPS, IMU, Radar, Camera, 열화상카메라, Motor, CAN통신, Serial 통신, Arduino, Raspberry Pi 등을 활용한 경험)<br/>\n• 회로에 대한 이해도가 있으신 분<br/>\n• 새로운 문제에 도전적이신 분</p>\n</div></div></section><section><!--v-if--><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"52\">[제출 서류]<br/>\n• 이력서, 자기소개서, 포트폴리오(필수)</p>\n<p data-nodeid=\"53\">[채용 절차]<br/>\n• 서류 접수 → 1차 면접 →  처우 협의 → 입사</p>\n<p data-nodeid=\"54\">[근무 조건]<br/>\n• 고용 형태 : 정규직 (수습기간 3개월)<br/>\n• 근무요일 : 주5일(월~금)<br/>\n• 근무시간 : 자율출근제 (주 40시간)</p>\n</div></div></section><!--v-if--><!--v-if--></div>",
+  "WorkLocation": "서울 서초구 마방로 28, (양재동) 3층,5층",
+  "DeadLind": "상시 채용",
+  "시간": "23-03-18 17:17:07"
+}

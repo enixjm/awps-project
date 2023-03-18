@@ -1,0 +1,23 @@
+{
+  "id": 24940,
+  "CompanyName": "포비즈코리아",
+  "Pay": [
+    4000,
+    8000
+  ],
+  "Career": [
+    5,
+    15
+  ],
+  "Stacks": [
+    "MySQL",
+    "PHP"
+  ],
+  "Job": [
+    "서버/백엔드"
+  ],
+  "MainData": "<div class=\"yO7TZRtCO7sznD0Csuw_\"><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">업무 소개</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"1\">포비즈코리아 플랫폼개발자는 이런일을 하게 됩니다.</p>\n<p data-nodeid=\"2\">- 릴라켓 자체 서비스의 신규기능 개발 및 고도화<br/>\n- 릴라켓을 이용하는 프리미엄 서비스의 신규기능 개발 및 고도화<br/>\n- 릴라켓과 외부 API의 연동 개발<br/>\n- 릴라켓의 자체API 고도화 및 신규개발</p>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">자격 조건</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"15\">포비즈코리아는 이런 분을 찾고 있습니다.</p>\n<p data-nodeid=\"16\">- 5년 이상 경력 보유하신 분<br/>\n- PHP, Mysql, Javascript 이용한 개발이 가능하신 분<br/>\n- 개인의 성장과 서비스의 성장을 함께 이끌어 나가실분<br/>\n- 꼼꼼하고 책임감 있는 업무 수행 능력을 발휘하시는 분<br/>\n- 동료와 함께 배움과 공유를 통해서 같이 성장을 경험해오신 분<br/>\n- 문제해결능력과 커뮤니케이션이 원활하신분</p>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">우대사항</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"35\">이런 경험과 역량을 보유하신 분이면 더 좋습니다</p>\n<p data-nodeid=\"36\">- Rabbit MQ 경험자<br/>\n- Elastic Search 경험자<br/>\n- Git 사용한 형상관리 및 협업 경험이 있으신 분<br/>\n- PHP Framework 도입에 관심이 있는 분<br/>\n- Restful API 개발 경험자<br/>\n- 대용량 데이터 처리 경험자</p>\n</div></div></section><section><!--v-if--><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"55\">당신을 위한 행복지원</p>\n<p data-nodeid=\"56\">- 선택출근제 (9시 / 9시30분 / 10시 중 선택)<br/>\n- 연차/반차/시차사용 (1시간, 2시간)<br/>\n- 매월 사내카페 포인트 지급(포인트 내 자유롭게 커피와음료, 샐러드 구매)<br/>\n- 스낵바에 과자, 커피, 음료 무한 공급<br/>\n- 어쩌다 야근이 필요하면 저녁식사/교통비지원<br/>\n- 입사 1달간 동료 밀착 케어! 가디언 제도</p>\n<p data-nodeid=\"57\">특별한 날을 위한 세심한 지원</p>\n<p data-nodeid=\"58\">- 입사1년 축하선물<br/>\n- 소중한 생일에는 조기퇴근권과 상품권 증정<br/>\n- 명절 선물 지급<br/>\n- 경조사휴가/비용/선물지급<br/>\n- 입사 웰컴키트 제공</p>\n<p data-nodeid=\"59\">미래도 함께할 당신을 위한 든든한포상</p>\n<p data-nodeid=\"60\">- 입사5년/10년/15년 근속포상금과 재충전을 위한 리프레쉬 유급휴가지원<br/>\n- 인재추천 후 합격시 포상금 제공</p>\n<p data-nodeid=\"61\">소통 문화를 위한 아낌없는 지원</p>\n<p data-nodeid=\"62\">- 파트별 분기 회식비/본부별 반기 회식비 지원<br/>\n- 월1회 전사 랜덤식사<br/>\n- 익명 소리함을 통해 직원의 의견을 경청 후 반영</p>\n<p data-nodeid=\"63\">자기계발과 성장을 위한 무한지원</p>\n<p data-nodeid=\"64\">- 업무에 필요한 교육이나 도서구입 비용 지원<br/>\n- 사내강연과 다양한 사내 교육프로그램 진행<br/>\n- 청년 내일채움 공제 지원</p>\n</div></div></section><section><h5 class=\"jC4vnWhzIi1RsyJP_5Qh\">개발 팀 &amp; 환경</h5><table class=\"nuPUig5lujn1NwuQoScz\"><tbody><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>팀내 개발자</td><td>9</td></tr><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>버전 관리</td><td>Github</td></tr><!--v-if--><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>프로젝트 관리</td><td>Confluence</td></tr><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>OS 환경</td><td>Windows</td></tr><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>코드 리뷰</td><td>Github <!--v-if--></td></tr></tbody></table></section><!--v-if--></div>",
+  "WorkLocation": "서울 서초구 바우뫼로37길 56, (양재동) ",
+  "DeadLind": "상시 채용",
+  "시간": "23-03-18 17:16:44"
+}

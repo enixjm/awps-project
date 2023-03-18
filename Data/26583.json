@@ -1,0 +1,32 @@
+{
+  "id": 26583,
+  "CompanyName": "파운트",
+  "Pay": [
+    3000,
+    6000
+  ],
+  "Career": [
+    5,
+    15
+  ],
+  "Stacks": [
+    "Python",
+    "Jenkins",
+    "AWS Cloud9",
+    "Redis",
+    "MariaDB",
+    "MySQL",
+    "Celery",
+    "Numpy",
+    "Pandas",
+    "DRF(Django REST framework)",
+    "Django"
+  ],
+  "Job": [
+    "서버/백엔드"
+  ],
+  "MainData": "<div class=\"yO7TZRtCO7sznD0Csuw_\"><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">업무 소개</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"1\">\n<li data-nodeid=\"2\">\n<p data-nodeid=\"3\"><span class=\"colour\" style=\"color:rgb(73, 73, 73)\"><span class=\"colour\" style=\"color:rgb(51, 51, 51)\">파운트 서비스에 필요한 다양한 Product 서버를 설계하고 개발합니다.</span></span></p>\n</li>\n<li data-nodeid=\"4\">\n<p data-nodeid=\"5\"><span class=\"colour\" style=\"color:rgb(73, 73, 73)\"><span class=\"colour\" style=\"color:rgb(51, 51, 51)\">MSA 환경에 맞는 서비스 서버 시스템을 설계하고 개발합니다.</span></span></p>\n</li>\n<li data-nodeid=\"6\">\n<p data-nodeid=\"7\"><span class=\"colour\" style=\"color:rgb(73, 73, 73)\"><span class=\"colour\" style=\"color:rgb(51, 51, 51)\">변화에 유연한 시스템을 설계하여 사용자의 피드백을 통해 서비스가 끊임없이 발전할 수 있도록 만듭니다.</span></span></p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">자격 조건</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"23\">\n<li data-nodeid=\"24\">\n<p data-nodeid=\"25\"><span class=\"colour\" style=\"color:rgb(73, 73, 73)\"><span class=\"colour\" style=\"color:rgb(68, 68, 68)\">고가용성의 확장 가능한 시스템을 설계하고 운영해본 경험이 있는 분을 찾습니다.</span></span></p>\n</li>\n<li data-nodeid=\"26\">\n<p data-nodeid=\"27\"><span class=\"colour\" style=\"color:rgb(73, 73, 73)\"><span class=\"colour\" style=\"color:rgb(68, 68, 68)\">장애를 경험하고 문제를 해결해보신 경험이 있는 분을 찾습니다.</span></span></p>\n</li>\n<li data-nodeid=\"28\">\n<p data-nodeid=\"29\"><span class=\"colour\" style=\"color:rgb(73, 73, 73)\"><span class=\"colour\" style=\"color:rgb(68, 68, 68)\">서비스에 대한 애착이 강해서 `내 서비스`라는 마음으로 일하는 분을 찾습니다.</span></span></p>\n</li>\n<li data-nodeid=\"30\">\n<p data-nodeid=\"31\"><span class=\"colour\" style=\"color:rgb(73, 73, 73)\"><span class=\"colour\" style=\"color:rgb(68, 68, 68)\">꾸준히 기술적인 성장을 갈구하는 마음을 가진 분을 찾습니다.</span></span></p>\n</li>\n<li data-nodeid=\"32\">\n<p data-nodeid=\"33\"><span class=\"colour\" style=\"color:rgb(73, 73, 73)\"><span class=\"colour\" style=\"color:rgb(68, 68, 68)\">다양한 기술적인 경험을 추구하는 분을 찾습니다.</span></span></p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">우대사항</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"63\">\n<li data-nodeid=\"64\">\n<p data-nodeid=\"65\"><span class=\"colour\" style=\"color:rgb(73, 73, 73)\">Mission Critical 한 서비스 운영환경을 즐기며 높은 책임감으로 탄탄한 서비스를 같이 만들어 갈 수 있는 분이면 좋습니다.</span></p>\n</li>\n<li data-nodeid=\"66\">\n<p data-nodeid=\"67\"><span class=\"colour\" style=\"color:rgb(73, 73, 73)\">Redis, Kafka, ELK 스택 운영 경험이 있으면 좋습니다.</span></p>\n</li>\n<li data-nodeid=\"68\">\n<p data-nodeid=\"69\"><span class=\"colour\" style=\"color:rgb(73, 73, 73)\">대규모의 실시간 트래픽을 처리하는 시스템 개발 경험이 있으면 좋습니다.</span></p>\n</li>\n</ul>\n</div></div></section><section><!--v-if--><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"79\"><strong data-nodeid=\"91\">[복리후생]</strong></p>\n<p data-nodeid=\"80\">1. 건강한 파운트<br/>\n•이유 불문! 자유로운 휴가 사용<br/>\n•매년 건강검진 혜택제공 (본인 및 배우자, 부모)<br/>\n•독감예방접종 지원</p>\n<p data-nodeid=\"81\">2. 성장하는 파운트<br/>\n•고급 사양의 업무 장비 지원<br/>\n•아낌없는 성장지원 (도서구입/온오프라인 강의수강 지원/자격증 응시료 등)</p>\n<p data-nodeid=\"82\">3. 편안한 파운트<br/>\n•팀별 자율 출퇴근 및 유연한 근무시간<br/>\n•수도권 교통의 허브, 서울역 앞 서울스퀘어에 위치한 사옥 (WeWork 혜택 이용 가능)<br/>\n•맛있는 간식과 커피 무한 제공<br/>\n•편안한 출퇴근을 위한 주차비 일부 지원<br/>\n•저녁 식대 및 야근 택시비 지원 (발생 시..)</p>\n<p data-nodeid=\"83\">4. 행복한 파운트<br/>\n•각종 경조금 및 휴가 지원<br/>\n•설/추석 명절 백화점 상품권 지급</p>\n<p data-nodeid=\"84\">5. 즐거운 파운트<br/>\n•평범함을 거부하는 소소한 이벤트 진행</p>\n<p data-nodeid=\"85\">*여러분을 위한 최고의 혜택과 복지를 앞으로도 만들어가겠습니다.</p>\n</div></div></section><!--v-if--><!--v-if--></div>",
+  "WorkLocation": "서울특별시 중구 한강대로 416, 13층",
+  "DeadLind": "상시 채용",
+  "시간": "23-03-18 17:10:55"
+}

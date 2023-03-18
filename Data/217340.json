@@ -1,0 +1,24 @@
+{
+  "id": 217340,
+  "CompanyName": "크래프트테크놀로지스",
+  "Pay": [
+    3000,
+    3600
+  ],
+  "Career": [
+    1,
+    7
+  ],
+  "Stacks": [
+    "Python",
+    "Go",
+    "GraphQL"
+  ],
+  "Job": [
+    "서버/백엔드"
+  ],
+  "MainData": "<div class=\"yO7TZRtCO7sznD0Csuw_\"><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">업무 소개</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"1\">\n<li data-nodeid=\"2\">\n<p data-nodeid=\"3\">AI Product Backend 개발</p>\n</li>\n<li data-nodeid=\"4\">\n<p data-nodeid=\"5\">Cloud Infra 구축</p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">자격 조건</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"8\">\n<li data-nodeid=\"9\">\n<p data-nodeid=\"10\">벡엔드 개발 스택 : Multi-thread 지원하는 언어 중 무관</p>\n</li>\n<li data-nodeid=\"11\">\n<p data-nodeid=\"12\">배포 스택: CI/CD, Github</p>\n</li>\n<li data-nodeid=\"13\">\n<p data-nodeid=\"14\">AWS, Docker, Kubernetes에 대한 이해</p>\n</li>\n<li data-nodeid=\"15\">\n<p data-nodeid=\"16\">데이터베이스, 이중화</p>\n</li>\n<li data-nodeid=\"17\">\n<p data-nodeid=\"18\">협업 능력, 서비스 개발 경험</p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">우대사항</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"24\">\n<li data-nodeid=\"25\">\n<p data-nodeid=\"26\">Golang / Python 숙련</p>\n</li>\n<li data-nodeid=\"27\">\n<p data-nodeid=\"28\">GraphQL 에 대한 이해</p>\n</li>\n<li data-nodeid=\"29\">\n<p data-nodeid=\"30\">금융, 투자 관련 지식 보유</p>\n</li>\n</ul>\n</div></div></section><!--v-if--><!--v-if--><!--v-if--></div>",
+  "WorkLocation": "서울 영등포구 여의대로 108, (여의도동) ",
+  "DeadLind": "상시 채용",
+  "시간": "23-03-18 17:15:29"
+}

@@ -1,0 +1,30 @@
+{
+  "id": 26581,
+  "CompanyName": "파운트",
+  "Pay": [
+    3000,
+    6000
+  ],
+  "Career": [
+    7,
+    15
+  ],
+  "Stacks": [
+    "Jenkins",
+    "Git",
+    "Docker",
+    "AWS Cloud9",
+    "Redux.js",
+    "TypeScript",
+    "JavaScript",
+    "Next.js",
+    "React Native"
+  ],
+  "Job": [
+    "프론트엔드"
+  ],
+  "MainData": "<div class=\"yO7TZRtCO7sznD0Csuw_\"><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">업무 소개</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"1\">\n<li data-nodeid=\"2\">\n<p data-nodeid=\"3\">파운트의 다양한 웹 서비스를 개발합니다.</p>\n</li>\n<li data-nodeid=\"4\">\n<p data-nodeid=\"5\">사용자에게 더 나은 투자/자산관리 경험을 제공하기 위한 화면을 개발합니다.</p>\n</li>\n<li data-nodeid=\"6\">\n<p data-nodeid=\"7\">React 기반 웹, 모바일, 데스크탑 등 멀티 플랫폼 클라이언트 개발합니다.</p>\n</li>\n<li data-nodeid=\"8\">\n<p data-nodeid=\"9\">최신 자바스크립트, 브라우저 기술을 적용하기위한 연구 및 성능 최적화</p>\n</li>\n</ul>\n<p data-nodeid=\"10\"><br/>\n<br/>\n<br/></p>\n<ul data-nodeid=\"11\">\n<li data-nodeid=\"12\"></li>\n</ul>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">자격 조건</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"22\">\n<li data-nodeid=\"23\">\n<p data-nodeid=\"24\">3년 이상의 웹프론트엔드 개발 경험이 있거나 혹은 이에 준하는 실력을 갖추신 분</p>\n</li>\n<li data-nodeid=\"25\">\n<p data-nodeid=\"26\">React, Vue, Angular 등 SPA 프레임워크 사용에 능숙하신 분</p>\n</li>\n<li data-nodeid=\"27\">\n<p data-nodeid=\"28\">Javascript, Typescript, CSS/SCSS에 대한 이해와 개발 경험이 있으신 분</p>\n</li>\n<li data-nodeid=\"29\">\n<p data-nodeid=\"30\">Git 등의 분산 버전 관리 시스템 이용에 능숙한 분</p>\n</li>\n<li data-nodeid=\"31\">\n<p data-nodeid=\"32\">기획/디자인/운영 등 다양한 직군과 같이 문제를 정의하고 해결책을 찾아가는 협업 능력을 갖추신 분</p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">우대사항</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"38\">\n<li data-nodeid=\"39\">\n<p data-nodeid=\"40\">서버 사이드 렌더링(SSR) 및 모바일 앱 내 웹앱 개발 경험이 있는 분이면 좋습니다.</p>\n</li>\n<li data-nodeid=\"41\">\n<p data-nodeid=\"42\">React Native, Flutter 등 모바일 크로스 플랫폼 개발 경험이 있으신 분</p>\n</li>\n<li data-nodeid=\"43\">\n<p data-nodeid=\"44\">Webpack, Rollup 등을 이용한 개발 환경 구성 경험이 있으신 분</p>\n</li>\n<li data-nodeid=\"45\">\n<p data-nodeid=\"46\">최신 개발 트렌드에 대해서 관심이 있고, 공유하기를 좋아하는 분</p>\n</li>\n<li data-nodeid=\"47\">\n<p data-nodeid=\"48\">테스트 및 배포 자동화 경험이 있는 분이면 좋습니다.</p>\n</li>\n</ul>\n<p data-nodeid=\"49\"><br/>\n<br/></p>\n</div></div></section><section><!--v-if--><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"58\"><span class=\"colour\" style=\"color:rgb(73, 73, 73)\"><strong data-nodeid=\"74\"><span class=\"colour\" style=\"color:rgb(68, 68, 68)\">[복리후생]</span></strong></span></p>\n<p data-nodeid=\"59\"><strong data-nodeid=\"88\">1. 건강한 파운트</strong><br/>\n•이유 불문! 자유로운 휴가 사용<br/>\n•매년 건강검진 혜택제공 (본인 및 배우자, 부모)<br/>\n•독감예방접종 지원</p>\n<p data-nodeid=\"60\"><strong data-nodeid=\"98\">2. 성장하는 파운트</strong><br/>\n•고급 사양의 업무 장비 지원<br/>\n•아낌없는 성장지원 (도서구입/온오프라인 강의수강 지원/자격증 응시료 등)</p>\n<p data-nodeid=\"61\"><strong data-nodeid=\"114\">3. 편안한 파운트</strong><br/>\n•팀별 자율 출퇴근 및 유연한 근무시간<br/>\n•수도권 교통의 허브, 서울역 앞 서울스퀘어에 위치한 사옥 (WeWork 혜택 이용 가능)<br/>\n•맛있는 간식과 커피 무한 제공<br/>\n•편안한 출퇴근을 위한 주차비 일부 지원<br/>\n•저녁 식대 및 야근 택시비 지원 (발생 시 지원)</p>\n<p data-nodeid=\"62\"><strong data-nodeid=\"124\">4. 행복한 파운트</strong><br/>\n•각종 경조금 및 휴가 지원<br/>\n•설/추석 명절 백화점 상품권 지급</p>\n<p data-nodeid=\"63\">5. 즐거운 파운트<br/>\n•평범함을 거부하는 소소한 이벤트 진행</p>\n<p data-nodeid=\"64\">*여러분을 위한 최고의 혜택과 복지를 앞으로도 만들어가겠습니다. *</p>\n</div></div></section><!--v-if--><!--v-if--></div>",
+  "WorkLocation": "서울특별시 중구 한강대로 416, 13층 033호 036호(남대문로5가, 서울스퀘어)",
+  "DeadLind": "상시 채용",
+  "시간": "23-03-18 17:17:20"
+}

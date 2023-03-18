@@ -68,13 +68,13 @@ def main():
     client = boto3.client("s3")
 
     file_names, folders = get_file_folders(client, "awpsprocesseddata")
-    # download_files(
-    #     client,
-    #     "awpsprocesseddata",
-    #     "./Data",
-    #     file_names,
-    #     folders
-    # )
+    download_files(
+        client,
+        "awpsprocesseddata",
+        "./Data",
+        file_names,
+        folders
+    )
     save_to_csv()
 
 if __name__ == "__main__":

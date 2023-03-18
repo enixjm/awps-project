@@ -1,0 +1,33 @@
+{
+  "id": 213782,
+  "CompanyName": "에이피알",
+  "Pay": [
+    4000,
+    8000
+  ],
+  "Career": [
+    3,
+    6
+  ],
+  "Stacks": [
+    "JIRA",
+    "Git",
+    "AWS Alexa",
+    "Docker",
+    "Zeplin",
+    "TypeScript",
+    "Next.js",
+    "Firebase",
+    "GitHub",
+    "JavaScript",
+    "ReactJS"
+  ],
+  "Job": [
+    "프론트엔드",
+    " 웹 풀스택"
+  ],
+  "MainData": "<div class=\"yO7TZRtCO7sznD0Csuw_\"><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">업무 소개</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"1\"><span class=\"colour\" style=\"color:rgb(0, 0, 0)\">- 에이지알, 포토그레이 서비스 개발(커뮤니티 기능, 화면 개발 등)</span><br/>\n- 기획, 디자인, 백엔드 팀 등 협업하여 서비스 개발<br/>\n- 자신의 코드와 팀원의 코드에 대한 코드 리뷰<br/>\n- 서비스 운영 이슈 분석 및 해결<br/>\n- 테스트/배포 자동화 업무<br/>\n- 기능 구현 시 리스크를 예측하고 관리</p>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">자격 조건</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"24\"><span class=\"colour\" style=\"color:rgb(0, 0, 0)\">- 프론트엔드 개발 1~3년 이하의 경력 보유자(</span>React 개발 경력 필수)<br/>\n- Redux, MobX, Jotai 등 상태 관리 라이브러러 사용 경험이 있는 분<br/>\n- CSS에 대한 이해와 개발 경험이 있는 분<br/>\n- 기획, 디자인 등 관련 부서와 협업하여 제품(앱, 서비스 등) 출시 경험이 있는 분<br/>\n- 스스로 적합한 기술 스택을 선택하고 개발 환경을 구축해본 경험이 있는 분</p>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">우대사항</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"49\"><span class=\"colour\" style=\"color:rgb(0, 0, 0)\">- OKR 및 애자일 방법론, 코드 리뷰에 기반한 프로젝트 진행하실 수 있는 분</span><br/>\n- 단위테스트, 기능테스트, 종단테스트, 빌드 자동화, 지속적 통합에 관심이 많은 분<br/>\n- 여러 국가에 걸쳐 서비스를 운영/배포한 경험이 있는 분<br/>\n- 웹 페이지의 퍼포먼스와 최적화에 대한 문제를 경험하고, 이를 해결한 경험이 있는 분<br/>\n- 풀스택 개발 경험 혹은 백엔드 시스템에 대한 기본적인 이해</p>\n</div></div></section><section><!--v-if--><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"66\"><strong data-nodeid=\"89\">[전형안내]</strong><br/>\n<strong data-nodeid=\"90\">Step 1. 서류전형</strong><br/>\n- 입사지원서 제출일 기준 1주 이내에 개별적으로 서류전형 결과를 안내 드리고 있습니다.<br/>\n- 정해진 형식은 없으나 GitHub 계정이나 포트폴리오, 개발 블로그 등의 정보를 함께 전달해 주시면 참고하여 검토할 예정이에요.</p>\n<p data-nodeid=\"67\"><strong data-nodeid=\"102\">Step 2. 온라인 코딩테스트 (7일 제공)</strong><br/>\n- 어떤 지식을 가지고 문제를 해결하는지 확인하는 절차에요.<br/>\n- 갖고 계신 역량에 따라 원하시는 Framework로 응시해 주세요.</p>\n<p data-nodeid=\"68\"><strong data-nodeid=\"110\">Step 3. 실무진 인터뷰 (1시간 이내)</strong><br/>\n- 편안한 분위기에서 앞으로 함께 근무할 실무진 분들과 인터뷰를 진행하며 Culture Fit, Job Fit을 확인하는 시간을 갖습니다.</p>\n<p data-nodeid=\"69\"><strong data-nodeid=\"122\">Step 4. CTO 인터뷰 (1시간 이내)</strong><br/>\n- 개발 최고 리더(CTO)분과 1:1 인터뷰를 진행하며 지원자분의 경험, 기술 등 전반적인 내용을 기반으로 인터뷰를 진행해요.</p>\n<p data-nodeid=\"70\"><strong data-nodeid=\"129\">Step 5. 최종 합격 및 처우 협의</strong><br/>\n- 처우, 출근 일자 등을 협의해요</p>\n<p data-nodeid=\"71\"><strong data-nodeid=\"137\">※ 기타 사항</strong><br/>\n- 채용 절차는 유동적으로 진행될 수 있습니다.</p>\n</div></div></section><!--v-if--><!--v-if--></div>",
+  "WorkLocation": "서울시 송파구 올림픽로 300 롯데월드타워 36층(에이피알 본사)",
+  "DeadLind": "상시 채용",
+  "시간": "23-03-18 17:10:36"
+}

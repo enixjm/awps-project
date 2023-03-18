@@ -1,0 +1,27 @@
+{
+  "id": 27086,
+  "CompanyName": "비트바이트",
+  "Pay": [
+    4000,
+    9000
+  ],
+  "Career": "경력 무관",
+  "Stacks": [
+    "Sass(SCSS)",
+    "Webpack",
+    "TypeScript",
+    "Node.js",
+    "Vue.js",
+    "JavaScript",
+    "CSS",
+    "HTML"
+  ],
+  "Job": [
+    "프론트엔드",
+    " 웹 풀스택"
+  ],
+  "MainData": "<div class=\"yO7TZRtCO7sznD0Csuw_\"><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">업무 소개</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"1\"><span class=\"colour\" style=\"color:rgb(38, 55, 71)\">🚀 삼성전자 C랩 아웃사이드 선정, 구글플레이 메인 추천앱 선정</span><br/>\n<span class=\"colour\" style=\"color:rgb(38, 55, 71)\">🚀 하루에 1인당 카카오톡보다 많이 실행되는 앱, 플레이키보드</span></p>\n<hr data-nodeid=\"2\"/>\n<ul data-nodeid=\"3\">\n<li data-nodeid=\"4\">\n<p data-nodeid=\"5\">플레이키보드 앱 내 웹뷰(WebView)로 탑재될 서비스 개발 및 유지보수를 주력으로 개발합니다.</p>\n</li>\n<li data-nodeid=\"6\">\n<p data-nodeid=\"7\">플레이키보드 스튜디오 웹 페이지를 개발 및 유지보수합니다. (plkey.studio)</p>\n</li>\n<li data-nodeid=\"8\">\n<p data-nodeid=\"9\">랜딩페이지, 어드민페이지 등 웹 페이지를 개발 및 유지보수합니다.</p>\n</li>\n</ul>\n<hr data-nodeid=\"10\"/>\n<p data-nodeid=\"11\"><br/>\n<br/>\n<br/>\n<br/></p>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">자격 조건</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"29\">\n<li data-nodeid=\"30\">\n<p data-nodeid=\"31\">React.js, Vue.js, Angular.js 등 SPA 프레임워크 사용에 능숙하신 분</p>\n</li>\n<li data-nodeid=\"32\">\n<p data-nodeid=\"33\">웹 서비스에 대한 전체적인 흐름을 이해하고 직접 배포한 경험이 있으신 분</p>\n</li>\n<li data-nodeid=\"34\">\n<p data-nodeid=\"35\">반응형 웹을 통해 여러 환경의 웹 브라우저를 대응해보신 경험이 있는 분</p>\n</li>\n</ul>\n<hr data-nodeid=\"36\"/>\n<p data-nodeid=\"37\"><br/>\n<br/></p>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">우대사항</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"44\">\n<li data-nodeid=\"45\">\n<p data-nodeid=\"46\">모바일 웹앱 개발 경험이 있는 분</p>\n</li>\n<li data-nodeid=\"47\">\n<p data-nodeid=\"48\">다국어 서비스 개발 경험이 있는 분</p>\n</li>\n<li data-nodeid=\"49\">\n<p data-nodeid=\"50\">코드를 직접 리팩토링하고, 개선한 경험이 있는 분</p>\n</li>\n<li data-nodeid=\"51\">\n<p data-nodeid=\"52\">Typescript 사용이 능숙하신 분</p>\n</li>\n<li data-nodeid=\"53\">\n<p data-nodeid=\"54\">효과적인 협업과 생산성 향상에 관심이 많고 실천하시는 분</p>\n</li>\n</ul>\n<hr data-nodeid=\"55\"/>\n<p data-nodeid=\"56\"><br/>\n<br/></p>\n</div></div></section><section><!--v-if--><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"65\"><strong data-nodeid=\"91\">플레이키보드가 사용하는 기술</strong></p>\n<ul data-nodeid=\"66\">\n<li data-nodeid=\"67\">\n<p data-nodeid=\"68\">Web: Vue.js, Typescript, Nuxt.js</p>\n</li>\n<li data-nodeid=\"69\">\n<p data-nodeid=\"70\">상태관리: Vuex, Pinia</p>\n</li>\n<li data-nodeid=\"71\">\n<p data-nodeid=\"72\">스타일링: SCSS</p>\n</li>\n<li data-nodeid=\"73\">\n<p data-nodeid=\"74\">패키지 매니저: NPM, YARN</p>\n</li>\n<li data-nodeid=\"75\">\n<p data-nodeid=\"76\">빌드: Webpack, Babel, Vite</p>\n</li>\n<li data-nodeid=\"77\">\n<p data-nodeid=\"78\">CI/CD: Github Action</p>\n</li>\n</ul>\n<p data-nodeid=\"79\"><br/></p>\n<hr data-nodeid=\"80\"/>\n<p data-nodeid=\"81\"><span class=\"colour\" style=\"color:rgb(40, 50, 60)\"><strong data-nodeid=\"112\">* 산업기능요원 전직 및 보충역 지원가능</strong></span><br/>\n<span class=\"colour\" style=\"color:rgb(40, 50, 60)\"><strong data-nodeid=\"113\">* 수습기간 3개월 적용</strong></span></p>\n<hr data-nodeid=\"82\"/>\n<p data-nodeid=\"83\"><span class=\"colour\" style=\"color:rgb(40, 50, 60)\">&lt;업무 환경 및 복지&gt;</span><br/>\n<span class=\"colour\" style=\"color:rgb(40, 50, 60)\">∙ 개인 업무용 장비 지원</span><br/>\n<span class=\"colour\" style=\"color:rgb(40, 50, 60)\">- 최신 MacBook Pro 16, 멀티 모니터(요청하는 만큼 제공), 테스트폰 등 업무에 필요한 장비 지원</span><br/>\n<span class=\"colour\" style=\"color:rgb(40, 50, 60)\">- 최고의 효율을 위해 업무 장비에는 투자를 아끼지 않습니다.</span></p>\n<p data-nodeid=\"84\"><span class=\"colour\" style=\"color:rgb(40, 50, 60)\">∙ 시차출퇴근제(8:30~11:00 사이 출근) 및 주 1회 자율 원격근무제</span><br/>\n<span class=\"colour\" style=\"color:rgb(40, 50, 60)\">∙ 근속자 지원 및 명절 선물 지원</span><br/>\n<span class=\"colour\" style=\"color:rgb(40, 50, 60)\">∙ 식사 및 간식 제공</span></p>\n<p data-nodeid=\"85\"><br/>\n&lt;채용절차&gt;<br/>\n1. 서류 제출<br/>\n- 프로그래머스 이력서 최신 업데이트 필수, 포트폴리오 및 GitHub 주소 등 별도 링크 필수 기재</p>\n<p data-nodeid=\"86\">2. 전화 인터뷰<br/>\n- 서류에서 확인되어야 할 항목이 충분하지 않은 경우 30분 내외의 전화 인터뷰 실시</p>\n<p data-nodeid=\"87\">3. 대면 인터뷰(필요시 2회)<br/>\n- 직무(기술역량) 및 조직 적합성을 확인하기 위한 인터뷰 실시</p>\n</div></div></section><section><h5 class=\"jC4vnWhzIi1RsyJP_5Qh\">개발 팀 &amp; 환경</h5><table class=\"nuPUig5lujn1NwuQoScz\"><tbody><!--v-if--><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>버전 관리</td><td>Github</td></tr><!--v-if--><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>프로젝트 관리</td><td>JIRA</td></tr><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>OS 환경</td><td>MacOS</td></tr><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>코드 리뷰</td><td>Github <!--v-if--></td></tr></tbody></table></section><!--v-if--></div>",
+  "WorkLocation": "서울 중구 청계천로 40, CKL기업지원센터 1307호",
+  "DeadLind": "상시 채용",
+  "시간": "23-03-18 17:15:39"
+}

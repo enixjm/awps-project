@@ -1,0 +1,28 @@
+{
+  "id": 213779,
+  "CompanyName": "위블",
+  "Pay": [
+    3000,
+    8000
+  ],
+  "Career": [
+    3,
+    10
+  ],
+  "Stacks": [
+    "Firebase",
+    "Jetpack",
+    "Clean Architecture",
+    "MVVM(Model-View-ViewModel)",
+    "Kotlin",
+    "Android"
+  ],
+  "Job": [
+    "프론트엔드",
+    " 안드로이드"
+  ],
+  "MainData": "<div class=\"yO7TZRtCO7sznD0Csuw_\"><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">업무 소개</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"1\"><strong data-nodeid=\"11\">“Real Short-form Commerce Platform”</strong></p>\n<p data-nodeid=\"2\">■ 주식회사 위블 소개</p>\n<p data-nodeid=\"3\">주식회사 위블은 숏폼 네트워크 커머스 '위글'을 운영중에 있으며,<br/>\n신규 프로젝트 (숏폼기반의 재능거래 플랫폼)을 개발중인 회사입니다.</p>\n<p data-nodeid=\"4\"><br/>\n평균연령 20~30대의 젊고 역동적인 조직에서 팀 단위로 각자 맡은 분야를 책임지며 구성원이 빠르게 성장하고 발전할 수 있도록 지원하고 있습니다.</p>\n<p data-nodeid=\"5\">스타트업의 에너지와 열정 뿐 아니라 명확한 비전과 성장성, 좋은 사람들과 문화를 갖춘 곳에서 함께 성장하고 미래를 만들어 나갈 새로운 팀원을 기다립니다.</p>\n<p data-nodeid=\"6\">■ 주요업무</p>\n<p data-nodeid=\"7\">• 숏폼기반 신규 Android 프로젝트 개발<br/>\n• Github, 잔디, Figma, Zira 등의 툴을 사용한 협업<br/>\n• 현재 사용하고 있는 기술(Kotlin, MVVM, git, Retrofit, Corotuine, Flow, Firebase 등)</p>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">자격 조건</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"32\">■ 자격요건</p>\n<p data-nodeid=\"33\">• Android(Kotlin) 앱 개발 경험<br/>\n• 모바일 앱 서비스 아키텍처(MVC, MVP, MVVM)에 대한 전반적인 이해<br/>\n• Retrofit을 활용한 데이터 통신 경험, Restful API 이해 능력<br/>\n• 필요한 기술과 정보를 적절히 찾아내어 적용할 수 있는 분<br/>\n• 새로운 서비스를 만들기 좋아하며, 내 서비스를 소중하게 생각하는 분<br/>\n• 각종 협업 도구에 익숙하고 팀워크 기반으로 업무 수행이 가능하신 분</p>\n<p data-nodeid=\"34\">*지원 시 포트폴리오 제출 필수</p>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">우대사항</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"49\">■ 우대사항</p>\n<p data-nodeid=\"50\">• AWS, Node.js를 활용한 서버개발의 기본적인 이해가 있으신 분<br/>\n• Google Play Store에 앱을 등록하고 운영해본 경험<br/>\n• Git/Github 활용 방법 숙지<br/>\n• Clean Architecture에 대한 경험<br/>\n• exoplayer 등 영상처리 관련된 기술 경험<br/>\n• Hilt를 통한 의존성 주입 경험<span class=\"colour\" style=\"color:rgb(51, 51, 51)\"></span></p>\n</div></div></section><section><!--v-if--><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"65\">■ 채용안내</p>\n<p data-nodeid=\"66\">* 서류 전형의 경우 서류 전형 합격자에 한해서 개별적으로 면접일정을 안내해 드리고 있습니다.</p>\n</div></div></section><section><h5 class=\"jC4vnWhzIi1RsyJP_5Qh\">개발 팀 &amp; 환경</h5><table class=\"nuPUig5lujn1NwuQoScz\"><tbody><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>팀내 개발자</td><td>7</td></tr><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>버전 관리</td><td>Github</td></tr><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>기술 스택</td><td>Kotlin</td></tr><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>프로젝트 관리</td><td>Notion</td></tr><tr class=\"AHOUx7dj7rWH4LTQnPGM\"><td>OS 환경</td><td>MacOS</td></tr><!--v-if--></tbody></table></section><!--v-if--></div>",
+  "WorkLocation": "서울시 강남구 논현로 98길 28, 405호",
+  "DeadLind": "23년 04월 30일 16:50까지",
+  "시간": "23-03-18 17:15:19"
+}

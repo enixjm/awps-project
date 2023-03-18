@@ -1,0 +1,28 @@
+{
+  "id": 217396,
+  "CompanyName": "에너자이",
+  "Pay": [
+    3000,
+    6000
+  ],
+  "Career": [
+    1,
+    2
+  ],
+  "Stacks": [
+    "Linux kernel",
+    "Python",
+    "iOS",
+    "Android",
+    "C++"
+  ],
+  "Job": [
+    "안드로이드",
+    " iOS",
+    " 임베디드 소프트웨어"
+  ],
+  "MainData": "<div class=\"yO7TZRtCO7sznD0Csuw_\"><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">업무 소개</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"1\">\n<li data-nodeid=\"2\">\n<p data-nodeid=\"3\">실시간 영상 처리 임베디드 어플리케이션 개발</p>\n</li>\n<li data-nodeid=\"4\">\n<p data-nodeid=\"5\">Nvidia jetson, Intel Movidius 등 edge device 어플리케이션 개발</p>\n</li>\n<li data-nodeid=\"6\">\n<p data-nodeid=\"7\">임베디드 디바이스의 AI 가속기 (NPU, TPU, VPU) 의 SDK 활용</p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">자격 조건</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"11\">\n<li data-nodeid=\"12\">\n<p data-nodeid=\"13\">c/c++ 개발 경험자</p>\n</li>\n<li data-nodeid=\"14\">\n<p data-nodeid=\"15\">임베디드 어플리케이션 개발 경험</p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">우대사항</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"18\">\n<li data-nodeid=\"19\">\n<p data-nodeid=\"20\">임베디드, 모바일의 AI 가속칩 활용(NPU, TPU, VPU) 경험</p>\n</li>\n<li data-nodeid=\"21\">\n<p data-nodeid=\"22\">yocto linux 프로젝트 개발 경험</p>\n</li>\n<li data-nodeid=\"23\">\n<p data-nodeid=\"24\">linux kernel 관련 지식 및 경험</p>\n</li>\n<li data-nodeid=\"25\">\n<p data-nodeid=\"26\">카메라 인터페이스에 대한 이해</p>\n</li>\n<li data-nodeid=\"27\">\n<p data-nodeid=\"28\">Nvidia Jetson, Raspberry Pi 개발 경험</p>\n</li>\n<li data-nodeid=\"29\">\n<p data-nodeid=\"30\">IP camera 개발 경험</p>\n</li>\n<li data-nodeid=\"31\">\n<p data-nodeid=\"32\">안드로이드 개발 경험</p>\n</li>\n<li data-nodeid=\"33\">\n<p data-nodeid=\"34\">Python 경험</p>\n</li>\n</ul>\n</div></div></section><section><!--v-if--><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"43\"><span class=\"colour\" style=\"color: rgba(0, 0, 0, 0.85);\"><strong data-nodeid=\"90\">[근무 조건]</strong></span></p>\n<ul data-nodeid=\"44\">\n<li data-nodeid=\"45\">\n<p data-nodeid=\"46\">근무 시작일: 협의</p>\n</li>\n<li data-nodeid=\"47\">\n<p data-nodeid=\"48\">근무시간: 평일 주 5일 선택 출퇴근 제도(9시 ~ 11시 출근 선택)</p>\n</li>\n<li data-nodeid=\"49\">\n<p data-nodeid=\"50\">근무지: 서울 강남구 테헤란로 431 저스트코타워 6층(2호선 선릉역 도보 5분 거리)</p>\n</li>\n<li data-nodeid=\"51\">\n<p data-nodeid=\"52\">수습기간: 입사일로부터 3개월 / 급여 100% 지급</p>\n</li>\n</ul>\n<p data-nodeid=\"53\"><br/>\n<br/>\n<span class=\"colour\" style=\"color: rgba(0, 0, 0, 0.85);\"><strong data-nodeid=\"108\">[혜택 및 복지]</strong></span></p>\n<ul data-nodeid=\"54\">\n<li data-nodeid=\"55\">\n<p data-nodeid=\"56\">유연근무제도(9시 ~ 11시 출근 선택)</p>\n</li>\n<li data-nodeid=\"57\">\n<p data-nodeid=\"58\">저녁식대 및 사내 간식 지원</p>\n</li>\n<li data-nodeid=\"59\">\n<p data-nodeid=\"60\">청년내일채움공제</p>\n</li>\n<li data-nodeid=\"61\">\n<p data-nodeid=\"62\">함께하는 문화생활</p>\n</li>\n<li data-nodeid=\"63\">\n<p data-nodeid=\"64\">SW/IT 고성능 장비 지원</p>\n</li>\n<li data-nodeid=\"65\">\n<p data-nodeid=\"66\">도서 구입, 컨퍼런스, 스터디 등 역량 개발을 아낌없이 지원</p>\n</li>\n<li data-nodeid=\"67\">\n<p data-nodeid=\"68\">직무발명보상제도에 따른 인센티브 제도</p>\n</li>\n</ul>\n<p data-nodeid=\"69\"><br/>\n<br/>\n<span class=\"colour\" style=\"color: rgba(0, 0, 0, 0.85);\"><strong data-nodeid=\"129\">[지원방법 및 채용절차]</strong></span></p>\n<ul data-nodeid=\"70\">\n<li data-nodeid=\"71\">\n<p data-nodeid=\"72\">지원 방법 : 자유형식 이력서(국/영문 무관), Github 주소를 첨부 (없을 경우 포트폴리오 첨부)</p>\n</li>\n<li data-nodeid=\"73\">\n<p data-nodeid=\"74\">채용 절차: 서류 심사 ＞ 온라인 코딩 테스트 ＞ 인터뷰 ＞ 최종 합격</p>\n</li>\n</ul>\n<p data-nodeid=\"75\"><br/>\n<br/>\n<span class=\"colour\" style=\"color: rgba(0, 0, 0, 0.85);\"><strong data-nodeid=\"143\">[유의사항]</strong></span></p>\n<ul data-nodeid=\"76\">\n<li data-nodeid=\"77\">\n<p data-nodeid=\"78\">서류 심사 결과는 코딩테스트 대상자에 한하여 연락 드립니다.</p>\n</li>\n<li data-nodeid=\"79\">\n<p data-nodeid=\"80\">인턴을 제외한 모든 직무는 3개월 미만의 수습기간을 거칩니다.</p>\n</li>\n<li data-nodeid=\"81\">\n<p data-nodeid=\"82\">입사지원 서류에서 허위기재 사실이 발견될 경우, 입사가 취소될 수 있습니다.</p>\n</li>\n</ul>\n</div></div></section><!--v-if--><!--v-if--></div>",
+  "WorkLocation": "서울 강남구 테헤란로 431, (삼성동) 6층",
+  "DeadLind": "상시 채용",
+  "시간": "23-03-18 17:17:18"
+}

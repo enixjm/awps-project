@@ -1,0 +1,30 @@
+{
+  "id": 217384,
+  "CompanyName": "넥슨코리아",
+  "Pay": [
+    4200,
+    8000
+  ],
+  "Career": [
+    3,
+    10
+  ],
+  "Stacks": [
+    "Git",
+    "MySQL",
+    "MSSQL(Microsoft SQL Server)",
+    ".NET",
+    "Java",
+    "Spring",
+    "Docker",
+    "REST API"
+  ],
+  "Job": [
+    "서버/백엔드",
+    " 웹 풀스택"
+  ],
+  "MainData": "<div class=\"yO7TZRtCO7sznD0Csuw_\"><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">업무 소개</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"1\">\n<li data-nodeid=\"2\">\n<p data-nodeid=\"3\">넥슨 유저 회원/보안서비스의 프론트&amp;백엔드 개발 및 운영</p>\n</li>\n<li data-nodeid=\"4\">\n<p data-nodeid=\"5\">넥슨 OTP 인증/지정기기 서비스 개발</p>\n</li>\n<li data-nodeid=\"6\">\n<p data-nodeid=\"7\">안심기기 서비스 개발</p>\n</li>\n<li data-nodeid=\"8\">\n<p data-nodeid=\"9\">간편 인증번호 서비스 개발</p>\n</li>\n<li data-nodeid=\"10\">\n<p data-nodeid=\"11\">계정보안서비스 개발</p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">자격 조건</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"19\">\n<li data-nodeid=\"20\">\n<p data-nodeid=\"21\">Java/Spring, Spring Boot 또는 C#/.NET 기반 3년 이상 프로그래밍 경험이 있으신 분</p>\n</li>\n<li data-nodeid=\"22\">\n<p data-nodeid=\"23\">Web API (RESTful API) 아키텍처 설계 및 개발에 능숙하신 분</p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">우대사항</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"26\">\n<li data-nodeid=\"27\">\n<p data-nodeid=\"28\">Kotlin/Spring Boot 활용 경험이 있으신 분</p>\n</li>\n<li data-nodeid=\"29\">\n<p data-nodeid=\"30\">웹 표준, 웹 접근성 전반에 대한 이해 능력이 있으신 분</p>\n</li>\n<li data-nodeid=\"31\">\n<p data-nodeid=\"32\">컨테이너 서비스 (Docker, Kubernetes) 이용 경험이 있으신 분</p>\n</li>\n<li data-nodeid=\"33\">\n<p data-nodeid=\"34\">자기주도 학습을 통해 팀의 성장까지 도모할 수 있으신 분</p>\n</li>\n<li data-nodeid=\"35\">\n<p data-nodeid=\"36\">git, gitlab 등의 형상 관리 툴 이용 경험이 있으신 분</p>\n</li>\n<li data-nodeid=\"37\">\n<p data-nodeid=\"38\">Membership 관련 서비스 개발 및 운영 경험이 있으신 분</p>\n</li>\n</ul>\n</div></div></section><section><!--v-if--><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"45\"><span class=\"colour\" style=\"color:rgb(38, 55, 71)\"><strong data-nodeid=\"62\">[조직 소개]</strong></span><br/>\n<span class=\"colour\" style=\"color:rgb(38, 55, 71)\"> 인텔리전스랩스는 빅데이터와 AI 기술을 활용하여 넥슨의 서비스 경험을 개선하고 확장하는 역할을 맡고 있습니다.  넥슨의 라이브 경험과 인사이트를 통해서 쌓고 정제한 일간 수십TB의 데이터들을 효과적으로 서비스 하기 위해서는 유연하면서도 고성능의 대용량 API 플랫폼이 필수적인데, 이러한 API 플랫폼을 같이 설계하고 개발할 좋은 소프트웨어 개발자를 찾고 있습니다. </span><br/>\n<span class=\"colour\" style=\"color:rgb(38, 55, 71)\"> 좋은 품질의 소프트웨어를 만들기 위해 함께 고민하고 리뷰하는 개발 문화를 접하고 그 과정에서 지식과 경험을 쌓으면서 성장하고 싶은 개발자라면 좋은 기회가 될 수 있을 것입니다.</span></p>\n<p data-nodeid=\"46\"><span class=\"colour\" style=\"color:rgb(38, 55, 71)\"><a data-nodeid=\"68\" href=\"https://nexon.link/8bT\">[인텔리전스랩스 테크블로그 바로가기]</a></span></p>\n</div></div></section><!--v-if--><!--v-if--></div>",
+  "WorkLocation": "경기도 성남시 분당구 판교로256번길 7 (삼평동)",
+  "DeadLind": "상시 채용",
+  "시간": "23-03-18 17:15:15"
+}

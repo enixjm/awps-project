@@ -1,0 +1,25 @@
+{
+  "id": 217362,
+  "CompanyName": "쿠프마케팅",
+  "Pay": [
+    4000,
+    8000
+  ],
+  "Career": [
+    2,
+    10
+  ],
+  "Stacks": [
+    "Next.js",
+    "TypeScript",
+    "ReactJS"
+  ],
+  "Job": [
+    "프론트엔드",
+    " 웹 풀스택"
+  ],
+  "MainData": "<div class=\"yO7TZRtCO7sznD0Csuw_\"><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">업무 소개</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"1\">\n<li data-nodeid=\"2\">\n<p data-nodeid=\"3\">북앤라이프 홈페이지 프론트 엔드 유지보수 및 신규개발</p>\n</li>\n<li data-nodeid=\"4\">\n<p data-nodeid=\"5\">북앤라이프 앱 유지보수 및 신규개발</p>\n</li>\n<li data-nodeid=\"6\">\n<p data-nodeid=\"7\">페이즈앱 유지보수 및 신규개발</p>\n</li>\n<li data-nodeid=\"8\">\n<p data-nodeid=\"9\">신규 프로젝트 프론트엔드 개발</p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">자격 조건</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"14\">\n<li data-nodeid=\"15\">\n<p data-nodeid=\"16\">프론트엔드 실무 경험 2년 이상</p>\n</li>\n<li data-nodeid=\"17\">\n<p data-nodeid=\"18\">Javascript에 대한 경험과 이해</p>\n</li>\n<li data-nodeid=\"19\">\n<p data-nodeid=\"20\">React.js의 경험과 동작 원리에 대한 이해</p>\n</li>\n<li data-nodeid=\"21\">\n<p data-nodeid=\"22\">Next.js의 경험과 동작 원리에 대한 이해</p>\n</li>\n<li data-nodeid=\"23\">\n<p data-nodeid=\"24\">TypeScript에 대한 지식, 또는 이를 활용한 개발에 대한 이해</p>\n</li>\n<li data-nodeid=\"25\">\n<p data-nodeid=\"26\">상태 관리 라이브러리 (redux, recoil, mobx 등)에 대한 경험과 이해</p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">우대사항</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"33\">\n<li data-nodeid=\"34\">\n<p data-nodeid=\"35\">다양한 오픈소스 활용 가능자</p>\n</li>\n<li data-nodeid=\"36\">\n<p data-nodeid=\"37\">Gerrit, Jira 등 다양한 협업툴 경험자</p>\n</li>\n<li data-nodeid=\"38\">\n<p data-nodeid=\"39\">자동배포(CI/CD) 경험자</p>\n</li>\n<li data-nodeid=\"40\">\n<p data-nodeid=\"41\">리팩토링, 버전관리(Git) 등 체계적인 코드 관리 역량을 보유한 분</p>\n</li>\n<li data-nodeid=\"42\">\n<p data-nodeid=\"43\">신규언어, 새로운 개발 환경에 거부감이 없으신 분</p>\n</li>\n<li data-nodeid=\"44\">\n<p data-nodeid=\"45\">유연한 설계에 대한 고민을 하시는 분</p>\n</li>\n</ul>\n</div></div></section><!--v-if--><!--v-if--><!--v-if--></div>",
+  "WorkLocation": "서울특별시 성동구 성수이로10길 14, 904호, 905호, 10층(성수동2가, 에이스하이엔드성수타워) ",
+  "DeadLind": "상시 채용",
+  "시간": "23-03-18 17:15:49"
+}

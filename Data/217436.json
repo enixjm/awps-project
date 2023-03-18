@@ -1,0 +1,20 @@
+{
+  "id": 217436,
+  "CompanyName": "일성",
+  "Pay": [
+    8000,
+    10000
+  ],
+  "Career": [
+    5,
+    15
+  ],
+  "Stacks": [],
+  "Job": [
+    "서버/백엔드"
+  ],
+  "MainData": "<div class=\"yO7TZRtCO7sznD0Csuw_\"><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">업무 소개</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"1\">백엔드 개발</p>\n<p data-nodeid=\"2\">- React 환경의 사내 시스템 개발 / 운영 (HRMS, Mattermost Custom, Portal System 등)<br/>\n- 클라우드 환경에 맞춘 React 최적화<br/>\n- 웹 어플리케이션 아키텍쳐 설계 및 개발<br/>\n- Database Modeling</p>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">자격 조건</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"18\">자격요건</p>\n<p data-nodeid=\"19\">- 만 5년 이상 15년 이하 웹 서비스 개발 경력<br/>\n- 만 1년 이상 Node 환경의 서버 개발 경력</p>\n<p data-nodeid=\"20\">필요사항<br/>\n- Node 기반의 Rest API 개발 경험<br/>\n- OAuth, JWT 등을 활용한 권한 및 보안 개발 경험<br/>\n- RDBMS(PostgreSQL) 스키마 설계 능력<br/>\n- ORM (Sequelize, TypeORM) 기반 개발 경험</p>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">우대사항</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"48\">- Next.js 의 API 지원을 활용한 서버 개발<br/>\n- Next.js 와 연동한 Next-Auth, Next-Connect 라이브러리 사용 경험<br/>\n- AWS 클라우드를 활용한 서비스 경험<br/>\n- DOCKER 기반 배포/운영 경험<br/>\n- Swagger 를 활용한 API 문서 자동화</p>\n</div></div></section><section><!--v-if--><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"71\">* 채용 정보<br/>\n주소지 : 대구광역시 동구 율암로 149-28(상매동)<br/>\n고용형태 : 정규직<br/>\n근무시간 : 탄력적 운영<br/>\n연봉 : 8,000만원 이상 경력에 따른 협의가능<br/>\n거주지 지원 협의</p>\n<p data-nodeid=\"72\">* 복리 후생<br/>\n구내식당 식사지원 : 매일 점심, 저녁 경력직 영양사께서 편성해준 맛있는 식사가 제공되요.<br/>\n성과와 보상 : 우리는 성과에따라 매년 8% 이상의 평균 연봉인상을 진행하고 있습니다.<br/>\n자율출퇴근 : 나에게 딱 맞는 시간에 업무 할 수 있습니다.<br/>\n야근없는 문화 : 오래 일한다고 일의 효율이 늘지않아요. 부담없이 퇴근하세요.<br/>\n자율 복장 : 자신에게 가장 편한 옷을 입고 출근하세요.<br/>\n사내 편의시설 : 카페테리아와 편의점이 있어서 멀리 나가지 않아도 맛있는 커피와 간식이 제공되요.<br/>\n자유로운 휴가 : 원할 때 편하게 사용하세요. 누구도 눈치주지않아요.</p>\n</div></div></section><!--v-if--><!--v-if--></div>",
+  "WorkLocation": "대구 동구 율암로 149-28, (상매동) 일성유한책임회사",
+  "DeadLind": "상시 채용",
+  "시간": "23-03-18 17:13:04"
+}

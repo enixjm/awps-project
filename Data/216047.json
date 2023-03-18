@@ -1,0 +1,32 @@
+{
+  "id": 216047,
+  "CompanyName": "미스고",
+  "Pay": [
+    8000,
+    11000
+  ],
+  "Career": [
+    5,
+    15
+  ],
+  "Stacks": [
+    "ExpressJS",
+    "JavaScript",
+    "MongoDB",
+    "Redis",
+    "MySQL",
+    "TypeORM",
+    "Git",
+    "REST API",
+    "NestJS",
+    "TypeScript",
+    "Node.js"
+  ],
+  "Job": [
+    "서버/백엔드"
+  ],
+  "MainData": "<div class=\"yO7TZRtCO7sznD0Csuw_\"><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">업무 소개</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"1\">\n<li data-nodeid=\"2\">\n<p data-nodeid=\"3\">부동산 서비스 운영을 위한 API 서버 설계/개발/관리</p>\n</li>\n<li data-nodeid=\"4\">\n<p data-nodeid=\"5\">데이터 수집 자동화 및 븐석을 위한 서버 인프라 설계 및 개발</p>\n</li>\n</ul>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">자격 조건</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"8\">\n<li data-nodeid=\"9\">\n<p data-nodeid=\"10\">5년 이상의 백엔드 시스템 개발 경험을 가졌거나 이에 준하는 실력을 보유한 분</p>\n</li>\n<li data-nodeid=\"11\">\n<p data-nodeid=\"12\">node.js, JavaScript, expressjs, nest.js 사용에 능숙한 분</p>\n</li>\n<li data-nodeid=\"13\">\n<p data-nodeid=\"14\">REST API 서버 개발/ serverless 사용 가능한 분</p>\n</li>\n<li data-nodeid=\"15\">\n<p data-nodeid=\"16\">AWS에서 서버 구축 경험이 있는 분</p>\n</li>\n<li data-nodeid=\"17\">\n<p data-nodeid=\"18\">데이터베이스 설계 경험이 있는 분</p>\n</li>\n<li data-nodeid=\"19\">\n<p data-nodeid=\"20\">Git을 이용한 버전 관리에 익숙한 분</p>\n</li>\n</ul>\n<p data-nodeid=\"21\"><br/>\n[사용 기술]<br/>\n- Nest js, TypeScript, TypeORM, expressjs<br/>\n- MySQL, Redis, MongoDB<br/>\n- AWS</p>\n</div></div></section><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">우대사항</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><ul data-nodeid=\"42\">\n<li data-nodeid=\"43\">\n<p data-nodeid=\"44\">대규모 트래픽 처리 및 고가용성 처리 개발 경험이 있는 분</p>\n</li>\n<li data-nodeid=\"45\">\n<p data-nodeid=\"46\">다양한 분야의 사람과의 협업 능력이 원활한 분</p>\n</li>\n<li data-nodeid=\"47\">\n<p data-nodeid=\"48\">능동적이며 호기심이 많고, 비즈니스 마인드를 가진 분</p>\n</li>\n<li data-nodeid=\"49\">\n<p data-nodeid=\"50\">업무 프로세서 및 개발 문화 개선에 관심이 많은 분</p>\n</li>\n<li data-nodeid=\"51\"></li>\n<li data-nodeid=\"52\"></li>\n</ul>\n</div></div></section><section><!--v-if--><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><p data-nodeid=\"57\">[복지혜택]<br/>\n★ 양재천 신축 오피스텔 (고층) 무료지원 (인사위원회 결정)<br/>\n★주거안정지원비 : 보증금 최대 1,000만원, 월세 최대 100만원<br/>\n- 스톡옵션 지급 (최소 1,000만원) 이상<br/>\n- 도서지원비 월 5만원<br/>\n- 음료, 간식 무제한 제공<br/>\n★ 생일 상품권 지급 (20만원 상당!)<br/>\n★ 명정 한우세트 및 귀성비 지원<br/>\n- 업무 관련 자격증 교육 지원<br/>\n- 고성능 장비<br/>\n- 회식 강요 없음<br/>\n- 야근수당 지급 (야근 많지 않아요)<br/>\n- 월 우수사원 50만원, 분기별 우수사원 100만원 + 연차 포상휴가<br/>\n- 생활안정자금 500만원<br/>\n★ 복지포인트 100만원 (현금형/연간 리필) - 개인 취미, 운동, 공부, 여행 등 사용</p>\n</div></div></section><!--v-if--><!--v-if--></div>",
+  "WorkLocation": "서울 강남구 언주로30길 13, (도곡동, 대림아크로빌, 대림아크로텔) ",
+  "DeadLind": "23년 04월 05일 14:02까지",
+  "시간": "23-03-18 17:15:16"
+}

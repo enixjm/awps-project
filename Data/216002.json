@@ -1,0 +1,20 @@
+{
+  "id": 216002,
+  "CompanyName": "아나토마지코리아",
+  "Pay": [
+    4000,
+    6000
+  ],
+  "Career": [
+    2,
+    10
+  ],
+  "Stacks": [],
+  "Job": [
+    "그래픽스"
+  ],
+  "MainData": "<div class=\"yO7TZRtCO7sznD0Csuw_\"><section><h5 class=\"M7i0c3SgWr1QMhIricKz\">업무 소개</h5><div class=\"markdown\"><div class=\"toastui-editor-contents\" style=\"overflow-wrap: break-word;\"><div data-nodeid=\"1\"><h3>3D Graphics(OpenGL/WebGL) Developer </h3><h3>(3D 그래픽스 OpenGL/WebGL 개발자, 프로그래머) 모집</h3><p><br/></p><h3>[업무 내용]</h3><p>• 다양한 의료 솔루션의 3D 그래픽 모듈 구현 및 개발</p><p>• Shader programming, volume rendering등을 활용한 3차원 데이터의 visualization기술 개발</p><p>• OpenGL, WebGL, GLSL등의 기술 표준을 이용한 app/web에서의 그래픽스 엔진 응용개발</p><p>• 최신의 GPU기술을 이용한 사실적인 렌더링 기술의 구현</p><p><br/></p><h3>[자격 사항]</h3><p>• 2년 이상의 그래픽스 관련 개발 및 어플리케이션 개발 경력이 있으신 분</p><p>• Computer graphic 및 3D Geometry에 대한 전반적인 이해가 있으신 분</p><p>• OpenGL, DirectX, Vulkan 등의 그래픽스 라이브러리들 중 하나 이상의 경험이 있으신 분</p><p>• 논리적이고 체계적인 문제해결 능력이 있으신 분</p><p>• 효과적인 의사전달 및 협업 능력이 있으신 분</p><p>• 이공학 석사 이상 학위 소지 또는 그에 준하는 연구/개발 경험이 있으신 분</p><p><br/></p><h3>[우대 사항]</h3><p>• GLSL, HLSL등의 shader language의 사용 경험이 있으신 분</p><p>• 오픈소스 혹은 상용 그래픽스 엔진의 사용 경험/개발 경험이 있으신 분</p><p>• 웹 기반 3D graphics project에 대한 개발 경험이 있으신 분</p><p><br/></p><h3> [기술 스텍]</h3><p>• (언어) OpenGL, GLSL, WebGL, C++, Javascript, Three.JS</p><p>• (기술) 3D Graphics, 3D Geometry, GPU rendering, Volume rendering</p><p>• (데이터 처리) 3D Mesh data, Volume data, VTK, CUDA</p></div>\n</div></div></section><!--v-if--><!--v-if--><!--v-if--><!--v-if--><!--v-if--></div>",
+  "WorkLocation": "대한민국 서울특별시 강남구 테헤란로84길 15, 시몬타워 4층, 10층",
+  "DeadLind": "23년 04월 30일 14:59까지",
+  "시간": "23-03-18 17:15:38"
+}
