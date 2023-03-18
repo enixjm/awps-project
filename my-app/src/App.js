@@ -3,11 +3,8 @@ import { Button, Box } from '@mui/material';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import Typography from '@mui/material/Typography';
 import Logo from './logo.png';
-
-
-
 import MyTabs from './components/Tabs';
-
+import LanguageTable from './components/LanguageTable';
 
 // 테마 설정
 const theme = createTheme({
@@ -22,7 +19,7 @@ const theme = createTheme({
 });
 
 function App() {
-
+  const test_data = { python: 300, JAVA: 280, 'C++': 270 };
 
   return (
     <ThemeProvider theme={theme}>
@@ -42,7 +39,9 @@ function App() {
     }}>
       <MyTabs value={3} />
     </Box>
-  </div> 
+    <h1>Programming Language Popularity</h1>
+      <LanguageTable data={test_data} />
+  </div>
   </ThemeProvider>
   );
 }
