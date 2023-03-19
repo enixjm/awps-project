@@ -7,6 +7,7 @@ import boto3
 jumpit_df = processing_jumpit()
 programmers_df = processing_programemrs()
 df = pd.concat([programmers_df,jumpit_df])
+df = df.set_index('id')
 
 print(df)
 
