@@ -1,5 +1,7 @@
 import React from 'react';
 import { Bar } from 'react-chartjs-2';
+import './RainbowHeading.css';
+
 
 function LanguageTable({ data }) {
   const sortedData = Object.entries(data).sort((a, b) => b[1] - a[1]);
@@ -50,7 +52,7 @@ function LanguageTable({ data }) {
 
   return (
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', }}>
-      <h1 style={{ marginBottom: '40px', marginTop: '0px'}}>기술스택 강함순위 TOP14</h1>
+      <h1 className="rainbow-wave"  style={{ marginBottom: '40px', marginTop: '0px'}}>기술스택 강함순위 TOP14</h1>
       <div style={{ width: '100%', height: '700px' }}>
         <Bar data={chartData} options={chartOptions}/>
       </div>
