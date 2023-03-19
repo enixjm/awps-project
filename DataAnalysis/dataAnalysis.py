@@ -17,7 +17,6 @@ def get_TotalStacks(df) :
         list = i.split(',')
         for j in list :
             j = j.replace("'",'').replace(' ','').replace('[','').replace(']','')
-            print(j)
             if j in dic :
                 dic[j] += 1
             else :
