@@ -46,8 +46,7 @@ function App() {
     }}>
       <MyTabs value={3} />
     </Box>
-    <h1>Programming Language Popularity</h1>
-      <LanguageTable data={data} />
+      <LanguageTable data={data}  />
   </div>
   </ThemeProvider>
   );
