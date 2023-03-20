@@ -43,7 +43,7 @@
   background-size: 200% auto;
   color: transparent;
   -webkit-background-clip: text;
-  animation: wave 2s linear infinite , text-pulse 2s ease-in-out infinite;
+  animation: wave 2s ease-in-out infinite , text-pulse 2s linear infinite;
   animation-name: sway;
   animation-duration: 2s;
   animation-iteration-count: infinite;
@@ -62,7 +62,7 @@
     transform: scale(1);
   }
   50% {
-    transform: scale(1.2);
+    transform: scale(10);
   }
   100% {
     transform: scale(1);
