@@ -3,6 +3,7 @@ import bs4
 from selenium import webdriver
 import time
 from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptions import ElementNotInteractableException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver import ActionChains
@@ -33,9 +34,18 @@ while True:
     # if num%16 == 0 :
     #     driver.execute_script("document.body.scrollHeight")
     time.sleep(1)
-    items = driver.find_element(By.XPATH, f'//*[@id="root"]/main/div/div/section/div[{num}]')
-    # time.sleep(0.5)
-    items.click()
+    try :
+        items = driver.find_element(By.XPATH, f'//*[@id="root"]/main/div/div/section/div[{num}]')
+        items.click()
+    except ElementNotInteractableException:
+        for i in range(0,5):
+            driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
+            time.sleep(1)
+        items = driver.find_element(By.XPATH, f'//*[@id="root"]/main/div/div/section/div[{num}]')
+        items.click()
+    #이거 왜 안되는지 모르겠네
+    
+    
     time.sleep(1)
 
     #회사 정보 긁어오기
@@ -72,11 +82,9 @@ while True:
     for i in range(1,11) :
         try :
             DetailInfo_title = driver.find_element(By.XPATH, f'//*[@id="root"]/main/div/div[2]/div/section[3]/dl[{i}]/dt').text
-            # DetailInfo_title_tag1 = '<' +driver.find_element(By.XPATH, f'//*[@id="root"]/main/div/div[2]/div/section[3]/dl[{i}]/dt').tag_name+ '>'
-            # DetailInfo_title_tag2 = '</' +driver.find_element(By.XPATH, f'//*[@id="root"]/main/div/div[2]/div/section[3]/dl[{i}]/dt').tag_name+ '>'
+
             DetailInfo_cont = driver.find_element(By.XPATH, f'//*[@id="root"]/main/div/div[2]/div/section[3]/dl[{i}]/dd').text
-            # DetailInfo_cont_tag1 = '<' +driver.find_element(By.XPATH, f'//*[@id="root"]/main/div/div[2]/div/section[3]/dl[{i}]/dd').tag_name+ '>'
-            # DetailInfo_cont_tag2 = '</' +driver.find_element(By.XPATH, f'//*[@id="root"]/main/div/div[2]/div/section[3]/dl[{i}]/dd').tag_name+ '>'
+
             dic[DetailInfo_title ] =DetailInfo_cont 
         except NoSuchElementException:
             pass
@@ -103,11 +111,9 @@ while True:
     except NoSuchElementException :
         pass
 
-    # file_path = f"C:/Users/홍성학/Desktop/AWPS/awps-project/AWPS CRAWLLING/data/jumpit/{str(Rid)+company_name_text}(jumpit).json"
-    # with open(file_path,'w',encoding="utf-8") as f :
-    #     json.dump(dic,f,indent=2,ensure_ascii = False)
 
     print(dic)
+    print(num)
     table = dynamodb.Table('jumpit')
     table.put_item(Item=dic)
 
@@ -116,14 +122,14 @@ while True:
 
 
     
-    if (num%16 == 0) :
-        for i in range(1,5) :
-            driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
-            time.sleep(1)
+    # if (num%16 == 0) :
+    #     for i in range(1,5) :
+    #         driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
+    #         time.sleep(1)
+    # 이걸로 하면 300개까지는 되는데 메모리초과가 쉽게 걸림
 
 
     time.sleep(1)
-    print(dic)
     num += 1
 
 

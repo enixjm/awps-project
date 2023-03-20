@@ -12,7 +12,7 @@ df = df.set_index('id')
 
 print(df)
 
-csv = df.to_csv('C:/Users/홍성학/Desktop/AWPS/awps-project/Processed_DAta/all_data.csv',index=False)
+csv = df.to_csv('C:/Users/홍성학/Desktop/AWPS/awps-project/Processed_DAta/all_data.csv',index=True)
 
 s3 = boto3.client('s3')
 file_name = 'all_data.csv'

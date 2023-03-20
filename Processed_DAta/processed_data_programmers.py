@@ -14,7 +14,7 @@ def processing_programemrs() :
     items = response['Items']
 
     df = pd.DataFrame(
-        columns=['id','CompanyName',"Pay","Career" ,'Stacks','Job','MainData','WorkLocation','DeadLind','시간']
+        columns=['id','CompanyName',"Pay","Career" ,'Stacks','Job','MainData','WorkLocation','DeadLind','시간','Website']
     )
 
     #scan()이 한번에 가져올수 있는 용량 제한이 있어 용량 걸렸을때 리스트 확장하는 코드
@@ -79,6 +79,7 @@ def processing_programemrs() :
                 pass
 
         dic['시간'] = ttime
+        dic['Website'] = 'programmers'
         df = df.append(dic, ignore_index=True)
         # table = dynamodb.Table("ProcessedData")
         # table.put_item(Item=dic)

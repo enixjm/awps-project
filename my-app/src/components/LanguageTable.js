@@ -53,7 +53,7 @@ function LanguageTable({ data }) {
   return (
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', }}>
       <h1 className="rainbow-wave"  style={{ marginBottom: '40px', marginTop: '0px'}}>기술스택 강함순위 TOP14</h1>
-      <div style={{ width: '100%', height: '700px' }}>
+      <div style={{ width: '100%', height: '700px'}}>
         <Bar data={chartData} options={chartOptions}/>
       </div>
     </div>

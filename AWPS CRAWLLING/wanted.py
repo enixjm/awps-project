@@ -1,5 +1,5 @@
 import requests
-from bs4 import BeautifulSoup
+import bs4
 from selenium import webdriver
 import time
 from selenium.common.exceptions import NoSuchElementException
@@ -58,6 +58,14 @@ while True:
     dic['회사제목'] = title_tag1 + title + title_tag2
     dic["회사설명"] = des_tag1 + des + des_tag2
 
+    source = driver.page_source
+    bs = bs4.BeautifulSoup(source,'lxml')
+    entire = bs.find('section', class_ = 'JobDescription_JobDescription__VWfcb')
+    dic['본문'] = str(entire)
+
+    Dead_Line = driver.find_element(By.XPATH, '//*[@id="__next"]/div[3]/div[1]/div[1]/div/div[2]/section[2]/div[1]/span[2]')
+    dic['마감일'] = Dead_Line
+
     stacks = ''
 
     for x in range(2,20):
@@ -84,9 +92,9 @@ while True:
     """region = driver.find_element(By.XPATH, '//*[@id="__next"]/div[3]/div[1]/div[1]/div[1]/div[2]/section[2]/div[2]/span[2]').text"""
 
 
-    file_path = f"C:/Users/홍성학/Desktop/AWPS/awps-project/AWPS CRAWLLING/data/wanted/{str(Rid)+company_name}(wanted).json"
-    with open(file_path,'w',encoding="utf-8") as f:
-        json.dump(dic,f,indent=2,ensure_ascii = False)
+    # file_path = f"C:/Users/홍성학/Desktop/AWPS/awps-project/AWPS CRAWLLING/data/wanted/{str(Rid)+company_name}(wanted).json"
+    # with open(file_path,'w',encoding="utf-8") as f:
+    #     json.dump(dic,f,indent=2,ensure_ascii = False)
 
     print(dic)
 
