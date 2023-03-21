@@ -61,8 +61,7 @@ def get_worklocation_data(df):
 
 pd.set_option('display.max_rows',None)
 print(df)
-print(df['WorkLocation'])
 
-# get_TotalStacks_data(df)
+get_TotalStacks_data(df)
 # get_job_tech_ranking(df)
 # get_worklocation_data(df)

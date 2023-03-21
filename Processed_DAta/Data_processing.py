@@ -1,12 +1,15 @@
 from processed_data_jumpit import processing_jumpit
 from processed_data_programmers import processing_programemrs
+from processed_data_wanted import processing_wanted
 import pandas as pd
 import boto3
 
 
 jumpit_df = processing_jumpit()
 programmers_df = processing_programemrs()
-df = pd.concat([programmers_df,jumpit_df])
+wanted_df = processing_wanted()
+df = pd.concat([programmers_df,jumpit_df,wanted_df])
+
 df['id'] = df['id'].astype(int)
 df = df.set_index('id')
 

@@ -9,12 +9,12 @@ import boto3
 dynamodb = boto3.resource('dynamodb', region_name='us-east-2',aws_access_key_id='AKIATMPH7BYJY6WQWIE6',aws_secret_access_key = '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')
 
 url = "https://career.programmers.co.kr/job"
-
 driver = webdriver.Chrome()
 
 driver.get(url)
 
 num = 1
+
 namenum = 1
 page = 3
 

@@ -14,7 +14,7 @@ def processing_programemrs() :
     items = response['Items']
 
     df = pd.DataFrame(
-        columns=['id','CompanyName',"Pay","Career" ,'Stacks','Job','MainData','WorkLocation','DeadLind','시간','Website']
+        columns=['id','CompanyName',"Pay","Career" ,'Stacks','Job','MainData','WorkLocation','DeadLine','시간','Website']
     )
 
     #scan()이 한번에 가져올수 있는 용량 제한이 있어 용량 걸렸을때 리스트 확장하는 코드
@@ -81,12 +81,7 @@ def processing_programemrs() :
         dic['시간'] = ttime
         dic['Website'] = 'programmers'
         df = df.append(dic, ignore_index=True)
-        # table = dynamodb.Table("ProcessedData")
-        # table.put_item(Item=dic)
-        # json_data = json.dumps(dic,indent=2,ensure_ascii = False)
-        # bucket_name = 'awpsprocesseddata'
-        # file_key = f"{dic['id']}.json"
-        # s3.put_object(Bucket=bucket_name, Key=file_key, Body=json_data)
+
         dic = {}
         print(x)
         x+=1

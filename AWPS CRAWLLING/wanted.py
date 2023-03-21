@@ -3,10 +3,11 @@ import bs4
 from selenium import webdriver
 import time
 from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptions import ElementNotInteractableException
+from selenium.common.exceptions import ElementClickInterceptedException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver import ActionChains
-import json
 import re
 
 import boto3
@@ -22,16 +23,38 @@ driver.get(url)
 
 time.sleep(1)
 
-dic = {}
 
 num = 1
 while True:
+    dic = {}
     time.sleep(1)
 
-    items = driver.find_element(By.XPATH, f'//*[@id="__next"]/div[3]/div/div/div[4]/ul/li[{num}]')
-    
+    try :
+        items = driver.find_element(By.XPATH, f'//*[@id="__next"]/div[3]/div/div/div[4]/ul/li[{num}]')
+        items.click()
+    except ElementNotInteractableException:
+        for i in range(0,5):
+            driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
+            time.sleep(1)
+        items = driver.find_element(By.XPATH, f'//*[@id="__next"]/div[3]/div/div/div[4]/ul/li[{num}]')
+        items.click()
     # driver.execute_script("arguments[0].click();", items)
-    items.click()
+    except NoSuchElementException:
+        for i in range(0,5):
+            driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
+            time.sleep(1)
+        try :
+            items = driver.find_element(By.XPATH, f'//*[@id="__next"]/div[3]/div/div/div[4]/ul/li[{num}]')
+            items.click()
+        except NoSuchElementException:
+            continue
+    except ElementClickInterceptedException:
+        for i in range(0,5):
+            driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
+            time.sleep(1)
+        items = driver.find_element(By.XPATH, f'//*[@id="__next"]/div[3]/div/div/div[4]/ul/li[{num}]')
+        items.send_keys(Keys.ENTER)
+    # driver.execute_scr
     time.sleep(1)
 
     Id = driver.current_url
@@ -40,31 +63,79 @@ while True:
     })
 
     Iddd =Id.translate(Idd)
-
-
-    title = driver.find_element(By.XPATH, "//*[@id='__next']/div[3]/div[1]/div[1]/div/section[2]/h2").text
-    title_tag1 = '<' + driver.find_element(By.XPATH, "//*[@id='__next']/div[3]/div[1]/div[1]/div/section[2]/h2").tag_name + '>'
-    title_tag2 = '</' + driver.find_element(By.XPATH, "//*[@id='__next']/div[3]/div[1]/div[1]/div/section[2]/h2").tag_name + '>'
-    company_name = driver.find_element(By.XPATH,"//*[@id='__next']/div[3]/div[1]/div[1]/div/section[2]/div[1]/h6/a").text
-    company_tag1 = '<' + driver.find_element(By.XPATH,"//*[@id='__next']/div[3]/div[1]/div[1]/div/section[2]/div[1]/h6/a").tag_name + '>'
-    company_tag2 = '</' + driver.find_element(By.XPATH,"//*[@id='__next']/div[3]/div[1]/div[1]/div/section[2]/div[1]/h6/a").tag_name + '>'
-    
-    des = driver.find_element(By.XPATH, "//*[@id='__next']/div[3]/div[1]/div[1]/div/div[2]/section[1]/p[1]/span").text
-    des_tag1 = '<' + driver.find_element(By.XPATH, f"//*[@id='__next']/div[3]/div[1]/div[1]/div/div[2]/section[1]/p[1]/span").tag_name + '>'
-    des_tag2 = '</' + driver.find_element(By.XPATH, f"//*[@id='__next']/div[3]/div[1]/div[1]/div/div[2]/section[1]/p[1]/span").tag_name + '>'
-    Rid = int(re.sub(r"[a-z]", "", Iddd)[5:])
+    Rid = int(re.sub(r"[a-z]", "", Iddd)[4:])
     dic['id'] = Rid
-    dic['회사이름'] = company_tag1 + company_name + company_tag2
-    dic['회사제목'] = title_tag1 + title + title_tag2
-    dic["회사설명"] = des_tag1 + des + des_tag2
 
+    try :
+        title = driver.find_element(By.XPATH, "//*[@id='__next']/div[3]/div[1]/div[1]/div/section[2]/h2").text
+        title_tag1 = '<' + driver.find_element(By.XPATH, "//*[@id='__next']/div[3]/div[1]/div[1]/div/section[2]/h2").tag_name + '>'
+        title_tag2 = '</' + driver.find_element(By.XPATH, "//*[@id='__next']/div[3]/div[1]/div[1]/div/section[2]/h2").tag_name + '>'
+        dic['회사제목'] = title_tag1 + title + title_tag2
+    except NoSuchElementException:
+        pass
+
+    try :
+        company_name = driver.find_element(By.XPATH,"//*[@id='__next']/div[3]/div[1]/div[1]/div/section[2]/div[1]/h6/a").text
+        company_tag1 = '<' + driver.find_element(By.XPATH,"//*[@id='__next']/div[3]/div[1]/div[1]/div/section[2]/div[1]/h6/a").tag_name + '>'
+        company_tag2 = '</' + driver.find_element(By.XPATH,"//*[@id='__next']/div[3]/div[1]/div[1]/div/section[2]/div[1]/h6/a").tag_name + '>'
+        dic['회사이름'] = company_tag1 + company_name + company_tag2
+    except NoSuchElementException:
+        pass
+ 
+    try :
+        des = driver.find_element(By.XPATH, "//*[@id='__next']/div[3]/div[1]/div[1]/div/div[2]/section[1]/p[1]/span").text
+        des_tag1 = '<' + driver.find_element(By.XPATH, f"//*[@id='__next']/div[3]/div[1]/div[1]/div/div[2]/section[1]/p[1]/span").tag_name + '>'
+        des_tag2 = '</' + driver.find_element(By.XPATH, f"//*[@id='__next']/div[3]/div[1]/div[1]/div/div[2]/section[1]/p[1]/span").tag_name + '>'
+        dic["회사설명"] = des_tag1 + des + des_tag2
+
+    except NoSuchElementException:
+        pass
+
+
+    #페이지 로딩을 위해 아래 요소까지 스크롤
+    while True:
+        try :
+            to_scroll = driver.find_element(By.XPATH, '//*[@id="__next"]/div[3]/div[1]/div[2]/h5')
+            action = ActionChains(driver)
+            action.move_to_element(to_scroll).perform()
+            break
+        except NoSuchElementException:
+            try :
+                to_scroll = driver.find_element(By.XPATH, '//*[@id="__next"]/div[3]/div[1]/div[1]/div[1]/section[3]')
+                action = ActionChains(driver)
+                action.move_to_element(to_scroll).perform()
+                break
+            except NoSuchElementException:
+                try :
+                    to_scroll = driver.find_element(By.XPATH, '//*[@id="__next"]/div[3]/div[1]/div[1]/div[1]/section[4]')
+                    action = ActionChains(driver)
+                    action.move_to_element(to_scroll).perform()
+                    break
+                except NoSuchElementException:
+                    try :
+                        to_scroll = driver.find_element(By.XPATH, '//*[@id="__next"]/div[3]/div[1]/div[2]')
+                        action = ActionChains(driver)
+                        action.move_to_element(to_scroll).perform()
+                        break
+                    except NoSuchElementException:
+                        continue
+
+    time.sleep(0.5)
     source = driver.page_source
-    bs = bs4.BeautifulSoup(source,'lxml')
+    bs = bs4.BeautifulSoup(source,'html.parser')
     entire = bs.find('section', class_ = 'JobDescription_JobDescription__VWfcb')
     dic['본문'] = str(entire)
 
-    Dead_Line = driver.find_element(By.XPATH, '//*[@id="__next"]/div[3]/div[1]/div[1]/div/div[2]/section[2]/div[1]/span[2]')
-    dic['마감일'] = Dead_Line
+    try :
+        Dead_Line = bs.find('section', class_ = 'JobWorkPlace_className__ra6rp').find('span', class_ = 'body').text
+        dic['마감일'] = str(Dead_Line)
+    except NoSuchElementException:
+        pass
+    try :
+        Work_Location = bs.find('section', class_ = 'JobWorkPlace_className__ra6rp').find('div').next_sibling.find('span', class_ = 'body').text
+        dic['근무지역'] = str(Work_Location)
+    except NoSuchElementException:
+        pass
 
     stacks = ''
 
@@ -78,11 +149,6 @@ while True:
                         stacks =  stacks + stack + ','
                     except NoSuchElementException :
                         pass
-            
-            else:
-                phrase = driver.find_element(By.XPATH, f"//*[@id='__next']/div[3]/div[1]/div[1]/div/div[2]/section[1]/p[{x}]/span").text
-                phrase_tag = driver.find_element(By.XPATH, f"//*[@id='__next']/div[3]/div[1]/div[1]/div/div[2]/section[1]/p[{x}]/span").tag_name
-                dic[top_title] = phrase_tag + phrase
         except NoSuchElementException:
             pass
         
@@ -92,21 +158,18 @@ while True:
     """region = driver.find_element(By.XPATH, '//*[@id="__next"]/div[3]/div[1]/div[1]/div[1]/div[2]/section[2]/div[2]/span[2]').text"""
 
 
-    # file_path = f"C:/Users/홍성학/Desktop/AWPS/awps-project/AWPS CRAWLLING/data/wanted/{str(Rid)+company_name}(wanted).json"
-    # with open(file_path,'w',encoding="utf-8") as f:
-    #     json.dump(dic,f,indent=2,ensure_ascii = False)
 
     print(dic)
-
+    print(num)
     table = dynamodb.Table('wanted')
     table.put_item(Item=dic)
 
     driver.back()
 
-    if num%20 == 0:
-        for i in range(1,5) :
-            driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
-            time.sleep(1)
+    # if num%20 == 0:
+    #     for i in range(1,5) :
+    #         driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
+    #         time.sleep(1)
 
     time.sleep(1)
     num += 1
