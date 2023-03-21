@@ -155,18 +155,29 @@ while True:
     time.sleep(0.5)
     source = driver.page_source
     bs = bs4.BeautifulSoup(source,'html.parser')
-    entire = bs.find('section', class_ = 'JobDescription_JobDescription__VWfcb')
-    dic['본문'] = str(entire)
+    
+    try :
+        entire = bs.find('section', class_ = 'JobDescription_JobDescription__VWfcb')
+        dic['본문'] = str(entire)
+    except NoSuchElementException:
+        pass
+    except AttributeError:
+        pass
 
     try :
         Dead_Line = bs.find('section', class_ = 'JobWorkPlace_className__ra6rp').find('span', class_ = 'body').text
         dic['마감일'] = str(Dead_Line)
     except NoSuchElementException:
         pass
+    except AttributeError:
+        pass
+
     try :
         Work_Location = bs.find('section', class_ = 'JobWorkPlace_className__ra6rp').find('div').next_sibling.find('span', class_ = 'body').text
         dic['근무지역'] = str(Work_Location)
     except NoSuchElementException:
+        pass
+    except AttributeError:
         pass
 
     stacks = ''
