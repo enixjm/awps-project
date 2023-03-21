@@ -24,37 +24,69 @@ driver.get(url)
 time.sleep(1)
 
 
-num = 1
+num = 20
 while True:
     dic = {}
     time.sleep(1)
 
-    try :
-        items = driver.find_element(By.XPATH, f'//*[@id="__next"]/div[3]/div/div/div[4]/ul/li[{num}]')
-        items.click()
-    except ElementNotInteractableException:
-        for i in range(0,5):
-            driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
-            time.sleep(1)
-        items = driver.find_element(By.XPATH, f'//*[@id="__next"]/div[3]/div/div/div[4]/ul/li[{num}]')
-        items.click()
-    # driver.execute_script("arguments[0].click();", items)
-    except NoSuchElementException:
-        for i in range(0,5):
-            driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
-            time.sleep(1)
-        try :
-            items = driver.find_element(By.XPATH, f'//*[@id="__next"]/div[3]/div/div/div[4]/ul/li[{num}]')
-            items.click()
-        except NoSuchElementException:
-            continue
-    except ElementClickInterceptedException:
-        for i in range(0,5):
-            driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
-            time.sleep(1)
-        items = driver.find_element(By.XPATH, f'//*[@id="__next"]/div[3]/div/div/div[4]/ul/li[{num}]')
-        items.send_keys(Keys.ENTER)
+    # try :
+    #     items = driver.find_element(By.XPATH, f'//*[@id="__next"]/div[3]/div/div/div[4]/ul/li[{num}]')
+    #     action = ActionChains(driver)
+    #     action.move_to_element(items).perform()
+    #     items.click()
+    # except ElementNotInteractableException:
+    #     for i in range(0,5):
+    #         driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
+    #         time.sleep(1)
+    #     items = driver.find_element(By.XPATH, f'//*[@id="__next"]/div[3]/div/div/div[4]/ul/li[{num}]')
+    #     action = ActionChains(driver)
+    #     action.move_to_element(items).perform()
+    #     items.click()
+    # # driver.execute_script("arguments[0].click();", items)
+    # except NoSuchElementException:
+    #     for i in range(0,5):
+    #         driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
+    #         time.sleep(1)
+    #     items = driver.find_element(By.XPATH, f'//*[@id="__next"]/div[3]/div/div/div[4]/ul/li[{num}]')
+    #     action = ActionChains(driver)
+    #     action.move_to_element(items).perform()
+    #     items.click()
+    # except ElementClickInterceptedException:
+    #     for i in range(0,5):
+    #         driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
+    #         time.sleep(1)
+    #     items = driver.find_element(By.XPATH, f'//*[@id="__next"]/div[3]/div/div/div[4]/ul/li[{num}]')
+    #     action = ActionChains(driver)
+    #     action.move_to_element(items).perform()
+    #     items.click()
+    # try :
+    #     items = driver.find_element(By.XPATH, f'//*[@id="__next"]/div[3]/div/div/div[4]/ul/li[{num}]')
+    #     items.click()
+    # except NoSuchElementException:
+    #     items = driver.find_element(By.XPATH, f'//*[@id="__next"]/div[3]/div/div/div[4]/ul/li[{num-1}]')
+    #     action = ActionChains(driver)
+    #     action.move_to_element(items).perform()
+    #     items = driver.find_element(By.XPATH, f'//*[@id="__next"]/div[3]/div/div/div[4]/ul/li[{num}]')
+    #     items.click()
+    # except ElementClickInterceptedException:
+    #     items = driver.find_element(By.XPATH, f'//*[@id="__next"]/div[3]/div/div/div[4]/ul/li[{num-1}]')
+    #     action = ActionChains(driver)
+    #     action.move_to_element(items).perform()
+    #     items = driver.find_element(By.XPATH, f'//*[@id="__next"]/div[3]/div/div/div[4]/ul/li[{num}]')
+    #     items.click()
+    # except ElementNotInteractableException:
+    #     items = driver.find_element(By.XPATH, f'//*[@id="__next"]/div[3]/div/div/div[4]/ul/li[{num-1}]')
+    #     action = ActionChains(driver)
+    #     action.move_to_element(items).perform()
+    #     items = driver.find_element(By.XPATH, f'//*[@id="__next"]/div[3]/div/div/div[4]/ul/li[{num}]')
+    #     items.click()
     # driver.execute_scr
+
+    items = driver.find_element(By.XPATH, f'//*[@id="__next"]/div[3]/div/div/div[4]/ul/li[{num}]')
+    action = ActionChains(driver)
+    action.move_to_element(items).perform()
+    items.click()
+
     time.sleep(1)
 
     Id = driver.current_url

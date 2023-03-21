@@ -44,7 +44,7 @@ function App() {
       margin: '5%',
       marginTop:'1%',
     }}>
-      <MyTabs value={3} />
+      <MyTabs value={2} />
     </Box>
       <LanguageTable data={data}  />
   </div>

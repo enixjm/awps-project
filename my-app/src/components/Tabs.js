@@ -7,7 +7,7 @@ import PieChart from "./PieChart";
 import { UserData } from "./Data";
 import { useEffect } from "react";
 
-import ListDividers from "./Stacks_Lan"
+import Stacks_Lan from "./Stacks_Lan"
 
 function MyTabs() {
   const [value, setValue] = useState(null);
@@ -51,10 +51,8 @@ function MyTabs() {
         sx={{bgcolor:'8a61fb'}}
         >
         <Tab label="기술&스택" />
-        <Tab label="급여" />
         <Tab label="근무 지역" />
-        <Tab label="평균 재직기간" />
-        <Tab label="요구 경력"/>
+        <Tab label="경력"/>
       </Tabs>
       {value === 0 && (
         <Box>
@@ -70,32 +68,15 @@ function MyTabs() {
             <Tab label="test" />
           </Tabs>
           <Box  sx={{ width: "100%", height: "500px" }}>
-          {subvalue === 0 && <ListDividers/>}
-          {subvalue === 1 && <ListDividers/>}
-          {subvalue === 2 && <ListDividers/>}
-          {subvalue === 3 && <ListDividers/>}
+          {subvalue === 0 && <Stacks_Lan/>}
+          {subvalue === 1 && <Stacks_Lan/>}
+          {subvalue === 2 && <Stacks_Lan/>}
+          {subvalue === 3 && <Stacks_Lan/>}
           </Box>
         </Box>
       )}
-
-      {value === 1 && (
-        <Box>
-          <Tabs
-            value={subvalue}
-            onChange={handleSubChange}
-            centered
-            sx={{ bgcolor: "8a61fb" }}
-          >
-            <Tab label="Front" />
-            <Tab label="Back" />
-          </Tabs>
-          <Box  sx={{ width: "100%", height: "500px" }}>
-          {subvalue === 0 && <ListDividers/>}
-          {subvalue === 1 && <ListDividers/>}
-          </Box>
-      {value === 2 && <PieChart chartData={userData}/>}
-        </Box>
-      )}
+      {value === 1 && <Stacks_Lan/>}
+      {value === 2 && <Stacks_Lan/>}
     </Box>
   );
 }
