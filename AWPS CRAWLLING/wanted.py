@@ -8,6 +8,9 @@ from selenium.common.exceptions import ElementClickInterceptedException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver import ActionChains
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.options import Options
+
 import re
 
 import boto3
@@ -17,14 +20,18 @@ dynamodb = boto3.resource('dynamodb', region_name='us-east-2',aws_access_key_id=
 
 url = "https://www.wanted.co.kr/wdlist/518?country=kr&job_sort=company.response_rate_order&years=-1&locations=all"
 
-driver = webdriver.Chrome()
+#크롬 이미지 로딩 안되게 해서 메모리 아낌
+chrome_optrions = Options()
+prefs = {"profile.managed_default_content_settings.images": 2}
+chrome_optrions.add_experimental_option("prefs", prefs)
+driver = webdriver.Chrome(chrome_options=chrome_optrions)
 
 driver.get(url)
 
 time.sleep(1)
 
 
-num = 20
+num = 1
 while True:
     dic = {}
     time.sleep(1)
@@ -81,12 +88,17 @@ while True:
     #     items = driver.find_element(By.XPATH, f'//*[@id="__next"]/div[3]/div/div/div[4]/ul/li[{num}]')
     #     items.click()
     # driver.execute_scr
-
-    items = driver.find_element(By.XPATH, f'//*[@id="__next"]/div[3]/div/div/div[4]/ul/li[{num}]')
-    action = ActionChains(driver)
-    action.move_to_element(items).perform()
-    items.click()
-
+    try :
+        items = driver.find_element(By.XPATH, f'//*[@id="__next"]/div[3]/div/div/div[4]/ul/li[{num}]')
+        action = ActionChains(driver)
+        action.move_to_element(items).perform()
+        items.click()
+    except NoSuchElementException :
+        items = driver.find_element(By.XPATH, f'//*[@id="__next"]/div[3]/div/div/div[4]/ul/li[{num-1}]')
+        action = ActionChains(driver)
+        action.move_to_element(items).perform()
+        items = driver.find_element(By.XPATH, f'//*[@id="__next"]/div[3]/div/div/div[4]/ul/li[{num}]')
+        items.click()
     time.sleep(1)
 
     Id = driver.current_url
@@ -214,5 +226,5 @@ while True:
     #         driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
     #         time.sleep(1)
 
-    time.sleep(1)
+
     num += 1
