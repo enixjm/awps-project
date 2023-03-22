@@ -133,8 +133,8 @@ while True:
                 '/': '',  # 왼쪽은 치환하고 싶은 문자, 오른쪽은 새로운 문자
             })
             Iddd = Id.translate(Idd)
-            wait = WebDriverWait(driver, 1)
-            company_name_text_check = wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="root"]/main/div/div[2]/div/section[1]/div/a')))
+            wait = WebDriverWait(driver, 1) #잠깐 기다려주기
+            company_name_text_check = wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="root"]/main/div/div[2]/div/section[1]/div/a'))) #기다려주기 2
             company_name_text = driver.find_element(By.XPATH,
                                                     '//*[@id="root"]/main/div/div[2]/div/section[1]/div/a').text  # 회사이름 텍스트
             company_name_tag1 = '<' + driver.find_element(By.XPATH,
