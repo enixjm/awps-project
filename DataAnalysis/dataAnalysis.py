@@ -59,7 +59,6 @@ def get_worklocation_data(df):
             location_detail = location.split()[0]
             print(location)
 
-pd.set_option('display.max_rows',None)
 print(df)
 
 get_TotalStacks_data(df)

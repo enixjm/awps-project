@@ -70,7 +70,7 @@ def processing_programemrs() :
 
                 elif i == '마감일' :
                     Dead_Line = item[i]
-                    dic['DeadLind'] = Dead_Line
+                    dic['DeadLine'] = Dead_Line
 
                 else:
                     pass
